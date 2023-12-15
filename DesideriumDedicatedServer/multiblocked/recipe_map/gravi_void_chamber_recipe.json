@@ -1,0 +1,273 @@
+{
+  "name": "gravi_void_chamber_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "e2e3b6e4-0052-4738-9915-a7284e64cdab",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:ink_sac"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:ender_pearl"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "99064c07-c30c-4f5c-860b-580685ec03e6",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:amethyst_shard"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:shulker_shell"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "034b88e7-75a6-41ed-bf5a-7a30e34b2749",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:moss_block"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:chorus_flower"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "96ed2ae8-b2aa-4960-93bd-dda99b8f5a6c",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:stone"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:end_stone"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0d5f39bc-d14c-4197-849c-97236fd03947",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:glow_berries"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:chorus_fruit"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "b4f9ded0-dd61-4c6a-a551-2e316ad1d8a2",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:bone"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "endertaur:endertaur_horn"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "0e680047-dca5-44da-a514-55fae57c7a4b",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:glass_bottle"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:dragon_breath"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

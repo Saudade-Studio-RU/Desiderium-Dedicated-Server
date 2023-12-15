@@ -1,0 +1,298 @@
+{
+  "version": 3,
+  "location": "cyao:coke_oven",
+  "ui": "assets/syao_coke_oven_ui.mbdui",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "progresbar",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "fuel_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "fuelbar",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "in0",
+        "x": 6,
+        "y": 25,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"wasteland:iron_copper_shard\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:stripped_desideria_log\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_log\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "in2",
+        "x": 49,
+        "y": 25,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"wasteland:iron_copper_shard\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_log\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:stripped_desideria_log\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "in1",
+        "x": 28,
+        "y": 25,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"wasteland:iron_copper_shard\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_log\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:stripped_desideria_log\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "in3",
+        "x": 6,
+        "y": 45,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"wasteland:iron_copper_shard\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_log\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:stripped_desideria_log\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "in4",
+        "x": 28,
+        "y": 45,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"wasteland:iron_copper_shard\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_log\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:stripped_desideria_log\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "in5",
+        "x": 49,
+        "y": 45,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"wasteland:iron_copper_shard\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_log\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:stripped_desideria_log\\\"}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out0",
+        "x": 83,
+        "y": 33,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"create:copper_nugget\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:charcoal\\\"}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out1",
+        "x": 103,
+        "y": 33,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"create:copper_nugget\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:charcoal\\\"}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out2",
+        "x": 123,
+        "y": 33,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"create:copper_nugget\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:charcoal\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "fueil_1",
+        "x": 29,
+        "y": 82,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"wasteland:desideria_slab\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_stairs\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_planks\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_log\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_wood\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_trapdoor\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_pickaxe\\\",tag:{Damage:0}}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_fence_gate\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_pressure_plate\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_door\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_barrel\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_axe\\\",tag:{Damage:0}}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_button\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_stick\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_fence\\\"}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_bat\\\",tag:{Damage:0}}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_shovel\\\",tag:{Damage:0}}\"",
+          "\"{Count:1b,id:\\\"wasteland:desideria_hoe\\\",tag:{Damage:0}}\"",
+          "\"{Count:1b,id:\\\"minecraft:charcoal\\\"}\""
+        ]
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:sand_stone_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "syao_coke_oven",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "A@A",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "A A",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "AAA",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:sand_stone_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:coke_oven",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

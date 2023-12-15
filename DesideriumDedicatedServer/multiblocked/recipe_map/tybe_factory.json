@@ -1,0 +1,424 @@
+{
+  "name": "tybe_factory",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "dc3372f9-de41-430a-8316-39269f4aa225",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": [
+                {
+                  "item": "minecraft:sweet_berries"
+                },
+                {
+                  "item": "minecraft:glow_berries"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:fruit_berry_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9296cbf7-8f7e-4178-b8aa-da4035b3f75a",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": [
+                {
+                  "item": "minecraft:porkchop"
+                },
+                {
+                  "item": "minecraft:chicken"
+                },
+                {
+                  "item": "minecraft:beef"
+                },
+                {
+                  "item": "minecraft:rabbit"
+                },
+                {
+                  "item": "minecraft:mutton"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:meat_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "d9c39afb-3fa4-4885-b4cf-6d24b67f0771",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 4,
+              "ingredient": {
+                "item": "minecraft:wheat"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:vegetable_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9fd029d2-1463-41b1-a2ba-df7416585787",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "minecraft:potato"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:vegetable_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "fb803dc9-1e48-494d-931a-6cbca3fcf5e5",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:carrot"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:vegetable_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "08e94545-493c-4fbe-a9f8-ba14779069e3",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": [
+                {
+                  "item": "minecraft:rotten_flesh"
+                },
+                {
+                  "item": "minecraft:poisonous_potato"
+                },
+                {
+                  "item": "minecraft:red_mushroom"
+                },
+                {
+                  "item": "minecraft:brown_mushroom"
+                },
+                {
+                  "item": "minecraft:bone"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:garbage_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e35359d0-df17-495d-9445-cc2526cf442d",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 4,
+              "ingredient": {
+                "item": "minecraft:wheat_seeds"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:seed_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f67d9f64-411c-4ab8-abfc-b2d564225e95",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:empty_tube"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:apple"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 250,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:fruit_berry_tube"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

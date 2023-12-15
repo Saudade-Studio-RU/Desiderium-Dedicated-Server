@@ -1,0 +1,743 @@
+{
+  "name": "gravi_tkach_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "888397fe-40d3-4952-acee-9ecb1ce7ff18",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "alloyed:bronze_sheet"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "the_upside_down_world:irongear"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:brass_helmet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_helmet"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4ba16ceb-3413-4ba0-80a6-e391a4454161",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:copper_boots"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create:copper_sheet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:copper_sheet_armor_boots"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e9af3f8e-e4dc-4a77-ae94-dcc021075789",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_helmet"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ud_world_items:gravito_crystal"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:steam_engine"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ud_world_items:mechanical_battery"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:gravity_stabilizer"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:heavy_engineer_armor_helmet"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8acd8b17-f9a4-4995-9ad1-b1b3d46aa1c6",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:brass_boots"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "the_upside_down_world:irongear"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "alloyed:bronze_sheet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_boots"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "9a77572b-c2df-4668-967e-01e05987c971",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_boots"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ud_world_items:gravito_crystal"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:steam_engine"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "ud_world_items:mechanical_battery"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:gravity_stabilizer"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:heavy_engineer_armor_boots"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "7deb2576-8cb6-431c-94b7-e1de709617de",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:brass_leggings"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "the_upside_down_world:irongear"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "alloyed:bronze_sheet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_leggings"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "bd20a8eb-7a99-44a0-8ebf-0d08eba0fe11",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:copper_chestplate"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create:copper_sheet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:copper_sheet_armor_chestplate"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "de5e3473-52ee-43c9-ac6f-6ddf11bab354",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:copper_leggings"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create:copper_sheet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:copper_sheet_armor_leggings"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "81ad3f38-c269-4997-9074-9922f6f70935",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "the_upside_down_world:irongear"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:brass_chestplate"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "alloyed:bronze_sheet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_chestplate"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "e1fddc58-ffc6-478c-ad3c-d23c64362fef",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_chestplate"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "ud_world_items:gravito_crystal"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "create_sa:steam_engine"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "ud_world_items:mechanical_battery"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:gravity_stabilizer"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:heavy_engineer_armor_chestplate"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "26c92b86-383b-40b3-9fd1-248ae9a31c6c",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create_sa:copper_helmet"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "create:copper_sheet"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:copper_sheet_armor_helmet"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "48b8c2f2-3bbb-4acf-8cab-6436a3cba48a",
+      "duration": 100,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:engineers_armor_leggings"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "ud_world_items:gravito_crystal"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 2,
+              "ingredient": {
+                "item": "create_sa:steam_engine"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 3,
+              "ingredient": {
+                "item": "ud_world_items:mechanical_battery"
+              }
+            },
+            "chance": 1.0
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:gravity_stabilizer"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 25000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:heavy_engineer_armor_leggings"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

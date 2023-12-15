@@ -1,0 +1,44 @@
+{
+	id: "1845896D1CCFF809"
+	order_index: 5
+	title: "Плюшевый кейс"
+	icon: "ud_world_items:plush_case"
+	tags: ["q1"]
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "plushies:dolphin" }
+		{ item: "plushies:enderman" }
+		{ item: "plushies:dragon" }
+		{ item: "plushies:red_fox", weight: 2 }
+		{ item: "plushies:parrot", weight: 2 }
+		{ item: "plushies:frog", weight: 2 }
+		{ item: "plushies:mooshroom", weight: 2 }
+		{ item: "plushies:panda", weight: 2 }
+		{ item: "plushies:axolotl" }
+		{ item: "plushies:bee", weight: 2 }
+		{ item: "plushies:magma_cube" }
+		{ item: "plushies:warden" }
+		{ item: "plushies:white_fox", weight: 2 }
+		{ item: "plushies:turtle", weight: 2 }
+		{ item: "plushies:slime", weight: 2 }
+		{ item: "plushies:sheep", weight: 2 }
+		{ item: "plushies:snow_golem", weight: 2 }
+		{ item: "plushies:llama", weight: 2 }
+		{ item: "plushies:goat", weight: 2 }
+		{ item: "plushies:cat", weight: 2 }
+		{ item: "plushies:cow", weight: 2 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 13581265
+		item_name: "Плюшевый Кейс"
+		glow: 1b
+		string_id: "plushie_loot_box"
+	}
+}

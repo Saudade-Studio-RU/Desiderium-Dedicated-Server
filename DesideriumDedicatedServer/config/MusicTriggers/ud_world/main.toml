@@ -1,0 +1,47 @@
+# Please refer to the wiki page located at https://github.com/TheComputerizer/Music-Triggers/wiki
+# or the discord server located at https://discord.gg/FZHXFYp8fc
+# for any specific questions you might have regarding the main config file
+
+[triggers]
+	[triggers.universal]
+		fade_out = "0"
+		persistence = "0"
+		trigger_delay = "9000"
+		song_delay = "9000"
+		start_delay = "9000"
+		fade_in = "0"
+	[triggers.dimension]
+		identifier = "ecod:the_depths"
+		priority = "6"
+		toggle_inactive_playable = true
+		resource_name = [ "ecod:the_depths" ]
+[songs]
+	[songs.universal]
+		play_once = "1"
+		volume = "0.6"
+	[songs.Sacrament]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Numbness]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Expectation]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Breath]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Silence]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Shudder]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Do_not_forget]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Pulse]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Loss]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Memory]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Movement]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Choice]
+		triggers = [ "dimension-ecod:the_depths" ]
+	[songs.Light]
+		triggers = [ "dimension-ecod:the_depths" ]

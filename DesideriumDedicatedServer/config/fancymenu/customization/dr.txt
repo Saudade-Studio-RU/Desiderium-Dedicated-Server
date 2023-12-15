@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.LevelLoadingScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/lateresourses/crystal.gif
+  orientation = bottom-right
+  x = -64
+  width = 60
+  action = addtexture
+  actionid = 2a19bbdc-75a8-44ff-8fa5-95cdcbc2d9431699800542751
+  y = -65
+  height = 60
+}
+

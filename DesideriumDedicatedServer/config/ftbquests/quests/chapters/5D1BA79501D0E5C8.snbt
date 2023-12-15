@@ -1,0 +1,1614 @@
+{
+	id: "5D1BA79501D0E5C8"
+	group: "3D8ADA421153B1A3"
+	order_index: 2
+	filename: "5D1BA79501D0E5C8"
+	title: "Алхимия"
+	icon: "ud_world_items:magic_bottle_icon"
+	subtitle: ["&6Магические Записи"]
+	default_quest_shape: "circle"
+	default_hide_dependency_lines: false
+	images: [{
+		x: -1.0d
+		y: -24.5d
+		width: 15.0d
+		height: 10.0d
+		rotation: 0.0d
+		image: "chemlib:textures/painting/periodic_table.png"
+		hover: [ ]
+		click: ""
+		dev: false
+		corner: false
+		dependency: "635FCD7FE3711B7E"
+	}]
+	quests: [
+		{
+			x: 0.0d
+			y: 1.5d
+			shape: "hexagon"
+			subtitle: "Принцип равноценного обмена"
+			description: [
+				"&7Этот мир строится на трёх Ипостасях: Инженерия, Алхимия и Гравитация. В прошлом, учёные умы объединили воедино все знания об Ипостасях и стали развивать технологии в единении. Алхимия - одна из самых старых вершин научной деятельности. Знание о сей позволяют человеку производить на первый взгляд \"волшебные\" вещи, на самом же деле всё строится по принципу равноценного обмена. Любой предмет может быть разложен на составляющие, из которых потом будет образовано нечто новое. Благодаря подобной простой концепции люди научились создавать золото из меди и воду из воздуха. "
+				""
+				"&5Может быть Вам тоже стоит попробовать себя в качестве Алхимика?"
+				""
+				"Напитайте семена магической силой, а затем используйте Сад Гесперид для получения плодов."
+			]
+			dependencies: ["4C96EAD2C1973F2C"]
+			hide: true
+			size: 1.25d
+			id: "48EC19A1A322E617"
+			tasks: [{
+				id: "017D6BACD112F6B3"
+				type: "item"
+				item: "occultism:datura_seeds"
+			}]
+			rewards: [{
+				id: "3F78BF048BEA535F"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			title: "Зоро, куда нам идти?"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Нет настроения — съешь шоколадку"
+			description: [
+				"&7Высвобождение демонических сил равносильно получению лучших ресурсов, несмотря на то, как именно они получаются. Сейчас меня никто не осудит, мне дозволено всë!"
+				""
+				"&5Выкиньте демонический плод, подожгите любым способом и обуздайте Огонь души. Помещая в него всевозможные материалы, Вы переносите в них частичку тёмной силы, преобразуя в нечто новое."
+			]
+			dependencies: ["48EC19A1A322E617"]
+			hide: true
+			id: "23FCE0CB8A6E78C9"
+			tasks: [{
+				id: "15F5FB04363CB782"
+				type: "item"
+				item: "occultism:datura"
+			}]
+			rewards: [{
+				id: "3043830302E7C249"
+				type: "item"
+				item: "occultism:datura_seeds"
+				count: 4
+			}]
+		}
+		{
+			title: "КотлоТрансмутация"
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Таумкрафт 7 вышел?"
+			description: ["Одна из разновидностей чанов для преобразования предметов в жидкость. Используйте железные пластины для укрепления поддона, чтобы суметь производить сложные рецепты по приготовлению чернил или жидкого эндериума."]
+			dependencies: ["2D02C86E486A3024"]
+			id: "0DAE2E04522FBA64"
+			tasks: [{
+				id: "2D49E651CF0E5946"
+				type: "item"
+				item: "melter:melter"
+			}]
+			rewards: [{
+				id: "7C33958C164F5FE9"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6346408907276309058L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "А ты знаешь, что звезды в этом небе падают в момент, когда обрываются их жизни?"
+			description: ["&5Найденные или преобразованные Вами через огонь камни очень важны в качестве фундаментальных ресурсов при различных преобразованиях. Например, Вы можете сделать пыль из этого Камня, чтобы использовать её позднее."]
+			dependencies: ["2D02C86E486A3024"]
+			id: "6BCD1C688B7952B6"
+			tasks: [{
+				id: "05702A76C8937365"
+				type: "item"
+				item: "occultism:burnt_otherstone"
+			}]
+			rewards: [
+				{
+					id: "569410E05704F7AA"
+					type: "item"
+					item: "supplementaries:candy"
+					count: 16
+				}
+				{
+					id: "612D4229E34BC463"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Чей-то прах O.o"
+			description: ["Подожгите Песок душ и бросьте в него добытую ранее пыль, чтобы получить Порошок души и продолжить исследование таинственного ремесле Некромантии."]
+			dependencies: ["6BCD1C688B7952B6"]
+			hide: true
+			id: "3BCB2E5AF00473E6"
+			tasks: [{
+				id: "0E9279261D396B44"
+				type: "item"
+				item: "spirit:soul_powder"
+			}]
+			rewards: [
+				{
+					id: "05D8A96359B3BB38"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+				{
+					id: "36EF0711B46BECCD"
+					type: "item"
+					item: "malum:earthen_spirit"
+					count: 6
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: -3.0d
+			subtitle: "Росточек, привет!"
+			description: ["Разновидность магических деревьев. Листья и древесина наполнены повышенной чувствительностью к магии. Можно использовать в рецептах."]
+			dependencies: ["2D02C86E486A3024"]
+			id: "41A805AB0EACC0B5"
+			tasks: [{
+				id: "67A27DAF51967041"
+				type: "item"
+				item: "malum:runewood_sapling"
+			}]
+			rewards: [{
+				id: "4F34DF1A840F747A"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_block"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -3.0d
+			subtitle: "Читай проповеди, проводи ритуалы, заботься о нуждах своих последователей — и вера будет крепка"
+			description: ["&7Цена алмазов всегда была относительна. Но так считали не все. Кто-то научился использовать их в собственных зловещих деяниях. Тогда учёные-алхимики запретили преобразование углерода, чтобы пресекать подобное поведение."]
+			dependencies: ["2D02C86E486A3024"]
+			id: "3F559EFD1D1E069E"
+			tasks: [{
+				id: "4DDE64319432128F"
+				type: "item"
+				item: "occultism:spirit_attuned_gem"
+			}]
+			rewards: [{
+				id: "65679CDB9A4F69E7"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			title: "Блок порошка душ"
+			x: -6.0d
+			y: -3.0d
+			subtitle: "Могильная почва"
+			dependencies: ["3BCB2E5AF00473E6"]
+			hide: true
+			id: "5D127CFB80304295"
+			tasks: [{
+				id: "5B32C676F7FE2784"
+				type: "item"
+				item: "spirit:soul_powder_block"
+				count: 4L
+			}]
+			rewards: [{
+				id: "70EE65459968BE52"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -4.5d
+			subtitle: "Когда инструменты из алмазов недоступны"
+			description: ["&5Вы подвергли Железный слиток алхимическому преобразованию, переплавив его в Слиток душестали. Теперь Вам становятся открыты рецепты продвинутых инструментов."]
+			dependencies: ["5D127CFB80304295"]
+			id: "3810E336E0F2F14F"
+			tasks: [{
+				id: "24F7FF83DBE8C37F"
+				type: "item"
+				item: "spirit:soul_steel_ingot"
+			}]
+			rewards: [{
+				id: "6CCE0F62895A6DC5"
+				type: "item"
+				item: "storagedrawers:obsidian_storage_upgrade"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -4.5d
+			subtitle: "Только душу не трогай..."
+			description: [
+				"&7Даже в самом продвинутом обществе найдутся отщепенцы. Из-за неординарных личностей, возжелавших контролировать чужую жизнь, на свет появилось Знание о Некромантии, Возрождении мёртвых. Первые этапы на пути подобного действа стали презираемы всеми Алхимика. Люди, превозносившие себя и свои взгляды, подверглись гонению. "
+				""
+				"&5Вероятно, частичка их знаний оставалась долгие века в умах людей и в чёрной литературе. Используйте полученный предками опыт, чтобы попытаться возродить былой мир."
+			]
+			dependencies: ["3BCB2E5AF00473E6"]
+			id: "58785C9351A9BCA6"
+			tasks: [{
+				id: "595C7241543E2EA5"
+				type: "item"
+				item: "spirit:soul_crystal_shard"
+			}]
+			rewards: [{
+				id: "5210A427470AAE4B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			subtitle: "Катализатор ритуалов"
+			description: ["&5Вы добились немалых успехов в обуздании Некромантических технологий. Теперь нужно лишь понять, как можно использовать Кристаллы души."]
+			dependencies: ["58785C9351A9BCA6"]
+			id: "3D5A277832868F88"
+			tasks: [{
+				id: "2BBA2D2B00D5FBC1"
+				type: "item"
+				item: "spirit:soul_crystal"
+			}]
+			rewards: [
+				{
+					id: "118C57D4A0DD7468"
+					type: "item"
+					item: "farmersdelight:bacon_sandwich"
+				}
+				{
+					id: "471DF0EC4854A658"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			subtitle: "Возрождение мира"
+			description: [
+				"&7И в этом бесконечно одиноком мире он обретает истинное предназначение собственной души."
+				""
+				"&5Вы создали удивительный механизм для возрождения целых цивилизаций! Не только существа Вашего времени, но и те, кто уже давно таится под камнем могут быть призваны, достаточно лишь приложить немного усилий."
+				""
+				"Поставьте Алтарь в мире, положите в него нажатием ПКМ основные ресурсы, а затем используйте Катализатор, чтобы провести ритуал и призвать существо."
+			]
+			dependencies: ["3810E336E0F2F14F"]
+			id: "53E5C88139855D5A"
+			tasks: [{
+				id: "19099ACB38AE4C1A"
+				type: "item"
+				item: "summoningrituals:altar"
+			}]
+			rewards: [{
+				id: "39785645DAB1F990"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6346408907276309058L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Матрица"
+			description: [
+				"&7Учёные умы всегда подкрепляли получаемые теорические знания на практике. И если инженеры используют витиеватые технологические устройства, то Алхимики прибегают к помощи ремесла древних. Алтари, котлы и подобные вещи - ничто иное как пережиток прошлого. Но нужно же с чего-то начать."
+				""
+				"&5Разработайте Алтарь Духов для совладания с мощью загробной энергии. В дальнейшем Вы сможете обличить её через создание усиленных материалов и инструментов."
+			]
+			dependencies: [
+				"41A805AB0EACC0B5"
+				"3F559EFD1D1E069E"
+			]
+			hide: true
+			id: "78DC497336E21576"
+			tasks: [{
+				id: "7C3DD46E5C75B186"
+				type: "item"
+				item: "malum:spirit_altar"
+			}]
+			rewards: [
+				{
+					id: "123F4DEF5E2F3B08"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "304D33DFFF09DE4C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			subtitle: "Форма и облик не имеют значения... Важна лишь душа"
+			description: ["Используйте Косу как оружие, чтобы получить как можно больше духов для последующего использования на Алтаре или в иных целях."]
+			hide_dependency_lines: true
+			dependencies: ["41A805AB0EACC0B5"]
+			hide: true
+			id: "604A0223095AF47F"
+			tasks: [{
+				id: "501D0E0FDDC72D2C"
+				type: "item"
+				item: {
+					id: "malum:crude_scythe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "560511DD4DAFCF26"
+					type: "item"
+					item: "occultism:afrit_essence"
+				}
+				{
+					id: "1B016272E517D9D5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+			]
+		}
+		{
+			title: "Единственный принцип в том, что нет никаких принципов"
+			x: -2.0d
+			y: -6.0d
+			subtitle: "Убей или умри"
+			description: ["Вид выбиваемого духа зависит от монстра, которого Вы убиваете. Возможно, стоит сделать мобоферму для автоматизации процесса."]
+			dependencies: ["604A0223095AF47F"]
+			hide: true
+			id: "1457584C451AC543"
+			tasks: [
+				{
+					id: "36E85419B9861F6F"
+					type: "item"
+					item: "malum:sacred_spirit"
+				}
+				{
+					id: "71278D51E3F063B1"
+					type: "item"
+					item: "malum:wicked_spirit"
+				}
+				{
+					id: "2D8827C1D801C217"
+					type: "item"
+					item: "malum:arcane_spirit"
+				}
+				{
+					id: "1F4E13796A9AB2AE"
+					type: "item"
+					item: "malum:eldritch_spirit"
+				}
+				{
+					id: "71400A9635F3FB0C"
+					type: "item"
+					item: "malum:earthen_spirit"
+				}
+				{
+					id: "4F27626A872EEDCD"
+					type: "item"
+					item: "malum:infernal_spirit"
+				}
+				{
+					id: "431B954AA9C10281"
+					type: "item"
+					item: "malum:aerial_spirit"
+				}
+				{
+					id: "04DF345F03D357CA"
+					type: "item"
+					item: "malum:aqueous_spirit"
+				}
+			]
+			rewards: [{
+				id: "403D1C191C2350E1"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6346408907276309058L
+			}]
+		}
+		{
+			title: "Я беру камень и отсекаю всё лишнее"
+			x: 2.0d
+			y: -4.5d
+			subtitle: "Я каменщик работаю три дня"
+			description: ["Создайте несколько видов магических камней, используемых в рецептах мода."]
+			dependencies: ["78DC497336E21576"]
+			hide: true
+			id: "56CB3BF5B2924844"
+			tasks: [
+				{
+					id: "2F51B7B485C9A91A"
+					type: "item"
+					item: "malum:tainted_rock"
+					count: 16L
+				}
+				{
+					id: "0948D76D51877213"
+					type: "item"
+					item: "malum:twisted_rock"
+					count: 16L
+				}
+			]
+			rewards: [{
+				id: "260CC1BE08D718BE"
+				type: "xp"
+				xp: 75
+			}]
+		}
+		{
+			title: "Колдовской пепел"
+			x: 4.0d
+			y: -6.0d
+			subtitle: "Неудачный эксперимент или новое открытие?"
+			dependencies: ["78DC497336E21576"]
+			hide: true
+			id: "3604E4703181B2B5"
+			tasks: [{
+				id: "1214B777D3A6F08B"
+				type: "item"
+				item: "malum:hex_ash"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "3ACCCA18E5847A9F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+				{
+					id: "7F91696E84BB4FEA"
+					type: "item"
+					item: "malum:aqueous_spirit"
+					count: 6
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.0d
+			subtitle: "Золотом выстлан путь тех, кто ищет правду"
+			dependencies: ["78DC497336E21576"]
+			hide: true
+			id: "1D152FB6909DA96B"
+			tasks: [{
+				id: "74C3472906128346"
+				type: "item"
+				item: "malum:hallowed_gold_ingot"
+			}]
+			rewards: [{
+				id: "6181EEB4325066D2"
+				type: "item"
+				item: "createdeco:gold_sheet_metal"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -6.0d
+			subtitle: "Сравнимо с манасталью"
+			dependencies: ["78DC497336E21576"]
+			hide: true
+			id: "70DF76469F587E3B"
+			tasks: [{
+				id: "057B79C44782CE4D"
+				type: "item"
+				item: "malum:soul_stained_steel_ingot"
+			}]
+			rewards: [
+				{
+					id: "410DB68ADAB2AD18"
+					type: "item"
+					item: "malum:block_of_soulstone"
+				}
+				{
+					id: "041A376B31B34DC9"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "Удобное хранение эндерменов"
+			description: ["В дальнейшем Вы научитесь переделывать Эндериум в Эндер-жемчуг и другие ресурсы."]
+			dependencies: ["0DAE2E04522FBA64"]
+			hide: true
+			id: "4CF9A4B0E9A7A5A1"
+			tasks: [{
+				id: "4F66C74506EFEC75"
+				type: "item"
+				item: "endertaur:enderium_bucket"
+			}]
+			rewards: [{
+				id: "18C95F87FD46CD35"
+				type: "item"
+				item: "create_sa:heap_of_experience"
+				count: 4
+			}]
+		}
+		{
+			x: -2.0d
+			y: -7.5d
+			subtitle: "Кладезь душ"
+			description: ["Удобное хранилище для получаемых духов."]
+			dependencies: [
+				"1D152FB6909DA96B"
+				"604A0223095AF47F"
+			]
+			hide: true
+			id: "2217ED34FC64C47B"
+			tasks: [{
+				id: "66A7AB90C95C7216"
+				type: "item"
+				item: "malum:spirit_jar"
+			}]
+			rewards: [
+				{
+					id: "0717967BAACCB4BF"
+					type: "item"
+					item: "farmersdelight:dumplings"
+				}
+				{
+					id: "2F5C6C2A9D972732"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -7.5d
+			subtitle: "Р-р-р-р-резонно"
+			dependencies: ["1D152FB6909DA96B"]
+			hide: true
+			id: "446F1BE0CD0732DA"
+			tasks: [{
+				id: "40A47F463F35AD94"
+				type: "item"
+				item: "malum:hallowed_spirit_resonator"
+			}]
+			rewards: [{
+				id: "52EAD75428154F58"
+				type: "item"
+				item: "minecraft:smooth_quartz"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: -7.5d
+			subtitle: "Секреты вселенной в твоих руках"
+			dependencies: ["70DF76469F587E3B"]
+			id: "43D5033BC68B6134"
+			tasks: [{
+				id: "55E8A3F2E9D6C339"
+				type: "item"
+				item: "malum:stained_spirit_resonator"
+			}]
+			rewards: [{
+				id: "6CA0A836F345AC52"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			title: "Духи с тобой связаться хотят"
+			x: 2.0d
+			y: -7.5d
+			subtitle: "И к чему эти отсылки?"
+			dependencies: ["70DF76469F587E3B"]
+			id: "378CA5C5779F328F"
+			tasks: [
+				{
+					id: "7ECBF0644B257B21"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2DB890245129A144"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6305D520E2B68A80"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "68D6AD79B3430787"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2D2BFA092DCD8E9B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "343B6DECDBA99829"
+					type: "item"
+					item: {
+						id: "malum:soul_stained_steel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -4.5d
+			subtitle: "Первое правило магии — всегда будь умнее других"
+			description: ["Заполняйте сущности, инструменты и снаряжение силой духов, чтобы улучшить или починить предметы."]
+			dependencies: [
+				"56CB3BF5B2924844"
+				"3604E4703181B2B5"
+			]
+			hide: true
+			id: "2639B566E08E900D"
+			tasks: [{
+				id: "25F9335FFB583625"
+				type: "item"
+				item: "malum:spirit_crucible"
+			}]
+			rewards: [
+				{
+					id: "066C92289BF6F520"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "4B64DED1EC9E5AA2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Арчивуд"
+			x: 0.0d
+			y: -9.0d
+			subtitle: "Вырасти свой Магический лес"
+			description: ["&7В моём детстве часто обсуждали неких \"друидов\", применявших в своих Алхимических исследованиях знания о природе. Они с лёгкостью управлялись с растениями и животными, однако иные учёные их невзлюбили за верование в неких \"Хранителей\". Люди нашего века в целом были отрицательно настроены к любому проявлению религию. И нисколько это ни странно, мы давно забыли о Божьем промысле, когда человечество самолично изменило этот мир. Люди были подобны Богам. И что только осталось от нашего былого величия..."]
+			dependencies: ["78DC497336E21576"]
+			hide: true
+			dependency_requirement: "one_completed"
+			id: "3A53E3641772B4D5"
+			tasks: [
+				{
+					id: "310C4A0B80CCF576"
+					type: "item"
+					item: "ars_nouveau:blue_archwood_sapling"
+				}
+				{
+					id: "4D921CB7CADD3BF3"
+					type: "item"
+					item: "ars_nouveau:purple_archwood_sapling"
+				}
+				{
+					id: "5FF36F335DE53E27"
+					type: "item"
+					item: "ars_nouveau:green_archwood_sapling"
+				}
+				{
+					id: "0BEC38CD0BA1D78E"
+					type: "item"
+					item: "ars_nouveau:red_archwood_sapling"
+				}
+			]
+			rewards: [
+				{
+					id: "73ADBFC2E88B1B4E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "4035D53BF55E6C1B"
+					type: "item"
+					item: "ars_nouveau:worn_notebook"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -10.5d
+			subtitle: "Очередной верстак :)"
+			description: ["&7У учёных, диких алхимиков и чернокнижников всегда была общая цель, хоть они этого и не понимали. Все стали равны в момент, когда мир настигла опасность эгоизма высшей цивилизации. Не уберегли, так и знания потеряли. Этот магический крафтер - подтверждение безличия и безвкусия человеческой природы. "]
+			dependencies: ["3A53E3641772B4D5"]
+			id: "7AF51C16F4251631"
+			tasks: [{
+				id: "7C073EECBABC666B"
+				type: "item"
+				item: "ars_nouveau:imbuement_chamber"
+			}]
+			rewards: [
+				{
+					id: "0717354AC1D9F2CC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+				{
+					id: "7716C1D11EE1E8F9"
+					type: "item"
+					item: "occultism:iesnium_dust"
+					count: 8
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -10.5d
+			subtitle: "Всё на свете – разные проявления одного и того же"
+			dependencies: ["3A53E3641772B4D5"]
+			id: "715184E5412D38DA"
+			tasks: [{
+				id: "0D8B208161D2CD0B"
+				type: "item"
+				item: "ars_nouveau:source_jar"
+			}]
+			rewards: [
+				{
+					id: "3DA72B9C0EE15606"
+					type: "item"
+					item: "ars_nouveau:archwood_planks"
+					count: 16
+				}
+				{
+					id: "07FC018EFB265972"
+					type: "item"
+					item: "farmersdelight:cooked_mutton_chops"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -10.5d
+			subtitle: "Постскриптум"
+			description: ["На Писарском столе можно создать ряд глифов или заклинаний. "]
+			dependencies: ["3A53E3641772B4D5"]
+			id: "6456D98D4CB09BB7"
+			tasks: [{
+				id: "2A5C84548D9CC1FE"
+				type: "item"
+				item: "ars_nouveau:scribes_table"
+			}]
+			rewards: [
+				{
+					id: "7892C5949D77D5FA"
+					type: "item"
+					item: "minecraft:writable_book"
+				}
+				{
+					id: "73A29022E3089711"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -10.5d
+			subtitle: "От него исходит невероятная сила"
+			description: ["Базовый магический материал в сфере кудесничества."]
+			dependencies: ["7AF51C16F4251631"]
+			id: "6E80DFBBE0DCA040"
+			tasks: [{
+				id: "0E6AA44D53752994"
+				type: "item"
+				item: "ars_nouveau:source_gem"
+			}]
+			rewards: [
+				{
+					id: "71ADD14A309F04DF"
+					type: "item"
+					item: "ud_world_items:fruit_berry_tube"
+					count: 3
+				}
+				{
+					id: "5BEF3279F40768C9"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+				{
+					id: "2DA530D5AE86A67D"
+					type: "gamestage"
+					title: "&3Новые предметы в Трансмутации"
+					icon: "ars_nouveau:glyph_self"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "magic_shop"
+				}
+			]
+		}
+		{
+			title: "Аркановый камень"
+			x: -6.0d
+			y: -12.0d
+			subtitle: "Если хочешь изменить мир, не спрашивай разрешения."
+			dependencies: ["6E80DFBBE0DCA040"]
+			hide: true
+			id: "4C1C62589783A5AA"
+			tasks: [{
+				id: "5EEAC2528612AC36"
+				type: "item"
+				item: "ars_nouveau:arcane_stone"
+				count: 16L
+			}]
+			rewards: [{
+				id: "4295C401936DC062"
+				type: "item"
+				item: "malum:corrupted_resonance"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -13.5d
+			subtitle: "Пьедесталы придумали карлики"
+			dependencies: ["4C1C62589783A5AA"]
+			hide: true
+			id: "488A36ECA181C0DF"
+			tasks: [{
+				id: "5B14F3C3B817F2DB"
+				type: "item"
+				item: "ars_nouveau:arcane_pedestal"
+			}]
+			rewards: [{
+				id: "22DE3AB3B5C39A80"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2698257103144768531L
+			}]
+		}
+		{
+			x: -6.0d
+			y: -15.0d
+			subtitle: "У моего деда был такой же!"
+			description: [
+				"&5Сложноструктурное устройство для обогащения предметов магической силой. "
+				""
+				"Поставьте пьедесталы и расположите на них необходимые предметы, чтобы произвести крафт."
+			]
+			dependencies: ["4C1C62589783A5AA"]
+			hide: true
+			id: "16DCF1C733A16891"
+			tasks: [{
+				id: "6E02A9174412F6F7"
+				type: "item"
+				item: "ars_nouveau:enchanting_apparatus"
+			}]
+			rewards: [
+				{
+					id: "35F8056213C3C16B"
+					type: "item"
+					item: "paraglider:heart_container"
+				}
+				{
+					id: "73C89136855FCA03"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -16.5d
+			subtitle: "Энергии хоть отбавляй"
+			description: ["Поставьте Чародейский аппарат на Ядро, чтобы распределить энергию для создания."]
+			dependencies: ["4C1C62589783A5AA"]
+			hide: true
+			id: "0664CF17B956D797"
+			tasks: [{
+				id: "2EFDFD3E44996020"
+				type: "item"
+				item: "ars_nouveau:arcane_core"
+			}]
+			rewards: [{
+				id: "56F38E42A8A0E9A7"
+				type: "item"
+				item: "ironchest:iron_to_gold_chest_upgrade"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -12.0d
+			subtitle: "Алхимия + Фермерство"
+			dependencies: ["6E80DFBBE0DCA040"]
+			hide: true
+			id: "281C7BACAF7F4FCF"
+			tasks: [{
+				id: "48633D81348EDF69"
+				type: "item"
+				item: "ars_nouveau:agronomic_sourcelink"
+			}]
+			rewards: [{
+				id: "53885C4A516C94D6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			x: -4.0d
+			y: -13.5d
+			subtitle: "Простецкая полезная магическая приблуда"
+			description: ["Полезен для передачи Маны между резервуарами и устройствами. Не забывайте использовать Жезл Владычества!"]
+			dependencies: ["6E80DFBBE0DCA040"]
+			hide: true
+			id: "1D9D5591AC5C9AF8"
+			tasks: [{
+				id: "5B0332E2CF2740EA"
+				type: "item"
+				item: "ars_nouveau:relay"
+			}]
+			rewards: [{
+				id: "2FEBCEB5B50C1CE0"
+				type: "item"
+				item: "brewinandchewin:strongroot_ale"
+			}]
+		}
+		{
+			x: 4.0d
+			y: -10.5d
+			subtitle: "Ты волшебник, Гарри"
+			description: [
+				"&7Заключить все антинаучные аспекты окружающей среды в одной книге - тоже своего рода наука. "
+				""
+				"&5Книга Заклинаний открывает перед Вами новый путь развития в сборке, где Вы столкнётесь с ранее неизведанной наукой."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3604E4703181B2B5"
+				"3A53E3641772B4D5"
+			]
+			hide: true
+			id: "6D3D98E86386898B"
+			tasks: [{
+				id: "45BF845A91CB96FD"
+				type: "item"
+				item: "ars_nouveau:novice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "3B382C560D00D9E5"
+					type: "item"
+					item: "ars_nouveau:wilden_horn"
+				}
+				{
+					id: "517C60BCE6F04DEA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Какое слово послужит антонимом «волшебству»?"
+			x: -2.0d
+			y: -12.0d
+			subtitle: "Сбор эссенций"
+			description: ["&7Вскоре эти эссенции понадобятся в рецептах создания. Так, почему бы их не создать их все, так сказать, с размахом?"]
+			dependencies: [
+				"7AF51C16F4251631"
+				"6E80DFBBE0DCA040"
+			]
+			id: "469FF1C5F6CFC79D"
+			tasks: [
+				{
+					id: "12DEDD63DBCDCFAC"
+					type: "item"
+					item: "ars_nouveau:abjuration_essence"
+				}
+				{
+					id: "0F2ED4CB1696C476"
+					type: "item"
+					item: "ars_nouveau:conjuration_essence"
+				}
+				{
+					id: "1785CA0F6F2A876E"
+					type: "item"
+					item: "ars_nouveau:air_essence"
+				}
+				{
+					id: "50523A1AFC54A899"
+					type: "item"
+					item: "ars_nouveau:earth_essence"
+				}
+				{
+					id: "0490184D236852EA"
+					type: "item"
+					item: "ars_nouveau:fire_essence"
+				}
+				{
+					id: "2C37C4E5C9F6100A"
+					type: "item"
+					item: "ars_nouveau:manipulation_essence"
+				}
+				{
+					id: "55621BB25A018EF1"
+					type: "item"
+					item: "ars_nouveau:water_essence"
+				}
+			]
+			rewards: [
+				{
+					id: "5751FCC19A117EAF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "2B3593F9158271A6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -15.0d
+			subtitle: "Волшебная травка"
+			description: ["&7Великие Шелкопряды гордились тем, что вывели эту разновидность растений. С ней любые маги стали сильнее. Напитать энергией кусок ткани, а затем сделать из неё защитное снаряжение - почему никто раньше до этого не додумался? Так появились Боевые маги. Никто, конечно, не ставил их на один уровень с Инженерами, но силы становились примерно одинаковыми, и при взаимодействии их деятельность оказывалась максимально эффективной. Если бы только в будущем я мог создать разновидность волшебных волокон с защитой от разных угроз..."]
+			dependencies: ["16DCF1C733A16891"]
+			hide: true
+			id: "70DF173382A16092"
+			tasks: [{
+				id: "6AFDEB92E46D9F76"
+				type: "item"
+				item: "ars_nouveau:magebloom_crop"
+			}]
+			rewards: [{
+				id: "68AFC43F784C2813"
+				type: "item"
+				item: "farmersdelight:tomato_seeds"
+				count: 8
+			}]
+		}
+		{
+			x: -2.0d
+			y: -15.0d
+			subtitle: "Пусть каждый из нас прядёт свой кокон, не спрашивая зачем и почему"
+			dependencies: ["70DF173382A16092"]
+			id: "683470345A08CF16"
+			tasks: [{
+				id: "7679EFDB448FBB68"
+				type: "item"
+				item: "ars_nouveau:magebloom_fiber"
+			}]
+			rewards: [{
+				id: "2BE1A6550A6DDD99"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3022466149224120138L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -15.0d
+			subtitle: "Ифритовая закалка"
+			dependencies: ["683470345A08CF16"]
+			id: "78EA0EE63890C15A"
+			tasks: [{
+				id: "480F489B266E33B7"
+				type: "item"
+				item: "ars_nouveau:blaze_fiber"
+			}]
+			rewards: [
+				{
+					id: "6389ACDD7E222546"
+					type: "item"
+					item: "viescraftmachines:xegonite_shard"
+					count: 18
+				}
+				{
+					id: "2332A0935A668778"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -15.0d
+			subtitle: "Пропитано пустотой"
+			dependencies: ["78EA0EE63890C15A"]
+			id: "153E2DDCC4A5255D"
+			tasks: [{
+				id: "0E836F206DBBEF1C"
+				type: "item"
+				item: "ars_nouveau:end_fiber"
+			}]
+			rewards: [{
+				id: "2CC413235AA08FCF"
+				type: "item"
+				item: "minecraft:obsidian"
+				count: 7
+			}]
+		}
+		{
+			title: "Сет Посвящённого"
+			x: -2.0d
+			y: -13.5d
+			subtitle: "Посвящается..."
+			dependencies: ["683470345A08CF16"]
+			hide: true
+			id: "3EBD643F637AC8E1"
+			tasks: [
+				{
+					id: "7BDE6DAC50EA5080"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "22F19909DD9CDA26"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7174E57AEECE45B3"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6259BC0D62E9F9B2"
+					type: "item"
+					item: {
+						id: "ars_nouveau:novice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0873F0373A89FFF8"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "5C86BB52AAD76BE5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Роба Подмастерья"
+			x: 0.0d
+			y: -13.5d
+			subtitle: "Настоящий мастер — это вечный ученик"
+			dependencies: ["78EA0EE63890C15A"]
+			hide: true
+			id: "493AACA2A708A14E"
+			tasks: [
+				{
+					id: "36BB7C8FF6905E45"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6C45ECF5D1729EBC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4E433443F87B5D09"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "10F7A5C74218947F"
+					type: "item"
+					item: {
+						id: "ars_nouveau:apprentice_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "04AAEF23DA471810"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "6859C9C90A812392"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+			]
+		}
+		{
+			title: "Одеяния Архимага"
+			x: 2.0d
+			y: -13.5d
+			subtitle: "В таком и на Ползуна пойти не страшно"
+			description: ["&7Пожалуй, это лучшее моё творение в Алхими за всё существование этой науки. Как ни странно, не обладая нужными знаниями или навыками, я почти что могу считаться Учёным в этой сфере. Мои коллеги бы позавидовали такой разносторонности."]
+			dependencies: ["153E2DDCC4A5255D"]
+			hide: true
+			id: "34CC8A39D90CD039"
+			tasks: [
+				{
+					id: "7209D330A183BCDC"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70535E6AA5E74E40"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "07FCCC9E88C48B64"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_robes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F9C007EF1D2C3E1"
+					type: "item"
+					item: {
+						id: "ars_nouveau:archmage_hood"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "70C2F5360DF170A6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "37115CE7551E2BB9"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1250721272784892157L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -12.0d
+			subtitle: "Я не волшебник, я только учусь..."
+			dependencies: ["6D3D98E86386898B"]
+			hide: true
+			id: "1888ED561CB196BA"
+			tasks: [{
+				id: "08B45C6333C1B593"
+				type: "item"
+				item: "ars_nouveau:apprentice_spell_book"
+			}]
+			rewards: [
+				{
+					id: "7C85832D2804705E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "55DCC934D4ACC647"
+					type: "item"
+					item: "malum:earthen_spirit"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -16.5d
+			subtitle: "Я напишу свои стихи"
+			description: ["Можно применить как основу в рецептах магических свитков."]
+			dependencies: ["683470345A08CF16"]
+			hide: true
+			id: "50B165AEFF476596"
+			tasks: [{
+				id: "373BEA742E193C5E"
+				type: "item"
+				item: "ars_nouveau:blank_parchment"
+			}]
+			rewards: [{
+				id: "7D79C2958F2285B9"
+				type: "item"
+				item: "minecraft:paper"
+				count: 24
+			}]
+		}
+		{
+			title: "Продвинутая Алхимия"
+			icon: "ud_world_items:magic_bottle_icon"
+			x: 4.5d
+			y: -18.5d
+			shape: "hexagon"
+			subtitle: "Новый Этап"
+			description: [
+				"&7И в эту пору пришёл черед продвинутых устройств. Мне наконец-то удалось приблизиться на толику к могуществу инженерного одновременно с алхимическим мастерству. Новые механизмы позволят мне разбирать на составляющие алхимические элементы различные предметы, а впоследствии создавать новые посредством поглощения отдельных. Это сложная наука, нужно время, чтобы справиться. Теперь не существует границ, которые я не перешёл бы."
+				""
+				"Все механизмы имеют примерно одинаковую схему пользования. Разделяйте предметы на элементы, объединяйте в новые элементы или предметы, создавайте специальный алхимический порошок и продвигайтесь в этом замысловатом ремесле!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3784BE19F567701C"
+				"469FF1C5F6CFC79D"
+				"47D721DA90A55AF8"
+			]
+			hide: true
+			size: 1.25d
+			id: "635FCD7FE3711B7E"
+			tasks: [{
+				id: "725A20D955059ED0"
+				type: "checkmark"
+				title: "Понял!"
+			}]
+			rewards: [
+				{
+					id: "1FBF4AFDC4385263"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+				{
+					id: "0A05925CF1056E25"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "alchemistry:alchemistry_book"
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -16.5d
+			subtitle: "Если курица несет золотые яйца, это уже не птицеводство, а алхимия"
+			dependencies: ["635FCD7FE3711B7E"]
+			hide: true
+			id: "1A22C35A46F4691E"
+			tasks: [{
+				id: "7778E1B4E2173221"
+				type: "item"
+				item: "alchemistry:compactor"
+			}]
+			rewards: [{
+				id: "35D739888F010F4A"
+				type: "item"
+				item: "farmersdelight:stuffed_potato"
+				count: 4
+			}]
+		}
+		{
+			x: 5.0d
+			y: -16.5d
+			subtitle: "Алхимия — это деконструкция, сочетание и создание чего угодно"
+			dependencies: ["635FCD7FE3711B7E"]
+			hide: true
+			id: "3CD4F063FF8E1D19"
+			tasks: [{
+				id: "0F0FDD73ED7FEBC4"
+				type: "item"
+				item: "alchemistry:combiner"
+			}]
+			rewards: [{
+				id: "415666A9B65E5305"
+				type: "item"
+				item: "supplementaries:pancake"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: -18.0d
+			subtitle: "Истинное лицо Алхимии"
+			dependencies: ["635FCD7FE3711B7E"]
+			hide: true
+			id: "3AA43E4C8B76F544"
+			tasks: [{
+				id: "4BE289383819AE1A"
+				type: "item"
+				item: "alchemistry:dissolver"
+			}]
+			rewards: [
+				{
+					id: "1F4DCBF584D9DD34"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "64DDBDB565218F20"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -16.5d
+			subtitle: "Инструмент для быстрого перемещения"
+			description: [
+				"Шифт+ПКМ, чтобы записать место."
+				""
+				"ПКМ - для перемещения на записанное ранее место."
+			]
+			dependencies: ["50B165AEFF476596"]
+			id: "5A852DBEC3925645"
+			tasks: [{
+				id: "40671D4D209F6603"
+				type: "item"
+				item: {
+					id: "ars_nouveau:warp_scroll"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "3CC52CBBAD5C93D8"
+				type: "item"
+				item: "grapplemod:magnetupgradeitem"
+			}]
+		}
+		{
+			title: "У всех есть демоны внутри"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "Боже, что ты тут забыл?"
+			description: [
+				"&5В глубинах Перевёрнутого мира покоятся пещеры с насыщенной демонической аурой. Чтобы увидеть потаëнное, вкусите нечестивый Плод. "
+				""
+				"&5Подобные оазисы находимы лишь изредка. В противовес им доступна добыча ресурсов посредством обуздания Огня душ."
+			]
+			dependencies: ["23FCE0CB8A6E78C9"]
+			id: "2D02C86E486A3024"
+			tasks: [
+				{
+					id: "39F57F204312F3C9"
+					type: "item"
+					item: "occultism:otherstone"
+				}
+				{
+					id: "3616D7B234F131E2"
+					type: "item"
+					item: "occultism:otherworld_log"
+				}
+			]
+			rewards: [{
+				id: "189EFC89CBF85073"
+				type: "item"
+				item: "occultism:otherworld_sapling"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

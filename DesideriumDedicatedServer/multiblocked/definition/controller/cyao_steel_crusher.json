@@ -1,0 +1,263 @@
+{
+  "version": 3,
+  "location": "cyao:steel_crusher",
+  "ui": "ui/steel/advanced_crusher_ui.mbdui",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 27,
+        "y": 35,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_0",
+        "x": 63,
+        "y": 67,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_1",
+        "x": 82,
+        "y": 67,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_2",
+        "x": 101,
+        "y": 67,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_3",
+        "x": 120,
+        "y": 67,
+        "autoIO": false
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "progress",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "energy",
+      "x": 4,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 100000,
+      "maxReceive": 500,
+      "maxExtract": 500
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:improved_engineering_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "advanced_crusher_recipe",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "ABBBA",
+        "ACDCA",
+        "EEEEE"
+      ],
+      [
+        "BBBBB",
+        "GEEEF",
+        "EEEEE"
+      ],
+      [
+        " AHA ",
+        " A@A ",
+        " EEE "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:steel_crusher",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_base_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_lamp"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_battery"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "cyao:improved_gate_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "cyao:improved_gate_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_drill"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "item.cyao_stuff.axe_head_pattern" : "axe_head_pattern",
+  "item.cyao_stuff.blank_pattern" : "blank_pattern",
+  "item.cyao_stuff.pickaxe_head_pattern" : "pickaxe_head_pattern",
+  "item.cyao_stuff.shovel_head_pattern" : "shovel_head_pattern",
+  "item.cyao_stuff.sword_head_pattern" : "sword_head_pattern",
+
+  "item.cyao_stuff.brass_axe_head" : "brass_axe_head",
+  "item.cyao_stuff.brass_pickaxe_head" : "brass_pickaxe_head",
+  "item.cyao_stuff.brass_shovel_head" : "brass_shovel_head",
+  "item.cyao_stuff.brass_sword_head" : "brass_sword_head",
+
+  "item.cyao_stuff.copper_sword_head" : "copper_sword_head",
+  "item.cyao_stuff.copper_axe_head" : "copper_axe_head",
+  "item.cyao_stuff.copper_pickaxe_head" : "copper_pickaxe_head",
+  "item.cyao_stuff.copper_shovel_head" : "copper_shovel_head",
+
+  "item.cyao_stuff.gold_sword_head" : "gold_sword_head",
+  "item.cyao_stuff.gold_axe_head" : "gold_axe_head",
+  "item.cyao_stuff.gold_pickaxe_head" : "gold_pickaxe_head",
+  "item.cyao_stuff.gold_shovel_head" : "gold_shovel_head",
+
+  "item.cyao_stuff.iron_sword_head" : "iron_sword_head",
+  "item.cyao_stuff.iron_axe_head" : "iron_axe_head",
+  "item.cyao_stuff.iron_pickaxe_head" : "iron_pickaxe_head",
+  "item.cyao_stuff.iron_shovel_head" : "iron_shovel_head",
+
+  "item.cyao_stuff.zinc_sword_head" : "zinc_sword_head",
+  "item.cyao_stuff.zinc_axe_head" : "zinc_axe_head",
+  "item.cyao_stuff.zinc_pickaxe_head" : "zinc_pickaxe_head",
+  "item.cyao_stuff.zinc_shovel_head" : "zinc_shovel_head"
+}

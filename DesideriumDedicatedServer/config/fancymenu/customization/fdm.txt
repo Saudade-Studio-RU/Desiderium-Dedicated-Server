@@ -1,0 +1,2448 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/fancymenu/resources/img/fondesideriummenu.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 95
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/resources/img/knop_kyr.png
+  backgroundnormal = config/fancymenu/resources/img/knop.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = sethoverlabel
+  label = §9Сетевая игра
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  seconds = 4.2
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376322%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = top-centered
+  x = -124
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 20
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/resources/img/nastr_kyr.png
+  backgroundnormal = config/fancymenu/resources/img/nastr.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  seconds = 4.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = top-centered
+  x = 2
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/resources/img/knop_nastr_kyr.png
+  backgroundnormal = config/fancymenu/resources/img/knop_nastr.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = sethoverlabel
+  label = §9Выйти из игры
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  seconds = 4.5
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 2.5
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = top-centered
+  x = -148
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/resources/img/knop_lg_kyr.png
+  backgroundnormal = config/fancymenu/resources/img/knop_lg.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  seconds = 4.6
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 72
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/resources/img/knop_kyr.png
+  backgroundnormal = config/fancymenu/resources/img/knop.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = §9Одиночная игра
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  seconds = 4.0
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = top-centered
+  x = -100
+  action = movebutton
+  y = 126
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/resources/img/knop_nastr_kyr.png
+  backgroundnormal = config/fancymenu/resources/img/knop_nastr.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  action = sethoverlabel
+  label = §9Моды
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  seconds = 4.4
+  onlyfirsttime = true
+  fadein = true
+  fadeinspeed = 3.0
+  action = hidebuttonfor
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 57
+  width = 421
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 8e56fb76-1c1a-4b77-91c1-e221680ea9561698331017890
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 27654614-2a9e-4330-be9e-1d35f0fb08401698331018858
+  y = 237
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 221
+  width = 312
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = b032db7b-b160-4301-b972-186e0b47e8111698331018859
+  y = 259
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 370
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 2ebfbf8a-6bb0-4c5f-98e4-2a3bac41fce41698331018859
+  y = 169
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 130
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = f3ff294a-0338-4968-a36b-3e3a9c0a4af81698331018859
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = c6915a9a-ad81-4e18-8622-745fb279b9eb1698331018859
+  y = 0
+  height = 30
+}
+
+customization {
+  orientation = top-centered
+  delayappearanceseconds = 3.9
+  path = config/fancymenu/resources/img/podlozkka.png
+  fadein = true
+  fadeinspeed = 3.0
+  x = -148
+  width = 272
+  action = addtexture
+  actionid = ff641153-be4a-426c-aed6-e2769af052461698333985103
+  y = 60
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 98
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.4
+  buttonaction = opengui;menu_desiderium%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/knop_sds_kyr.png
+  label = 
+  loopbackgroundanimations = true
+  fadein = true
+  fadeinspeed = 3.0
+  x = 104
+  width = 20
+  action = addbutton
+  actionid = beb39598-9585-410e-afbc-370153161e051698333026586
+  y = 126
+  delayappearance = true
+  backgroundnormal = config/fancymenu/resources/img/knop_sds.png
+  delayappearanceeverytime = false
+  height = 20
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 300
+  width = 68
+  action = addtexture
+  actionid = e0
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 0
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 289
+  width = 68
+  action = addtexture
+  actionid = e1
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 1
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 278
+  width = 68
+  action = addtexture
+  actionid = e2
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 2
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 267
+  width = 68
+  action = addtexture
+  actionid = e3
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 3
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 256
+  width = 68
+  action = addtexture
+  actionid = e4
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 4
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 245
+  width = 68
+  action = addtexture
+  actionid = e5
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 5
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 234
+  width = 68
+  action = addtexture
+  actionid = e6
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 6
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 223
+  width = 68
+  action = addtexture
+  actionid = e7
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 7
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 212
+  width = 68
+  action = addtexture
+  actionid = e8
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 8
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 201
+  width = 68
+  action = addtexture
+  actionid = e9
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 9
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 190
+  width = 68
+  action = addtexture
+  actionid = e10
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 10
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 179
+  width = 68
+  action = addtexture
+  actionid = e11
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 11
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 168
+  width = 68
+  action = addtexture
+  actionid = e12
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 12
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 157
+  width = 68
+  action = addtexture
+  actionid = e13
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 13
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 146
+  width = 68
+  action = addtexture
+  actionid = e14
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 14
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 135
+  width = 68
+  action = addtexture
+  actionid = e15
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 15
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 124
+  width = 68
+  action = addtexture
+  actionid = e16
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 16
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 113
+  width = 68
+  action = addtexture
+  actionid = e17
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 17
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 102
+  width = 68
+  action = addtexture
+  actionid = e18
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 18
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 91
+  width = 68
+  action = addtexture
+  actionid = e19
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 19
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 80
+  width = 68
+  action = addtexture
+  actionid = e20
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 20
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 69
+  width = 68
+  action = addtexture
+  actionid = e21
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 21
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 58
+  width = 68
+  action = addtexture
+  actionid = e22
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 22
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 47
+  width = 68
+  action = addtexture
+  actionid = e23
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 23
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 36
+  width = 68
+  action = addtexture
+  actionid = e24
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 24
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 25
+  width = 68
+  action = addtexture
+  actionid = e25
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 25
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 14
+  width = 68
+  action = addtexture
+  actionid = e26
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 26
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = 3
+  width = 68
+  action = addtexture
+  actionid = e27
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 27
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -8
+  width = 68
+  action = addtexture
+  actionid = e28
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 28
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -19
+  width = 68
+  action = addtexture
+  actionid = e29
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 29
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -30
+  width = 68
+  action = addtexture
+  actionid = e30
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 30
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -41
+  width = 68
+  action = addtexture
+  actionid = e31
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 31
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -52
+  width = 68
+  action = addtexture
+  actionid = e32
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 32
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -63
+  width = 68
+  action = addtexture
+  actionid = e33
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 33
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -74
+  width = 68
+  action = addtexture
+  actionid = e34
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 34
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -85
+  width = 68
+  action = addtexture
+  actionid = e35
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 35
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -95
+  width = 68
+  action = addtexture
+  actionid = e36
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 36
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -107
+  width = 68
+  action = addtexture
+  actionid = e37
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 37
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -118
+  width = 68
+  action = addtexture
+  actionid = e38
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 38
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -129
+  width = 68
+  action = addtexture
+  actionid = e39
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 39
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -140
+  width = 68
+  action = addtexture
+  actionid = e40
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 40
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -151
+  width = 68
+  action = addtexture
+  actionid = e41
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 41
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -162
+  width = 68
+  action = addtexture
+  actionid = e42
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 42
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -173
+  width = 68
+  action = addtexture
+  actionid = e43
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 43
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -184
+  width = 68
+  action = addtexture
+  actionid = e44
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 44
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -195
+  width = 68
+  action = addtexture
+  actionid = e45
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 45
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -206
+  width = 68
+  action = addtexture
+  actionid = e46
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 46
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -217
+  width = 68
+  action = addtexture
+  actionid = e47
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 47
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -228
+  width = 68
+  action = addtexture
+  actionid = e48
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 48
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -239
+  width = 68
+  action = addtexture
+  actionid = e49
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 49
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -250
+  width = 68
+  action = addtexture
+  actionid = e50
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 50
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -261
+  width = 68
+  action = addtexture
+  actionid = e51
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 51
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -272
+  width = 68
+  action = addtexture
+  actionid = e52
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 52
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -283
+  width = 68
+  action = addtexture
+  actionid = e53
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 53
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -294
+  width = 68
+  action = addtexture
+  actionid = e54
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 54
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -305
+  width = 68
+  action = addtexture
+  actionid = e55
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 55
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -316
+  width = 68
+  action = addtexture
+  actionid = e56
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 56
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -327
+  width = 68
+  action = addtexture
+  actionid = e57
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 57
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -338
+  width = 68
+  action = addtexture
+  actionid = e58
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 58
+  height = 48
+}
+
+customization {
+  path = config/fancymenu/resources/img/duruzhabl.gif
+  orientation = bottom-centered
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  x = -349
+  width = 68
+  action = addtexture
+  actionid = e59
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 59
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  delayappearanceseconds = 2.0
+  path = config/fancymenu/resources/img/desiderium.png
+  fadein = true
+  fadeinspeed = 2.0
+  x = -233
+  width = 463
+  action = addtexture
+  actionid = 09855e35-a26a-4595-8f06-1a1ce931204e1698333379069
+  y = -79
+  delayappearance = true
+  delayappearanceeverytime = false
+  height = 64
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 300
+  width = 68
+  action = addbutton
+  actionid = en0
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 0
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 289
+  width = 68
+  action = addbutton
+  actionid = en1
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 1
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 278
+  width = 68
+  action = addbutton
+  actionid = en2
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 2
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 267
+  width = 68
+  action = addbutton
+  actionid = en3
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 3
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 256
+  width = 68
+  action = addbutton
+  actionid = en4
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 4
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 245
+  width = 68
+  action = addbutton
+  actionid = en5
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 5
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 234
+  width = 68
+  action = addbutton
+  actionid = en6
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 6
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 223
+  width = 68
+  action = addbutton
+  actionid = en7
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 7
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 212
+  width = 68
+  action = addbutton
+  actionid = en8
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 8
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 201
+  width = 68
+  action = addbutton
+  actionid = en9
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 9
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 190
+  width = 68
+  action = addbutton
+  actionid = en10
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 10
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 179
+  width = 68
+  action = addbutton
+  actionid = en11
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 11
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 168
+  width = 68
+  action = addbutton
+  actionid = en12
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 12
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 157
+  width = 68
+  action = addbutton
+  actionid = en13
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 13
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 146
+  width = 68
+  action = addbutton
+  actionid = en14
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 14
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 135
+  width = 68
+  action = addbutton
+  actionid = en15
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 15
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 124
+  width = 68
+  action = addbutton
+  actionid = en16
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 16
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 113
+  width = 68
+  action = addbutton
+  actionid = en17
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 17
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 102
+  width = 68
+  action = addbutton
+  actionid = en18
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 18
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 91
+  width = 68
+  action = addbutton
+  actionid = en19
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 19
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 80
+  width = 68
+  action = addbutton
+  actionid = en20
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 20
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 69
+  width = 68
+  action = addbutton
+  actionid = en21
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 21
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 58
+  width = 68
+  action = addbutton
+  actionid = en22
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 22
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 47
+  width = 68
+  action = addbutton
+  actionid = en23
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 23
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 36
+  width = 68
+  action = addbutton
+  actionid = en24
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 24
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 25
+  width = 68
+  action = addbutton
+  actionid = en25
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 25
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 14
+  width = 68
+  action = addbutton
+  actionid = en26
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 26
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = 3
+  width = 68
+  action = addbutton
+  actionid = en27
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 27
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -8
+  width = 68
+  action = addbutton
+  actionid = en28
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 28
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -19
+  width = 68
+  action = addbutton
+  actionid = en29
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 29
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -30
+  width = 68
+  action = addbutton
+  actionid = en30
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 30
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -41
+  width = 68
+  action = addbutton
+  actionid = en31
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 31
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -52
+  width = 68
+  action = addbutton
+  actionid = en32
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 32
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -63
+  width = 68
+  action = addbutton
+  actionid = en33
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 33
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -74
+  width = 68
+  action = addbutton
+  actionid = en34
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 34
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -85
+  width = 68
+  action = addbutton
+  actionid = en35
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 35
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -96
+  width = 68
+  action = addbutton
+  actionid = en36
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 36
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -107
+  width = 68
+  action = addbutton
+  actionid = en37
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 37
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -118
+  width = 68
+  action = addbutton
+  actionid = en38
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 38
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -129
+  width = 68
+  action = addbutton
+  actionid = en39
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 39
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -140
+  width = 68
+  action = addbutton
+  actionid = en40
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 40
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -151
+  width = 68
+  action = addbutton
+  actionid = en41
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 41
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -162
+  width = 68
+  action = addbutton
+  actionid = en42
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 42
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -173
+  width = 68
+  action = addbutton
+  actionid = en43
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 43
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -184
+  width = 68
+  action = addbutton
+  actionid = en44
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 44
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -195
+  width = 68
+  action = addbutton
+  actionid = en45
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 45
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -206
+  width = 68
+  action = addbutton
+  actionid = en46
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 46
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -217
+  width = 68
+  action = addbutton
+  actionid = en47
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 47
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -228
+  width = 68
+  action = addbutton
+  actionid = en48
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 48
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -239
+  width = 68
+  action = addbutton
+  actionid = en49
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 49
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -250
+  width = 68
+  action = addbutton
+  actionid = en50
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 50
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -261
+  width = 68
+  action = addbutton
+  actionid = en51
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 51
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -272
+  width = 68
+  action = addbutton
+  actionid = en52
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 52
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -283
+  width = 68
+  action = addbutton
+  actionid = en53
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 53
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -294
+  width = 68
+  action = addbutton
+  actionid = en54
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 54
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -305
+  width = 68
+  action = addbutton
+  actionid = en55
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 55
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -316
+  width = 68
+  action = addbutton
+  actionid = en56
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 56
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -327
+  width = 68
+  action = addbutton
+  actionid = en57
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 57
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -338
+  width = 68
+  action = addbutton
+  actionid = en58
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 58
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_minute][requirement_mode:if][group:group_1698334976842][req_id:ad3424f3-1a44-441d-97b2-cdbf1d45e3061698335059758] = 0, 3, 6, 9, 12, 15, 18, 21, 24, 27, 30, 33, 36, 39, 42, 45, 48, 51, 54, 57
+  restartbackgroundanimations = false
+  buttonaction = openlink;https://desiderium.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/pyst.png
+  label = 
+  loopbackgroundanimations = false
+  hoverlabel = 
+  [loading_requirement_group:group_1698334976842] = [group_mode:and]
+  x = -349
+  width = 68
+  action = addbutton
+  actionid = en59
+  y = -107
+  [loading_requirement:fancymenu_visibility_requirement_is_realtime_second][requirement_mode:if][group:group_1698334976842][req_id:13dc4232-0212-45ac-846c-adc46a2b4dc11698335847641] = 59
+  backgroundnormal = config/fancymenu/resources/img/pyst.png
+  height = 48
+}
+
+customization {
+  orientation = bottom-centered
+  basecolor = #8e0922
+  shadow = true
+  delayappearanceseconds = 3.8
+  rotation = 20.0
+  scale = 0.9
+  refresh = false
+  bouncing = true
+  fadein = true
+  vanilla-like = false
+  fadeinspeed = 4.0
+  x = 193
+  actionid = c4df2afa-2a24-497c-9c5a-3614ff6719231699780213686
+  action = addsplash
+  y = -78
+  delayappearance = true
+  text = Forked!!!
+  delayappearanceeverytime = false
+}
+
+customization {
+  orientation = top-centered
+  restartbackgroundanimations = true
+  delayappearanceseconds = 4.0
+  buttonaction = opengui;net.minecraft.client.gui.screens.worldselection.SelectWorldScreen%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/knop_kyr.png
+  label = Одиночная игра
+  loopbackgroundanimations = true
+  hoverlabel = &9Одиночная игра
+  fadein = true
+  fadeinspeed = 3.0
+  x = -100
+  width = 200
+  action = addbutton
+  actionid = 328bba05-cfd6-41d3-ad00-6b9151f232161700378132547
+  y = 72
+  delayappearance = true
+  backgroundnormal = config/fancymenu/resources/img/knop.png
+  delayappearanceeverytime = false
+  height = 20
+}
+

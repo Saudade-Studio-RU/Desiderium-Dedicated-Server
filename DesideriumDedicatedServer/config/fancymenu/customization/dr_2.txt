@@ -1,0 +1,26 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.ProgressScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/lateresourses/crystal.gif
+  orientation = bottom-right
+  x = -64
+  width = 60
+  action = addtexture
+  actionid = a6d05aec-7973-469d-9b96-82aa05665f081699800606921
+  y = -65
+  height = 60
+}
+

@@ -1,0 +1,259 @@
+{
+  "version": 3,
+  "location": "cyao:engenirring_smelter",
+  "ui": "ui/steel/steel_engenirring_smelter_ui.mbdui",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "progress",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 55,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_0",
+        "x": 85,
+        "y": 56,
+        "autoIO": false
+      }
+    ],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "energy",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 100000,
+      "maxReceive": 50000,
+      "maxExtract": 50000
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:improved_engineering_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "engenirring_smelter_recipe",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "ABBBA",
+        "ACDCA",
+        "ACCCA",
+        " CCC "
+      ],
+      [
+        "BBBBB",
+        "C   C",
+        "C   C",
+        "CCCCC"
+      ],
+      [
+        "BBBBB",
+        "E   F",
+        "G   G",
+        "CCCCC"
+      ],
+      [
+        "BBBBB",
+        "C   C",
+        "C   C",
+        "CCCCC"
+      ],
+      [
+        "ABHBA",
+        "AC@CA",
+        "ACGCA",
+        " CCC "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:engenirring_smelter",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_base_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_battery"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "cyao:improved_gate_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "cyao:improved_gate_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_lamp"
+          }
+        ],
+        "type": "blocks"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "ud_world_items:improved_engineering_heater"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ]
+    }
+  }
+}

@@ -1,0 +1,20 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.ConnectScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = true
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = config/drippyloadingscreen/load_res/load1.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+

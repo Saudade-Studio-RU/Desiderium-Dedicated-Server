@@ -1,0 +1,268 @@
+{
+  "version": 3,
+  "location": "cyao:gravi_void_chamber",
+  "ui": "ui/advanced/gravi_void_chamber_ui.mbdui",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 29,
+        "y": 57,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_0",
+        "x": 56,
+        "y": 58,
+        "autoIO": false
+      }
+    ],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "energy",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 500000,
+      "maxReceive": 500000,
+      "maxExtract": 500000
+    },
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "process",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:advanced_g_c_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "gravi_void_chamber_recipe",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        " ABA ",
+        " ACA ",
+        " ABA ",
+        " DDD "
+      ],
+      [
+        "AEEEA",
+        "A   A",
+        "A   A",
+        "DDDDD"
+      ],
+      [
+        "BEEEB",
+        "B   B",
+        "B   B",
+        "DDDDD"
+      ],
+      [
+        "FEEEG",
+        "B   B",
+        "B   B",
+        "DDDDD"
+      ],
+      [
+        "BEEEB",
+        "B   B",
+        "B   B",
+        "DDDDD"
+      ],
+      [
+        "ABEBA",
+        "AB BA",
+        "AB BA",
+        "DDDDD"
+      ],
+      [
+        " B@B ",
+        " BBB ",
+        " BBB ",
+        " DDD "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:gravi_void_chamber",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_battery"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_polished_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_base_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

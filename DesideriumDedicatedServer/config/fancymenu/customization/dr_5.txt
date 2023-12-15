@@ -1,0 +1,35 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.ConnectScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  path = config/lateresourses/crystal.gif
+  orientation = bottom-right
+  x = -64
+  width = 60
+  action = addtexture
+  actionid = 5b268be6-5df0-42ec-a9a9-232b6d1356591699800658921
+  y = -65
+  height = 60
+}
+
+customization {
+  identifier = %id=400382%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = config/fancymenu/resources/img/knop_kyr.png
+  backgroundnormal = config/fancymenu/resources/img/knop.png
+}
+

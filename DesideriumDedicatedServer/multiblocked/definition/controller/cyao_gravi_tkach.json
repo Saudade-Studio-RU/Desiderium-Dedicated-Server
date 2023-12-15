@@ -1,0 +1,287 @@
+{
+  "version": 3,
+  "location": "cyao:gravi_tkach",
+  "ui": "ui/advanced/tcatch.mbdui",
+  "traits": {
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "energy",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 500000,
+      "maxReceive": 500000,
+      "maxExtract": 500000
+    },
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "process",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_5",
+        "x": 51,
+        "y": 52,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_0",
+        "x": 106,
+        "y": 23,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_4",
+        "x": 32,
+        "y": 52,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_1",
+        "x": 32,
+        "y": 33,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_2",
+        "x": 51,
+        "y": 33,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_3",
+        "x": 13,
+        "y": 52,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 13,
+        "y": 33,
+        "autoIO": false
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:advanced_g_c_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "gravi_tkach_recipe",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "     ",
+        "     ",
+        "     ",
+        " AAA ",
+        "  A  "
+      ],
+      [
+        " A A ",
+        " B B ",
+        " ACA ",
+        "AACAA",
+        "AACAA"
+      ],
+      [
+        " C C ",
+        " C C ",
+        " C C ",
+        "AC CA",
+        " C C "
+      ],
+      [
+        " ADA ",
+        " E@F ",
+        " ACA ",
+        "AACAA",
+        "AACAA"
+      ],
+      [
+        "     ",
+        "     ",
+        "     ",
+        " AAA ",
+        " A A "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_polished_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:gravi_tkach",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_lamp"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_battery"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}

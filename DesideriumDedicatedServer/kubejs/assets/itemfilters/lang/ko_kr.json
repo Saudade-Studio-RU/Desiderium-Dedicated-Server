@@ -1,0 +1,14 @@
+{
+	"item.itemfilters.missing": "아이템이 없음",
+	"item.itemfilters.filter": "아이템 필터",
+	"item.itemfilters.or": "OR 필터",
+	"item.itemfilters.or.description": "최소 하나가 참이여야 함",
+	"item.itemfilters.and": "AND 필터",
+	"item.itemfilters.and.description": "모든 조건이 참이여야 함",
+	"item.itemfilters.not": "NOT 필터",
+	"item.itemfilters.not.description": "반대의 결과값",
+	"item.itemfilters.xor": "XOR 필터",
+	"item.itemfilters.xor.description": "둘 다 참이 아니며, 둘 중 하나만 참이여야 함",
+	"item.itemfilters.mod": "모드 필터",
+	"item.itemfilters.mod.description": "모드 ID 사용"
+}

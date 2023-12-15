@@ -1,0 +1,22 @@
+{
+	id: "0D8054FCF1DF8F25"
+	order_index: 6
+	title: "Таинственная награда"
+	icon: "cyao_collectibles:treasure_bag"
+	loot_size: 1
+	rewards: [
+		{ item: "cyao_collectibles:mysterious_card_1" }
+		{ item: "cyao_collectibles:mysterious_card_2" }
+		{ item: "cyao_collectibles:mysterious_card_3" }
+		{ item: "cyao_collectibles:mysterious_card_4" }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 16777215
+		string_id: "_"
+	}
+}

@@ -1,0 +1,437 @@
+{
+  "version": 3,
+  "location": "cyao:simple_engineering_constructor",
+  "ui": "assets/basic_constructor_ui.mbdui",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_1",
+        "x": 24,
+        "y": 41,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 5,
+        "y": 41,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_2",
+        "x": 43,
+        "y": 41,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_3",
+        "x": 5,
+        "y": 60,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:stone_bricks\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:polished_andesite\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:quartz_pillar\\\"}\"",
+          "\"{Count:1b,id:\\\"create:andesite_casing\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:redstone_lamp\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_sheet_metal\\\"}\"",
+          "\"{Count:1b,id:\\\"create:mechanical_drill\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:magma_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:dropper\\\"}\"",
+          "\"{Count:1b,id:\\\"createdeco:zinc_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:hopper\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:redstone\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:diamond_block\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:bronze_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"create:precision_mechanism\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:vivid_nitrate\\\"}\"",
+          "\"{Count:1b,id:\\\"integrateddynamics:crystalized_chorus_block\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:arcane_bricks\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:conjuration_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:abjuration_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"createdeco:cast_iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"integrateddynamics:crystalized_menril_block\\\"}\"",
+          "\"{Count:1b,id:\\\"alchemistry:reactor_casing\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:fire_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:block_of_soul_stained_steel\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:corrupted_resonance\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:water_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"viescraftmachines:xegonite_block\\\"}\"",
+          "\"{Count:1b,id:\\\"create:sturdy_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:earth_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"spirit:soul_steel_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:block_of_hallowed_gold\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:air_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:manipulation_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:cursed_grit\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_ingot\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_4",
+        "x": 24,
+        "y": 60,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:stone_bricks\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:polished_andesite\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:quartz_pillar\\\"}\"",
+          "\"{Count:1b,id:\\\"create:andesite_casing\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:redstone_lamp\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_sheet_metal\\\"}\"",
+          "\"{Count:1b,id:\\\"create:mechanical_drill\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:magma_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:dropper\\\"}\"",
+          "\"{Count:1b,id:\\\"createdeco:zinc_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:hopper\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:redstone\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:diamond_block\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:bronze_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"create:precision_mechanism\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:vivid_nitrate\\\"}\"",
+          "\"{Count:1b,id:\\\"integrateddynamics:crystalized_chorus_block\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:arcane_bricks\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:conjuration_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:abjuration_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"createdeco:cast_iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"integrateddynamics:crystalized_menril_block\\\"}\"",
+          "\"{Count:1b,id:\\\"alchemistry:reactor_casing\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:fire_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:block_of_soul_stained_steel\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:corrupted_resonance\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:water_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"viescraftmachines:xegonite_block\\\"}\"",
+          "\"{Count:1b,id:\\\"create:sturdy_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:earth_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"spirit:soul_steel_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:block_of_hallowed_gold\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:air_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:manipulation_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:cursed_grit\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_ingot\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_5",
+        "x": 43,
+        "y": 60,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:stone_bricks\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:polished_andesite\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:quartz_pillar\\\"}\"",
+          "\"{Count:1b,id:\\\"create:andesite_casing\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:redstone_lamp\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_sheet_metal\\\"}\"",
+          "\"{Count:1b,id:\\\"create:mechanical_drill\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:magma_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:dropper\\\"}\"",
+          "\"{Count:1b,id:\\\"createdeco:zinc_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:hopper\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:redstone\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:diamond_block\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:bronze_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"create:precision_mechanism\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:vivid_nitrate\\\"}\"",
+          "\"{Count:1b,id:\\\"integrateddynamics:crystalized_chorus_block\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:arcane_bricks\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:conjuration_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:abjuration_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"createdeco:cast_iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"integrateddynamics:crystalized_menril_block\\\"}\"",
+          "\"{Count:1b,id:\\\"alchemistry:reactor_casing\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:fire_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:block_of_soul_stained_steel\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:corrupted_resonance\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:water_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"viescraftmachines:xegonite_block\\\"}\"",
+          "\"{Count:1b,id:\\\"create:sturdy_sheet\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:earth_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"spirit:soul_steel_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:block_of_hallowed_gold\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:air_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"ars_nouveau:manipulation_essence\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:cursed_grit\\\"}\"",
+          "\"{Count:1b,id:\\\"alloyed:steel_ingot\\\"}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "output_0",
+        "x": 95,
+        "y": 59,
+        "autoIO": false
+      }
+    ],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "energy",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 50000,
+      "maxReceive": 5000,
+      "maxExtract": 5000
+    },
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "progress",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:simple_engineering_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "simple_engineering_constructor",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "ABBABBA",
+        "CBB@BBD",
+        "EFFEFFE"
+      ],
+      [
+        "BGGBGGB",
+        "B  B  B",
+        "F     F"
+      ],
+      [
+        "BGGBGGB",
+        "B  B  B",
+        "F     F"
+      ],
+      [
+        "ABBABBA",
+        "ABBHBBA",
+        "A     A"
+      ],
+      [
+        "BGGBGGB",
+        "B  B  B",
+        "F     F"
+      ],
+      [
+        "BGGBGGB",
+        "B  B  B",
+        "F     F"
+      ],
+      [
+        "AEEAEEA",
+        "AEEAEEA",
+        "EEEEEEE"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:simple_engineering_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:simple_engineering_constructor",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:simple_engineering_base_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "cyao:energy_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "cyao:energy_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "ud_world_items:simple_engineering_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "createdeco:copper_sheet_slab"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "supplementaries:cog_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "create:item_vault"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ]
+    }
+  }
+}

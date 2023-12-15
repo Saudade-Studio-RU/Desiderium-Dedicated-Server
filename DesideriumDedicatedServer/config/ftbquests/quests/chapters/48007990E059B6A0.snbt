@@ -1,0 +1,298 @@
+{
+	id: "48007990E059B6A0"
+	group: "4C9AD1BD11EC2B19"
+	order_index: 1
+	filename: "48007990E059B6A0"
+	title: "Пустота"
+	icon: "ud_world_items:wasteland_icon"
+	subtitle: ["&4Начало Пути"]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Надежда в песках"
+			icon: "wasteland:wasteland_sand"
+			x: -1.5d
+			y: 2.0d
+			subtitle: "Безжизненная пустошь"
+			description: [
+				"&7Одинокая душа в песках трепещит о возмездии. Не остаётся другого пути, кроме как дорога в отголоски жизни - оазисы, кои разбросаны по Пустоши. Лишь в них удастся найти Надежду на восстановление."
+				""
+				"Отыщите Оазис."
+			]
+			id: "2E5CBB5F9B1A2C02"
+			tasks: [{
+				id: "6E6309D1CE333E0C"
+				type: "observation"
+				title: "Обнаружить Оазис"
+				icon: "minecraft:grass_block"
+				timer: 0L
+				observe_type: 1
+				to_observe: "minecraft:dirt"
+			}]
+			rewards: [{
+				id: "1088EDD5577F2ACA"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			title: "Десидерия"
+			x: 0.5d
+			y: 0.0d
+			subtitle: "Десидерия (лат.) - желание"
+			description: ["&5Глубоко под землёй находятся клочки жизни, бьющейся из самых недр. В таких условиях Вы можете пополнить припасы и начать своё развитие."]
+			dependencies: ["2E5CBB5F9B1A2C02"]
+			hide: true
+			id: "740991F6332121F7"
+			tasks: [{
+				id: "0CB1345C6F7DE420"
+				type: "item"
+				item: "wasteland:desideria_log"
+				count: 3L
+			}]
+			rewards: [{
+				id: "581FEF5E74FEC421"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			title: "Песчаная плавильня"
+			icon: "ud_world_items:sand_stone_controller"
+			x: 4.5d
+			y: 2.0d
+			subtitle: "Почти как печь"
+			description: [
+				"&5Для продвижения Вам необходимо произвести первое исследование."
+				""
+				"Ввиду невозможности создания обычной печи, Вашим первым механизмом с необходимым функционалом будет Песчаная Плавильня. "
+				""
+				"Постройте структуру 3х3 из блоков песчано-каменных кирпичей, оставьте пространство внутри пустым и расположите по центру контроллер. Для удобства постройки воспользуйтесь голограммой - нажмите на условие \"Постройте структуру!\" и заполните всё в точности, как в отображении. Чтобы завершить квест на создание структуры, нажмите повторно на условие."
+				""
+				"Для активации Механизма используйте выдаваемый в качестве награды Ключ, достаточно нажать Правой Кнопкой Мыши по контроллеру. "
+			]
+			dependencies: ["5C6FA4BB2C4FE938"]
+			hide: true
+			id: "1D30201E6208C2DC"
+			tasks: [
+				{
+					id: "714362F0DD3002DA"
+					type: "item"
+					item: "ud_world_items:sand_stone_bricks"
+					count: 25L
+				}
+				{
+					id: "65E6090775453FCB"
+					type: "item"
+					item: "ud_world_items:sand_stone_controller"
+				}
+				{
+					id: "0BCA1215FD9C7583"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "sand_smelter"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+			]
+			rewards: [
+				{
+					id: "066EB63CF480E719"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 2
+				}
+				{
+					id: "1A1E8AB5107F651F"
+					type: "item"
+					item: {
+						id: "the_upside_down_world:wrench"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Простейшие инструменты"
+			x: 1.5d
+			y: -1.0d
+			subtitle: "Сначала мы создаем инструменты, затем инструменты создают нас"
+			description: [
+				"Создайте базовые инструменты для добычи ресурсов в Пустоши. "
+				"&5Универсумент не способен ломать определённые блоки."
+			]
+			dependencies: ["740991F6332121F7"]
+			hide: true
+			id: "586732EDF2B36ABF"
+			tasks: [
+				{
+					id: "42EC47BBDA17BB31"
+					type: "item"
+					item: {
+						id: "wasteland:desideria_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0916187FA231B4D1"
+					type: "item"
+					item: {
+						id: "wasteland:desideria_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3558FEE108FF444C"
+					type: "item"
+					item: {
+						id: "wasteland:desideria_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "790488B225FB6B2A"
+				type: "item"
+				item: {
+					id: "wasteland:desideria_bat"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 2.5d
+			y: 3.5d
+			subtitle: "Я писал свои труды бетоном и железом"
+			description: ["В новомодной плавильне Вы можете переплавить железно-медные кластеры в слитки железа и кусочки меди. Используйте их с умом, так как запасы данного ресурса в каждом оазисе ограничены."]
+			dependencies: ["1D30201E6208C2DC"]
+			hide: true
+			id: "2D9655C4F0BB9377"
+			tasks: [{
+				id: "070EB0378C1E38FC"
+				type: "item"
+				item: "minecraft:iron_ingot"
+			}]
+			rewards: [{
+				id: "3CD667BF75571477"
+				type: "item"
+				item: "wasteland:iron_copper_shard"
+				count: 3
+			}]
+		}
+		{
+			title: "Стол исследований"
+			icon: "cyaoadditions:research_table"
+			x: 2.5d
+			y: 0.0d
+			subtitle: "Познай себя!"
+			description: [
+				"Итак, Вы добыли первостепенные ресурсы и материалы. Однако только с ними вернуться в свой мир не удастся. Для продолжения Вам попросту необходимо создать Стол Исследований и открыть новые знания."
+				""
+				"Подробнее о механике Исследования можно прочитать в разделе «Контекст»."
+				""
+				"Материалы для работы стола включают в себя бумагу, которую можно создать при помощи местного тростника, а также чернила, выбиваемые из бобов, растущих на дереве Десидерии. Для получения красителя достаточно нажать ПКМ с бобами в руке."
+			]
+			dependencies: ["740991F6332121F7"]
+			hide: true
+			id: "5C6FA4BB2C4FE938"
+			tasks: [{
+				id: "5B63AFBFB137A75C"
+				type: "item"
+				item: "cyaoadditions:research_table"
+			}]
+			rewards: [
+				{
+					id: "260B41665AA225E2"
+					type: "item"
+					item: "minecraft:paper"
+					count: 6
+				}
+				{
+					id: "220527721F981B51"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Этим самым буром ты пронзишь небеса!"
+			x: 0.5d
+			y: 3.5d
+			subtitle: "День за днём я бурю"
+			description: [
+				"&5Железный бур - уникальный в своём роде инструмент. Сделанный на скорую руку, он неожиданным образом способен разрушить Древнюю Породу и тем самым открыть перед игроком новые возможности."
+				""
+				"В начале пути данный Бур заменит Вам кирку. Но не думайте, что название обозначает уровень копания. Добывать золото, редстоун и алмазы с ним невозможно."
+			]
+			dependencies: ["2D9655C4F0BB9377"]
+			hide: true
+			id: "640003085381C428"
+			tasks: [{
+				id: "468AB03C4240EF06"
+				type: "item"
+				item: {
+					id: "drills:irondrill"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "419977F4C376C5CC"
+				type: "item"
+				item: "ud_world_items:fruit_berry_tube"
+				count: 5
+			}]
+		}
+		{
+			title: "Начало конца"
+			x: 1.5d
+			y: 1.875d
+			shape: "octagon"
+			subtitle: "Путешествие начинается здесь"
+			description: ["&7Пришло время попрощаться с этой около загробной жизнью и вернуться домой!"]
+			dependencies: ["640003085381C428"]
+			hide: true
+			size: 1.5d
+			id: "3A34A9DF8765CFAC"
+			tasks: [{
+				id: "48E460257D444D8C"
+				type: "questsadditions:break"
+				title: "Пробурите Древнюю породу"
+				block_type: 0
+				block: "wasteland:ancient_bark"
+				value: 1L
+				checkItem: false
+			}]
+			rewards: [{
+				id: "287D4C77E4FF20D5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3022466149224120138L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

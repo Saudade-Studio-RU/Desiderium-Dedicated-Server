@@ -1,0 +1,506 @@
+{
+  "version": 3,
+  "location": "syao:creative_constructor",
+  "ui": "ui/advanced/advanced_engeneering_costructor_ui.mbdui",
+  "traits": {
+    "item": [
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_0",
+        "x": 112,
+        "y": 52,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_6",
+        "x": 66,
+        "y": 24,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_20",
+        "x": 66,
+        "y": 81,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_19",
+        "x": 47,
+        "y": 81,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_18",
+        "x": 28,
+        "y": 81,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_14",
+        "x": 28,
+        "y": 62,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_15",
+        "x": 47,
+        "y": 62,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_16",
+        "x": 66,
+        "y": 62,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_17",
+        "x": 85,
+        "y": 62,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_12",
+        "x": 85,
+        "y": 43,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_7",
+        "x": 85,
+        "y": 24,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_11",
+        "x": 66,
+        "y": 43,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_2",
+        "x": 66,
+        "y": 5,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_1",
+        "x": 47,
+        "y": 5,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 28,
+        "y": 5,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_5",
+        "x": 47,
+        "y": 24,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_10",
+        "x": 47,
+        "y": 43,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_9",
+        "x": 28,
+        "y": 43,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_4",
+        "x": 28,
+        "y": 24,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_13",
+        "x": 9,
+        "y": 62,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_3",
+        "x": 9,
+        "y": 24,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_8",
+        "x": 9,
+        "y": 43,
+        "autoIO": false
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "process",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "energy",
+      "x": 6,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 500000,
+      "maxReceive": 1000000,
+      "maxExtract": 1000000
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:advanced_g_c_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "creative_constructor",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        "         ",
+        "         ",
+        "    A    ",
+        "    B    ",
+        "    A    ",
+        "         ",
+        "         "
+      ],
+      [
+        "         ",
+        "    C    ",
+        "         ",
+        "         ",
+        "         ",
+        "    C    ",
+        "         "
+      ],
+      [
+        "    C    ",
+        "         ",
+        "         ",
+        "    D    ",
+        "         ",
+        "         ",
+        "    C    "
+      ],
+      [
+        "    A    ",
+        "         ",
+        "    D    ",
+        "   D D   ",
+        "    D    ",
+        "         ",
+        "    A    "
+      ],
+      [
+        "  CAEAC  ",
+        " C  F  C ",
+        "A  D D  A",
+        "G D   D H",
+        "A  D D  A",
+        " C  F  C ",
+        "  CAEAC  "
+      ],
+      [
+        "    A    ",
+        "         ",
+        "    D    ",
+        "   D D   ",
+        "    D    ",
+        "         ",
+        "    A    "
+      ],
+      [
+        "    C    ",
+        "         ",
+        "         ",
+        "    D    ",
+        "         ",
+        "         ",
+        "    C    "
+      ],
+      [
+        "         ",
+        "    C    ",
+        "         ",
+        "         ",
+        "         ",
+        "    C    ",
+        "         "
+      ],
+      [
+        "         ",
+        "         ",
+        "    A    ",
+        "    @    ",
+        "    A    ",
+        "         ",
+        "         "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_polished_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "syao:creative_constructor",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_lamp"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ud_world_items:gravito_crystal_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_base_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_battery"
+          }
+        ],
+        "type": "blocks"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "H": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ],
+      "H": [
+        "H"
+      ]
+    }
+  }
+}

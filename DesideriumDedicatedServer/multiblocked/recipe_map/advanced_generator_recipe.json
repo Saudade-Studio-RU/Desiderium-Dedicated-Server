@@ -1,0 +1,111 @@
+{
+  "name": "advanced_generator_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "malum:arcane_charcoal"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 1000,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "6fa56a8d-66bf-46cc-acf3-4f078049acd8",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:coal_block"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 5000,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "24b4f974-bae9-4d8d-96a0-2abf396ec779",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:coal"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 500,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "2be51777-afdd-43ec-b56a-fd77321509fb",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:charcoal"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 500,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

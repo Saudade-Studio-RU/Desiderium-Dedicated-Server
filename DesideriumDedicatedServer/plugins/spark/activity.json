@@ -1,0 +1,27 @@
+[
+  {
+    "user": {
+      "type": "other",
+      "name": "CONSOLE"
+    },
+    "time": 1699871472975,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Z96AWuvbNF"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "kriptor_71",
+      "uniqueId": "04c63bcb-7a5d-4b88-b22f-8147ffebbd79"
+    },
+    "time": 1699712265226,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/uyT85lhpz9"
+    }
+  }
+]

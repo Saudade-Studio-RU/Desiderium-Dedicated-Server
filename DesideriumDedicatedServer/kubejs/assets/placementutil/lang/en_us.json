@@ -1,0 +1,34 @@
+{
+  "item.placementutil.temporary_wand": "Temporary Wand",
+  "item.placementutil.angel_wand": "Angel Wand",
+  "item.placementutil.angel_addon_range": "Angel Add-on: Range",
+  "item.placementutil.angel_addon_break": "Angel Add-on: Break",
+  "item.placementutil.angel_addon_rotate": "Angel Add-on: Rotate",
+
+  "block.placementutil.temporary_block_default": "Temporary Block (Default)",
+  "block.placementutil.temporary_block_returning": "Temporary Block (Returning)",
+  "block.placementutil.temporary_block_self_destructing": "Temporary Block (Self-destructing)",
+  "block.placementutil.temporary_block_angel": "Temporary Block (Angel)",
+
+  "tooltip.placementutil.info": "Press §bCTRL + SHIFT§r for more information",
+
+  "tooltip.placementutil.item.temporary_wand": "Right click to place a self-destructing Temporary Block. §7§oUnlimited uses",
+  "tooltip.placementutil.item.angel_wand": "While holding in your offhand, you can place many blocks as if they were angel Temporary Blocks. The distance you place the block is changeable. §7§oUpgradeable",
+  "tooltip.placementutil.item.temporary_block_angel": "Just like a returning Temporary Block, but you can place it midair.",
+  "tooltip.placementutil.item.angel_addon_range": "An add-on for the Angel Wand to increase its max reach by 1 Block each (max amount is configurable).",
+  "tooltip.placementutil.item.angel_addon_break": "An add-on for the Angel Wand to remove the Mining Fatigue effect while holding an Angel Wand in your offhand.",
+  "tooltip.placementutil.item.angel_addon_rotate": "An add-on for the Angel Wand to add a feature to rotate blocks you are looking at.",
+
+  "tooltip.placementutil.block.temporary_block_default": "A block that you can walk through and break instantly. It's used to place other blocks while building.",
+  "tooltip.placementutil.block.temporary_block_returning": "Just like a default Temporary Block, but it will go straight into your inventory after breaking.",
+  "tooltip.placementutil.block.temporary_block_self_destructing": "Just like a default Temporary Block, but it automatically disappears after 10 seconds (alternatively disappears on Random Tick if you configure it that way). §7§oOnly used by the Temporary Wand.",
+
+  "itemGroup.placementutiltab": "§fPlacement Utilities",
+
+  "key.placementutil.category": "Placement Utilities: Angel Wand",
+
+  "key.placementutil.angel_wand_rotate": "Rotate",
+  "key.placementutil.angel_wand_reach_down": "Reach Down",
+  "key.placementutil.angel_wand_reach_up": "Reach Up",
+  "key.placementutil.angel_wand_reach_scroll": "Reach Scroll"
+}

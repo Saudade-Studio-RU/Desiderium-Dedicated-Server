@@ -1,0 +1,187 @@
+logo:
+  change-interval: 50
+  texts:
+    - "&#9A734F&lC&#9B7551&lY&#9C7753&lA&#9D7855&lO &#9E7A57&lb&#9F7C59&le&#A17E5B&lt&#A27F5D&la"
+    - "&#9B7551&lC&#9A734F&lY&#9B7551&lA&#9C7753&lO &#9D7855&lb&#9E7A57&le&#9F7C59&lt&#A17E5B&la"
+    - "&#9C7753&lC&#9B7551&lY&#9A734F&lA&#9B7551&lO &#9C7753&lb&#9D7855&le&#9E7A57&lt&#9F7C59&la"
+    - "&#9D7855&lC&#9C7753&lY&#9B7551&lA&#9A734F&lO &#9B7551&lb&#9C7753&le&#9D7855&lt&#9E7A57&la"
+    - "&#9E7A57&lC&#9D7855&lY&#9C7753&lA&#9B7551&lO &#9A734F&lb&#9B7551&le&#9C7753&lt&#9D7855&la"
+    - "&#9F7C59&lC&#9E7A57&lY&#9D7855&lA&#9C7753&lO &#9B7551&lb&#9A734F&le&#9B7551&lt&#9C7753&la"
+    - "&#A17E5B&lC&#9F7C59&lY&#9E7A57&lA&#9D7855&lO &#9C7753&lb&#9B7551&le&#9A734F&lt&#9B7551&la"
+    - "&#A27F5D&lC&#A17E5B&lY&#9F7C59&lA&#9E7A57&lO &#9D7855&lb&#9C7753&le&#9B7551&lt&#9A734F&la"
+    - "&#A3815F&lC&#A27F5D&lY&#A17E5B&lA&#9F7C59&lO &#9E7A57&lb&#9D7855&le&#9C7753&lt&#9B7551&la"
+    - "&#A48361&lC&#A3815F&lY&#A27F5D&lA&#A17E5B&lO &#9F7C59&lb&#9E7A57&le&#9D7855&lt&#9C7753&la"
+    - "&#A58563&lC&#A48361&lY&#A3815F&lA&#A27F5D&lO &#A17E5B&lb&#9F7C59&le&#9E7A57&lt&#9D7855&la"
+    - "&#A68765&lC&#A58563&lY&#A48361&lA&#A3815F&lO &#A27F5D&lb&#A17E5B&le&#9F7C59&lt&#9E7A57&la"
+    - "&#A78867&lC&#A68765&lY&#A58563&lA&#A48361&lO &#A3815F&lb&#A27F5D&le&#A17E5B&lt&#9F7C59&la"
+    - "&#A88A69&lC&#A78867&lY&#A68765&lA&#A58563&lO &#A48361&lb&#A3815F&le&#A27F5D&lt&#A17E5B&la"
+    - "&#A98C6B&lC&#A88A69&lY&#A78867&lA&#A68765&lO &#A58563&lb&#A48361&le&#A3815F&lt&#A27F5D&la"
+    - "&#AA8E6D&lC&#A98C6B&lY&#A88A69&lA&#A78867&lO &#A68765&lb&#A58563&le&#A48361&lt&#A3815F&la"
+    - "&#AC8F6F&lC&#AA8E6D&lY&#A98C6B&lA&#A88A69&lO &#A78867&lb&#A68765&le&#A58563&lt&#A48361&la"
+    - "&#AD9171&lC&#AC8F6F&lY&#AA8E6D&lA&#A98C6B&lO &#A88A69&lb&#A78867&le&#A68765&lt&#A58563&la"
+    - "&#AE9373&lC&#AD9171&lY&#AC8F6F&lA&#AA8E6D&lO &#A98C6B&lb&#A88A69&le&#A78867&lt&#A68765&la"
+    - "&#AF9575&lC&#AE9373&lY&#AD9171&lA&#AC8F6F&lO &#AA8E6D&lb&#A98C6B&le&#A88A69&lt&#A78867&la"
+    - "&#B09677&lC&#AF9575&lY&#AE9373&lA&#AD9171&lO &#AC8F6F&lb&#AA8E6D&le&#A98C6B&lt&#A88A69&la"
+    - "&#B19879&lC&#B09677&lY&#AF9575&lA&#AE9373&lO &#AD9171&lb&#AC8F6F&le&#AA8E6D&lt&#A98C6B&la"
+    - "&#B29A7B&lC&#B19879&lY&#B09677&lA&#AF9575&lO &#AE9373&lb&#AD9171&le&#AC8F6F&lt&#AA8E6D&la"
+    - "&#B39C7D&lC&#B29A7B&lY&#B19879&lA&#B09677&lO &#AF9575&lb&#AE9373&le&#AD9171&lt&#AC8F6F&la"
+    - "&#B49E7F&lC&#B39C7D&lY&#B29A7B&lA&#B19879&lO &#B09677&lb&#AF9575&le&#AE9373&lt&#AD9171&la"
+    - "&#B59F81&lC&#B49E7F&lY&#B39C7D&lA&#B29A7B&lO &#B19879&lb&#B09677&le&#AF9575&lt&#AE9373&la"
+    - "&#B6A183&lC&#B59F81&lY&#B49E7F&lA&#B39C7D&lO &#B29A7B&lb&#B19879&le&#B09677&lt&#AF9575&la"
+    - "&#B6A183&lC&#B6A183&lY&#B59F81&lA&#B49E7F&lO &#B39C7D&lb&#B29A7B&le&#B19879&lt&#B09677&la"
+    - "&#B59F81&lC&#B6A183&lY&#B6A183&lA&#B59F81&lO &#B49E7F&lb&#B39C7D&le&#B29A7B&lt&#B19879&la"
+    - "&#B49E7F&lC&#B59F81&lY&#B6A183&lA&#B6A183&lO &#B59F81&lb&#B49E7F&le&#B39C7D&lt&#B29A7B&la"
+    - "&#B39C7D&lC&#B49E7F&lY&#B59F81&lA&#B6A183&lO &#B6A183&lb&#B59F81&le&#B49E7F&lt&#B39C7D&la"
+    - "&#B29A7B&lC&#B39C7D&lY&#B49E7F&lA&#B59F81&lO &#B6A183&lb&#B6A183&le&#B59F81&lt&#B49E7F&la"
+    - "&#B19879&lC&#B29A7B&lY&#B39C7D&lA&#B49E7F&lO &#B59F81&lb&#B6A183&le&#B6A183&lt&#B59F81&la"
+    - "&#B09677&lC&#B19879&lY&#B29A7B&lA&#B39C7D&lO &#B49E7F&lb&#B59F81&le&#B6A183&lt&#B6A183&la"
+    - "&#AF9575&lC&#B09677&lY&#B19879&lA&#B29A7B&lO &#B39C7D&lb&#B49E7F&le&#B59F81&lt&#B6A183&la"
+    - "&#AE9373&lC&#AF9575&lY&#B09677&lA&#B19879&lO &#B29A7B&lb&#B39C7D&le&#B49E7F&lt&#B59F81&la"
+    - "&#AD9171&lC&#AE9373&lY&#AF9575&lA&#B09677&lO &#B19879&lb&#B29A7B&le&#B39C7D&lt&#B49E7F&la"
+    - "&#AC8F6F&lC&#AD9171&lY&#AE9373&lA&#AF9575&lO &#B09677&lb&#B19879&le&#B29A7B&lt&#B39C7D&la"
+    - "&#AA8E6D&lC&#AC8F6F&lY&#AD9171&lA&#AE9373&lO &#AF9575&lb&#B09677&le&#B19879&lt&#B29A7B&la"
+    - "&#A98C6B&lC&#AA8E6D&lY&#AC8F6F&lA&#AD9171&lO &#AE9373&lb&#AF9575&le&#B09677&lt&#B19879&la"
+    - "&#A88A69&lC&#A98C6B&lY&#AA8E6D&lA&#AC8F6F&lO &#AD9171&lb&#AE9373&le&#AF9575&lt&#B09677&la"
+    - "&#A78867&lC&#A88A69&lY&#A98C6B&lA&#AA8E6D&lO &#AC8F6F&lb&#AD9171&le&#AE9373&lt&#AF9575&la"
+    - "&#A68765&lC&#A78867&lY&#A88A69&lA&#A98C6B&lO &#AA8E6D&lb&#AC8F6F&le&#AD9171&lt&#AE9373&la"
+    - "&#A58563&lC&#A68765&lY&#A78867&lA&#A88A69&lO &#A98C6B&lb&#AA8E6D&le&#AC8F6F&lt&#AD9171&la"
+    - "&#A48361&lC&#A58563&lY&#A68765&lA&#A78867&lO &#A88A69&lb&#A98C6B&le&#AA8E6D&lt&#AC8F6F&la"
+    - "&#A3815F&lC&#A48361&lY&#A58563&lA&#A68765&lO &#A78867&lb&#A88A69&le&#A98C6B&lt&#AA8E6D&la"
+    - "&#A27F5D&lC&#A3815F&lY&#A48361&lA&#A58563&lO &#A68765&lb&#A78867&le&#A88A69&lt&#A98C6B&la"
+    - "&#A17E5B&lC&#A27F5D&lY&#A3815F&lA&#A48361&lO &#A58563&lb&#A68765&le&#A78867&lt&#A88A69&la"
+    - "&#9F7C59&lC&#A17E5B&lY&#A27F5D&lA&#A3815F&lO &#A48361&lb&#A58563&le&#A68765&lt&#A78867&la"
+    - "&#9E7A57&lC&#9F7C59&lY&#A17E5B&lA&#A27F5D&lO &#A3815F&lb&#A48361&le&#A58563&lt&#A68765&la"
+    - "&#9D7855&lC&#9E7A57&lY&#9F7C59&lA&#A17E5B&lO &#A27F5D&lb&#A3815F&le&#A48361&lt&#A58563&la"
+    - "&#9C7753&lC&#9D7855&lY&#9E7A57&lA&#9F7C59&lO &#A17E5B&lb&#A27F5D&le&#A3815F&lt&#A48361&la"
+    - "&#9B7551&lC&#9C7753&lY&#9D7855&lA&#9E7A57&lO &#9F7C59&lb&#A17E5B&le&#A27F5D&lt&#A3815F&la"
+    - "&#9A734F&lC&#9B7551&lY&#9C7753&lA&#9D7855&lO &#9E7A57&lb&#9F7C59&le&#A17E5B&lt&#A27F5D&la"
+    - "&#9B7551&lC&#9A734F&lY&#9B7551&lA&#9C7753&lO &#9D7855&lb&#9E7A57&le&#9F7C59&lt&#A17E5B&la"
+    - "&#9C7753&lC&#9B7551&lY&#9A734F&lA&#9B7551&lO &#9C7753&lb&#9D7855&le&#9E7A57&lt&#9F7C59&la"
+    - "&#9D7855&lC&#9C7753&lY&#9B7551&lA&#9A734F&lO &#9B7551&lb&#9C7753&le&#9D7855&lt&#9E7A57&la"
+    - "&#9E7A57&lC&#9D7855&lY&#9C7753&lA&#9B7551&lO &#9A734F&lb&#9B7551&le&#9C7753&lt&#9D7855&la"
+    - "&#9F7C59&lC&#9E7A57&lY&#9D7855&lA&#9C7753&lO &#9B7551&lb&#9A734F&le&#9B7551&lt&#9C7753&la"
+    - "&#A17E5B&lC&#9F7C59&lY&#9E7A57&lA&#9D7855&lO &#9C7753&lb&#9B7551&le&#9A734F&lt&#9B7551&la"
+    - "&#A27F5D&lC&#A17E5B&lY&#9F7C59&lA&#9E7A57&lO &#9D7855&lb&#9C7753&le&#9B7551&lt&#9A734F&la"
+    - "&#A3815F&lC&#A27F5D&lY&#A17E5B&lA&#9F7C59&lO &#9E7A57&lb&#9D7855&le&#9C7753&lt&#9B7551&la"
+    - "&#A48361&lC&#A3815F&lY&#A27F5D&lA&#A17E5B&lO &#9F7C59&lb&#9E7A57&le&#9D7855&lt&#9C7753&la"
+    - "&#A58563&lC&#A48361&lY&#A3815F&lA&#A27F5D&lO &#A17E5B&lb&#9F7C59&le&#9E7A57&lt&#9D7855&la"
+    - "&#A68765&lC&#A58563&lY&#A48361&lA&#A3815F&lO &#A27F5D&lb&#A17E5B&le&#9F7C59&lt&#9E7A57&la"
+    - "&#A78867&lC&#A68765&lY&#A58563&lA&#A48361&lO &#A3815F&lb&#A27F5D&le&#A17E5B&lt&#9F7C59&la"
+    - "&#A88A69&lC&#A78867&lY&#A68765&lA&#A58563&lO &#A48361&lb&#A3815F&le&#A27F5D&lt&#A17E5B&la"
+    - "&#A98C6B&lC&#A88A69&lY&#A78867&lA&#A68765&lO &#A58563&lb&#A48361&le&#A3815F&lt&#A27F5D&la"
+    - "&#AA8E6D&lC&#A98C6B&lY&#A88A69&lA&#A78867&lO &#A68765&lb&#A58563&le&#A48361&lt&#A3815F&la"
+    - "&#AC8F6F&lC&#AA8E6D&lY&#A98C6B&lA&#A88A69&lO &#A78867&lb&#A68765&le&#A58563&lt&#A48361&la"
+    - "&#AD9171&lC&#AC8F6F&lY&#AA8E6D&lA&#A98C6B&lO &#A88A69&lb&#A78867&le&#A68765&lt&#A58563&la"
+    - "&#AE9373&lC&#AD9171&lY&#AC8F6F&lA&#AA8E6D&lO &#A98C6B&lb&#A88A69&le&#A78867&lt&#A68765&la"
+    - "&#AF9575&lC&#AE9373&lY&#AD9171&lA&#AC8F6F&lO &#AA8E6D&lb&#A98C6B&le&#A88A69&lt&#A78867&la"
+    - "&#B09677&lC&#AF9575&lY&#AE9373&lA&#AD9171&lO &#AC8F6F&lb&#AA8E6D&le&#A98C6B&lt&#A88A69&la"
+    - "&#B19879&lC&#B09677&lY&#AF9575&lA&#AE9373&lO &#AD9171&lb&#AC8F6F&le&#AA8E6D&lt&#A98C6B&la"
+    - "&#B29A7B&lC&#B19879&lY&#B09677&lA&#AF9575&lO &#AE9373&lb&#AD9171&le&#AC8F6F&lt&#AA8E6D&la"
+    - "&#B39C7D&lC&#B29A7B&lY&#B19879&lA&#B09677&lO &#AF9575&lb&#AE9373&le&#AD9171&lt&#AC8F6F&la"
+    - "&#B49E7F&lC&#B39C7D&lY&#B29A7B&lA&#B19879&lO &#B09677&lb&#AF9575&le&#AE9373&lt&#AD9171&la"
+    - "&#B59F81&lC&#B49E7F&lY&#B39C7D&lA&#B29A7B&lO &#B19879&lb&#B09677&le&#AF9575&lt&#AE9373&la"
+    - "&#B6A183&lC&#B59F81&lY&#B49E7F&lA&#B39C7D&lO &#B29A7B&lb&#B19879&le&#B09677&lt&#AF9575&la"
+    - "&#B6A183&lC&#B6A183&lY&#B59F81&lA&#B49E7F&lO &#B39C7D&lb&#B29A7B&le&#B19879&lt&#B09677&la"
+    - "&#B59F81&lC&#B6A183&lY&#B6A183&lA&#B59F81&lO &#B49E7F&lb&#B39C7D&le&#B29A7B&lt&#B19879&la"
+    - "&#B49E7F&lC&#B59F81&lY&#B6A183&lA&#B6A183&lO &#B59F81&lb&#B49E7F&le&#B39C7D&lt&#B29A7B&la"
+    - "&#B39C7D&lC&#B49E7F&lY&#B59F81&lA&#B6A183&lO &#B6A183&lb&#B59F81&le&#B49E7F&lt&#B39C7D&la"
+    - "&#B29A7B&lC&#B39C7D&lY&#B49E7F&lA&#B59F81&lO &#B6A183&lb&#B6A183&le&#B59F81&lt&#B49E7F&la"
+    - "&#B19879&lC&#B29A7B&lY&#B39C7D&lA&#B49E7F&lO &#B59F81&lb&#B6A183&le&#B6A183&lt&#B59F81&la"
+    - "&#B09677&lC&#B19879&lY&#B29A7B&lA&#B39C7D&lO &#B49E7F&lb&#B59F81&le&#B6A183&lt&#B6A183&la"
+    - "&#AF9575&lC&#B09677&lY&#B19879&lA&#B29A7B&lO &#B39C7D&lb&#B49E7F&le&#B59F81&lt&#B6A183&la"
+    - "&#AE9373&lC&#AF9575&lY&#B09677&lA&#B19879&lO &#B29A7B&lb&#B39C7D&le&#B49E7F&lt&#B59F81&la"
+    - "&#AD9171&lC&#AE9373&lY&#AF9575&lA&#B09677&lO &#B19879&lb&#B29A7B&le&#B39C7D&lt&#B49E7F&la"
+    - "&#AC8F6F&lC&#AD9171&lY&#AE9373&lA&#AF9575&lO &#B09677&lb&#B19879&le&#B29A7B&lt&#B39C7D&la"
+    - "&#AA8E6D&lC&#AC8F6F&lY&#AD9171&lA&#AE9373&lO &#AF9575&lb&#B09677&le&#B19879&lt&#B29A7B&la"
+    - "&#A98C6B&lC&#AA8E6D&lY&#AC8F6F&lA&#AD9171&lO &#AE9373&lb&#AF9575&le&#B09677&lt&#B19879&la"
+    - "&#A88A69&lC&#A98C6B&lY&#AA8E6D&lA&#AC8F6F&lO &#AD9171&lb&#AE9373&le&#AF9575&lt&#B09677&la"
+    - "&#A78867&lC&#A88A69&lY&#A98C6B&lA&#AA8E6D&lO &#AC8F6F&lb&#AD9171&le&#AE9373&lt&#AF9575&la"
+    - "&#A68765&lC&#A78867&lY&#A88A69&lA&#A98C6B&lO &#AA8E6D&lb&#AC8F6F&le&#AD9171&lt&#AE9373&la"
+    - "&#A58563&lC&#A68765&lY&#A78867&lA&#A88A69&lO &#A98C6B&lb&#AA8E6D&le&#AC8F6F&lt&#AD9171&la"
+    - "&#A48361&lC&#A58563&lY&#A68765&lA&#A78867&lO &#A88A69&lb&#A98C6B&le&#AA8E6D&lt&#AC8F6F&la"
+    - "&#A3815F&lC&#A48361&lY&#A58563&lA&#A68765&lO &#A78867&lb&#A88A69&le&#A98C6B&lt&#AA8E6D&la"
+    - "&#A27F5D&lC&#A3815F&lY&#A48361&lA&#A58563&lO &#A68765&lb&#A78867&le&#A88A69&lt&#A98C6B&la"
+    - "&#A17E5B&lC&#A27F5D&lY&#A3815F&lA&#A48361&lO &#A58563&lb&#A68765&le&#A78867&lt&#A88A69&la"
+    - "&#9F7C59&lC&#A17E5B&lY&#A27F5D&lA&#A3815F&lO &#A48361&lb&#A58563&le&#A68765&lt&#A78867&la"
+    - "&#9E7A57&lC&#9F7C59&lY&#A17E5B&lA&#A27F5D&lO &#A3815F&lb&#A48361&le&#A58563&lt&#A68765&la"
+    - "&#9D7855&lC&#9E7A57&lY&#9F7C59&lA&#A17E5B&lO &#A27F5D&lb&#A3815F&le&#A48361&lt&#A58563&la"
+    - "&#9C7753&lC&#9D7855&lY&#9E7A57&lA&#9F7C59&lO &#A17E5B&lb&#A27F5D&le&#A3815F&lt&#A48361&la"
+    - "&#9B7551&lC&#9C7753&lY&#9D7855&lA&#9E7A57&lO &#9F7C59&lb&#A17E5B&le&#A27F5D&lt&#A3815F&la"
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&6w&eww.domain.com'
+  - '&ew&6w&ew.domain.com'
+  - '&eww&6w&e.domain.com'
+  - '&ewww&6.&edomain.com'
+  - '&ewww.&6d&eomain.com'
+  - '&ewww.d&6o&emain.com'
+  - '&ewww.do&6m&eain.com'
+  - '&ewww.dom&6a&ein.com'
+  - '&ewww.doma&6i&en.com'
+  - '&ewww.domai&6n&e.com'
+  - '&ewww.domain&6.&ecom'
+  - '&ewww.domain.&6c&eom'
+  - '&ewww.domain.c&6o&em'
+  - '&ewww.domain.co&6m'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+  - '&ewww.domain.com'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

@@ -1,0 +1,15 @@
+{
+	"item.kubejs.empty_sac":"Пустой чернильный мешок",
+	"item.kubejs.hot_inc_bucket":"Ведро чернил",
+	"item.kubejs.molter_brass_bucket":"Ведро расплавленной латуни",
+	"item.kubejs.molter_copper_bucket":"Ведро расплавленной меди",
+	"item.kubejs.molter_gold_bucket":"Ведро расплавленного золота",
+	"item.kubejs.molter_iron_bucket":"Ведро расплавленного железа",
+	"item.kubejs.molter_zinc_bucket":"Ведро расплавленного цинка",
+	"fluid.kubejs.molter_copper": "Расплавленная медь",
+	"fluid.kubejs.hot_inc":"Жидкие чернила",
+	"fluid.kubejs.molter_brass":"Расплавленная латунь",
+	"fluid.kubejs.molter_gold":"Расплавленное золото",
+	"fluid.kubejs.molter_iron":"Расплавленное железо",
+	"fluid.kubejs.molter_zinc":"Расплавленный цинк"
+}

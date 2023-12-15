@@ -1,0 +1,33 @@
+{
+  "name": "dimension_drill",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "981ea3c7-3046-4da0-8716-9737ca777b10",
+      "duration": 200,
+      "inputs": {
+        "forge_energy": [
+          {
+            "content": 50000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:raw_gravito_crystal"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

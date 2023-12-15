@@ -1,0 +1,1032 @@
+{
+	group: [ ]
+	tabs: [
+		{
+			title: "Прошение"
+			subtittle: "Обменять материю на предметы"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "reactive:journal"
+				}
+			}
+			selling: false
+			stage: ""
+			onMouse: true
+			hideOnMouse: true
+			customGUI: false
+			isPlitka: true
+			customBorder: false
+			red: 0
+			green: 0
+			blue: 0
+			onTittle: false
+			onTittleMouse: false
+			customTittle: false
+			customSubtittle: false
+			borderRed: 0
+			borderBlue: 0
+			borderGreen: 0
+			customTittleRed: 0
+			customTittleBlue: 0
+			customTittleGreen: 0
+			customSubtittleRed: 0
+			customSubtittleBlue: 0
+			customSubtittleGreen: 0
+			entries: [
+				{
+					item: { id: "minecraft:granite", Count: 64b }
+					price: 20L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:diorite", Count: 64b }
+					price: 20L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:andesite", Count: 64b }
+					price: 20L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:deepslate", Count: 64b }
+					price: 30L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:calcite", Count: 64b }
+					price: 30L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:tuff", Count: 64b }
+					price: 30L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:flint", Count: 16b }
+					price: 30L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:clay_ball", Count: 16b }
+					price: 30L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:magma_block", Count: 32b }
+					price: 45L
+					selling: false
+					stage: "nether_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "create:andesite_alloy", Count: 16b }
+					price: 45L
+					selling: false
+					stage: "create_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: {
+						id: "occultism:soul_gem"
+						Count: 1b
+						tag: { }
+					}
+					price: 45L
+					selling: false
+					stage: "magic_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "malum:runewood_sapling"
+					price: 50L
+					selling: false
+					stage: "magic_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:bone", Count: 16b }
+					price: 50L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:rotten_flesh", Count: 16b }
+					price: 50L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:gunpowder", Count: 8b }
+					price: 50L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "ars_nouveau:source_gem"
+					price: 50L
+					selling: false
+					stage: "magic_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:redstone", Count: 16b }
+					price: 60L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:lapis_lazuli", Count: 16b }
+					price: 60L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "create:cinder_flour", Count: 8b }
+					price: 60L
+					selling: false
+					stage: "create_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:shroomlight", Count: 32b }
+					price: 60L
+					selling: false
+					stage: "nether_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "refinedstorage:raw_basic_processor"
+					price: 80L
+					selling: false
+					stage: "rs_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "refinedstorage:raw_improved_processor"
+					price: 80L
+					selling: false
+					stage: "rs_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "refinedstorage:raw_advanced_processor"
+					price: 80L
+					selling: false
+					stage: "rs_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:ender_pearl", Count: 8b }
+					price: 90L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+			]
+		}
+		{
+			title: "Подаяние"
+			subtittle: "Отдать ресурсы и получить материю"
+			icon: {
+				id: "modonomicon:modonomicon"
+				Count: 1b
+				tag: {
+					"modonomicon:book_id": "modonomicon:demo"
+				}
+			}
+			selling: true
+			stage: ""
+			onMouse: true
+			hideOnMouse: true
+			customGUI: false
+			isPlitka: true
+			customBorder: false
+			red: 0
+			green: 0
+			blue: 0
+			onTittle: false
+			onTittleMouse: false
+			customTittle: false
+			customSubtittle: false
+			borderRed: 0
+			borderBlue: 0
+			borderGreen: 0
+			customTittleRed: 0
+			customTittleBlue: 0
+			customTittleGreen: 0
+			customSubtittleRed: 0
+			customSubtittleBlue: 0
+			customSubtittleGreen: 0
+			entries: [
+				{
+					item: { id: "minecraft:stone", Count: 64b }
+					price: 10L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:gravel", Count: 64b }
+					price: 10L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:sand", Count: 64b }
+					price: 20L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:coarse_dirt", Count: 64b }
+					price: 25L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:oak_log", Count: 32b }
+					price: 30L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:spruce_log", Count: 32b }
+					price: 30L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:birch_log", Count: 32b }
+					price: 30L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:jungle_log", Count: 32b }
+					price: 30L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:acacia_log", Count: 32b }
+					price: 30L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:dark_oak_log", Count: 32b }
+					price: 30L
+					selling: true
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "create:limestone", Count: 64b }
+					price: 35L
+					selling: true
+					stage: "create_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:netherrack", Count: 64b }
+					price: 40L
+					selling: true
+					stage: "nether_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:soul_sand", Count: 64b }
+					price: 40L
+					selling: true
+					stage: "nether_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "malum:tainted_rock", Count: 64b }
+					price: 40L
+					selling: true
+					stage: "magic_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "malum:twisted_rock", Count: 64b }
+					price: 40L
+					selling: true
+					stage: "magic_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:crimson_stem", Count: 32b }
+					price: 45L
+					selling: true
+					stage: "nether_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:warped_stem", Count: 32b }
+					price: 45L
+					selling: true
+					stage: "nether_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: { id: "minecraft:end_stone", Count: 64b }
+					price: 60L
+					selling: true
+					stage: "end_shop"
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+			]
+		}
+		{
+			title: "Архивы"
+			subtittle: "Сюжетные предметы"
+			icon: {
+				id: "cyao_lore:note_book_16"
+				Count: 1b
+				ForgeCaps: {
+					Parent: {
+						Size: 0
+						Items: [ ]
+					}
+				}
+			}
+			selling: false
+			stage: "archives"
+			onMouse: true
+			hideOnMouse: true
+			customGUI: false
+			isPlitka: true
+			customBorder: false
+			red: 0
+			green: 0
+			blue: 0
+			onTittle: false
+			onTittleMouse: false
+			customTittle: false
+			customSubtittle: false
+			borderRed: 0
+			borderBlue: 0
+			borderGreen: 0
+			customTittleRed: 0
+			customTittleBlue: 0
+			customTittleGreen: 0
+			customSubtittleRed: 0
+			customSubtittleBlue: 0
+			customSubtittleGreen: 0
+			entries: [
+				{
+					item: "steam_gramophone:gramophone_off"
+					price: 1600L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "steam_gramophone:white_disc"
+					price: 1000L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "steam_gramophone:orange_disc"
+					price: 1000L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "steam_gramophone:green_disc"
+					price: 1000L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "steam_gramophone:purple_disc"
+					price: 1000L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+				{
+					item: "cyao_lore:note_book_16"
+					price: 2000L
+					selling: false
+					stage: ""
+					customBackground: false
+					customBorder: false
+					showSellingTittle: true
+					editSellingTittle: false
+					red: 0
+					green: 0
+					blue: 0
+					borderRed: 0
+					borderBlue: 0
+					borderGreen: 0
+					sellingTittleRed: 0
+					sellingTittleBlue: 0
+					sellingTittleGreen: 0
+				}
+			]
+		}
+	]
+}

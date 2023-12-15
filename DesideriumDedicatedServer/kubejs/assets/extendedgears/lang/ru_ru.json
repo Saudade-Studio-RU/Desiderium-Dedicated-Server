@@ -1,0 +1,39 @@
+{
+  "itemGroup.extendedgears": "§fExtended Cogs",
+
+  "block.extendedgears.acacia_cogwheel": "Акациевая Шестерня",
+  "block.extendedgears.large_acacia_cogwheel": "Большая Акациевая Шестерня",
+
+
+  "block.extendedgears.oak_cogwheel": "Дубовая Шестерня",
+  "block.extendedgears.large_oak_cogwheel": "Большая Дубовая Шестерня",
+
+
+  "block.extendedgears.dark_oak_cogwheel": "Шестерня из Тёмного Дуба",
+  "block.extendedgears.large_dark_oak_cogwheel": "Большая Шестерня из Тёмного Дуба",
+
+
+  "block.extendedgears.birch_cogwheel": "Берёзовая Шестерня",
+  "block.extendedgears.large_birch_cogwheel": "Большая Берёзовая Шестерня",
+
+
+  "block.extendedgears.crimson_cogwheel": "Багровая Шестерня",
+  "block.extendedgears.large_crimson_cogwheel": "Большая Багровая Шестерня",
+
+
+  "block.extendedgears.jungle_cogwheel": "Шестерня из Тропического Дерева",
+  "block.extendedgears.large_jungle_cogwheel": "Большая Шестерня из Тропического Дерева",
+
+
+  "block.extendedgears.warped_cogwheel": "Искажённая Шестерня",
+  "block.extendedgears.large_warped_cogwheel": "Большая Искажённая Шестерня",
+
+  "block.extendedgears.steel_cogwheel": "Стальная Шестерня",
+  "block.extendedgears.large_steel_cogwheel": "Большая Стальная Шестерня",
+
+  "block.extendedgears.copper_cogwheel": "Медная Шестерня",
+  "block.extendedgears.large_copper_cogwheel": "Большая Медная Шестерня",
+
+  "block.extendedgears.iron_cogwheel": "Железная Шестерня",
+  "block.extendedgears.large_iron_cogwheel": "Большая Железная Шестерня"
+}

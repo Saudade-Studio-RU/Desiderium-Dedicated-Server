@@ -1,0 +1,61 @@
+type = menu
+
+customization-meta {
+  identifier = de.keksuccino.drippyloadingscreen.customization.DrippyOverlayScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 128
+  width = 278
+  action = deep_customization_element:drippy_overlay_logo
+  actionid = e92cd5c2-efb1-4003-b383-82d03aa1b2c21698338328557
+  y = 105
+  height = 68
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = -1000000
+  width = 0
+  action = deep_customization_element:drippy_overlay_background
+  actionid = 2edf2569-2b27-4a84-adb1-368a12d9e1b71698338329153
+  y = -1000000
+  height = 0
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  original_pos_size_calculation = true
+  x = 128
+  width = 278
+  action = deep_customization_element:drippy_overlay_progress_bar
+  actionid = 1ab3af82-7eb8-477f-a7e7-1b670cafacf01698338329153
+  y = 227
+  height = 10
+}
+
+customization {
+  path = config/lateresourses/crystal.gif
+  orientation = bottom-right
+  x = -65
+  width = 60
+  action = addtexture
+  actionid = 4db90fd4-e7a5-419c-bc51-d8db6f1018971699800383136
+  y = -65
+  height = 60
+}
+

@@ -1,0 +1,62 @@
+{
+	id: "115B745EF95E30FD"
+	order_index: 2
+	title: "Фермерский кейс"
+	icon: "ud_world_items:farmer_case"
+	tags: ["q6"]
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "farmersdelight:fish_stew", count: 2 }
+		{ item: "farmersdelight:vegetable_soup", count: 2 }
+		{ item: "farmersdelight:fried_rice", count: 2 }
+		{ item: "farmersdelight:baked_cod_stew", count: 2 }
+		{ item: "farmersdelight:chicken_soup", count: 2 }
+		{ item: "farmersdelight:beef_stew", count: 2 }
+		{ item: "farmersdelight:pumpkin_soup", count: 2 }
+		{ item: "seeds:into_the_jungle" }
+		{ item: "farmersdelight:egg_sandwich", weight: 2 }
+		{ item: "farmersdelight:chicken_sandwich", weight: 2 }
+		{ item: "farmersdelight:kelp_roll_slice", count: 3, weight: 2 }
+		{ item: "farmersdelight:bacon_sandwich", count: 2, weight: 2 }
+		{ item: "farmersdelight:hamburger", count: 2, weight: 2 }
+		{ item: "brewinandchewin:ham_and_cheese_sandwich", count: 2, weight: 2 }
+		{ item: "brewinandchewin:rice_wine", count: 2, weight: 3 }
+		{ item: "brewinandchewin:beer", count: 2, weight: 3 }
+		{ item: "brewinandchewin:mead", count: 2, weight: 3 }
+		{ item: "farmersdelight:sweet_berry_cheesecake_slice", count: 4, weight: 3 }
+		{ item: "farmersdelight:chocolate_pie_slice", count: 4, weight: 3 }
+		{ item: "farmersdelight:cake_slice", count: 4, weight: 3 }
+		{ item: "farmersdelight:apple_pie_slice", count: 4, weight: 3 }
+		{ item: "minecraft:pumpkin_pie", count: 2, weight: 3 }
+		{ item: "brewinandchewin:pizza_slice", count: 2, weight: 3 }
+		{ item: "brewinandchewin:vodka", weight: 3 }
+		{ item: "minecraft:carrot", count: 8, weight: 4 }
+		{ item: "minecraft:apple", count: 8, weight: 4 }
+		{ item: "minecraft:wheat", count: 8, weight: 4 }
+		{ item: "farmersdelight:rice_panicle", count: 8, weight: 4 }
+		{ item: "minecraft:beetroot", count: 8, weight: 4 }
+		{ item: "minecraft:potato", count: 8, weight: 4 }
+		{ item: "farmersdelight:tomato", count: 8, weight: 4 }
+		{ item: "farmersdelight:onion", count: 8, weight: 4 }
+		{ item: "farmersdelight:cabbage", count: 8, weight: 4 }
+		{ item: "minecraft:wheat_seeds", count: 12, weight: 4 }
+		{ item: "farmersdelight:fried_egg", count: 4, weight: 3 }
+		{ item: "ud_world_items:seed_tube", weight: 4 }
+		{ item: "ud_world_items:fruit_berry_tube", weight: 3 }
+		{ item: "ud_world_items:vegetable_tube", weight: 3 }
+		{ item: "ud_world_items:meat_tube", weight: 2 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 760120
+		item_name: "Фермерский кейс"
+		glow: 1b
+		string_id: "farm_loot_box"
+	}
+}

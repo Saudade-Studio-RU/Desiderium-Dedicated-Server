@@ -1,0 +1,733 @@
+{
+	id: "6275F83441A57352"
+	group: "0CD8708E80919F0C"
+	order_index: 0
+	filename: "6275F83441A57352"
+	title: "Ядро"
+	icon: "ud_world_items:core_icon"
+	subtitle: ["&9Финальная Глава"]
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Дальний путь зовёт меня"
+			icon: "ud_world_items:core_icon"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Возвращаюсь снова я"
+			description: ["&7Знайте же, перемены наступят именно в момент, когда Вы меньше всего стремитесь к ним. И, будучи настигнуты, не сможете отвертеться. Лишь адаптировавшись к ним, подчинившись волею движений и сознания, обретёте покой души, величественную силу. Вопреки всему Вы станете новым миром."]
+			dependencies: ["7CD707355BA6E9EA"]
+			hide: true
+			size: 1.25d
+			id: "45DCC77F434F1E0B"
+			tasks: [{
+				id: "5547A86F3C386DA4"
+				type: "checkmark"
+				title: "Понял!"
+			}]
+			rewards: [
+				{
+					id: "24AB71A581B91472"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "4A126CE667BA15CE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+				{
+					id: "2828861F9C3D4B5E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "2D45285A372F74DC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+				{
+					id: "7D816B8C21BD21FC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1748955132031137801L
+				}
+				{
+					id: "6E85A76FFCF58089"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1250721272784892157L
+				}
+				{
+					id: "30F5728EE3A9E63E"
+					type: "item"
+					item: "cyao_lore:note_15"
+				}
+			]
+		}
+		{
+			title: "Разлом"
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Между землёй и пустотой"
+			description: [
+				"&7Ядро... Оно снится мне, зовёт меня. Будто что-то или кто-то нарочно ведёт к нему. Не даёт забыть тот день. Значит, в моём списке дел ещё остался один важный пункт. Я должен закончить начатое."
+				""
+				"Используйте Разлом нажатием ПКМ, чтобы переместиться в Ядро Перевёрнутого Мира."
+			]
+			dependencies: ["45DCC77F434F1E0B"]
+			size: 1.25d
+			id: "51A5745A32265B26"
+			tasks: [{
+				id: "2D52144C3B518C32"
+				type: "item"
+				item: "cyao_coreworld:gravity_breach_orb"
+			}]
+			rewards: [
+				{
+					id: "3AB584A39B543D6B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 5s
+								id: "minecraft:sharpness"
+							}]
+						}
+					}
+				}
+				{
+					id: "489EC2EE392E68F1"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:protection"
+							}]
+						}
+					}
+				}
+				{
+					id: "6561A9502511484B"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 4s
+								id: "minecraft:feather_falling"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Сет Тяжёлого Инженера"
+			icon: {
+				id: "ud_world_items:heavy_engineer_armor_helmet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Погружение на дно"
+			description: [
+				"&7Высокотехнологический сет Инженера, обработанный излучением гравитации и сотканный из прочнейшей ткани. Только в нём я могу отправиться к Ядру мира, не повредив свой организм. Раньше у нас были скафандры, теперь же остаётся довольствоваться прикладным ремеслом. Во всяком случае, оно работает и вкупе имеет нужный функционал. Жаль только, что даже в этом изобретении есть один недочёт: для удержания брони на теле требуются лямки, без них отдельная часть будет спадать. Как бы не забыть про это, когда я отправлюсь на дно."
+				""
+				"&7По сути же, я могу опуститься в нём на глубины Перевёрнутого мира и получше изучить отделяющую измерение от Ядра кору. Чуть позже стоит поработать над предметом, который перенесёт меня на ту сторону без травм."
+			]
+			dependencies: ["45DCC77F434F1E0B"]
+			size: 1.25d
+			id: "6D83769A6C0E7A9E"
+			tasks: [
+				{
+					id: "6F790915EDC871B4"
+					type: "item"
+					item: {
+						id: "ud_world_items:heavy_engineer_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77A8B7EF263FAB14"
+					type: "item"
+					item: {
+						id: "ud_world_items:heavy_engineer_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5BD339AAF4C0EF4D"
+					type: "item"
+					item: {
+						id: "ud_world_items:heavy_engineer_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "700C9149F93A064A"
+					type: "item"
+					item: {
+						id: "ud_world_items:heavy_engineer_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "66E2B2644CA6B577"
+					type: "item"
+					item: "ud_world_items:engineer_straps"
+				}
+			]
+			rewards: [
+				{
+					id: "318581111BB7893C"
+					type: "item"
+					item: "ud_world_items:gravito_crystal_block"
+					count: 3
+				}
+				{
+					id: "3C7F45A9E7426E92"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Звучи! Эуфониум"
+			description: [
+				"&7Впервые я нашёл это устройство в Аванпосте, когда вернулся в Перевёрнутый мир. Вскоре мне самому удалось создать подобный аппарат. "
+				""
+				"&7Неприметный, но обладающий странной способностью воспроизводить потоки энергии из прошлого, Граммофон может принимать тайные Диски, которые я нахожу в разных местах этого мира. На отдельном таком куске винила или стекла записаны послания моих друзей, оставленные ещё до Второй Катастрофы."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45DCC77F434F1E0B"]
+			id: "08BAA49BF6CD9259"
+			tasks: [{
+				id: "7829EB1AB0890D65"
+				type: "item"
+				item: "steam_gramophone:gramophone_off"
+			}]
+			rewards: [{
+				id: "22E8B0342FA3D602"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Белый не цвет - это отсутствие цветов"
+			description: [
+				"&7Кто его оставил?!"
+				""
+				"&7Первым делом, когда очутился в заброшенном Аванпосте, я начал искать пропитание по ящикам и сундукам. Вдруг что осталось от живших здесь людей. И тогда же я нашёл это. Белый Диск. Не знаю почему, но по коже прошла тревожная дрожь. Словно муравьи заползли на меня и кусали своими маленькими ртами тысячи раз."
+			]
+			hide_dependency_lines: true
+			dependencies: ["45DCC77F434F1E0B"]
+			id: "7CD0315CFD62EEE7"
+			tasks: [{
+				id: "6C4A950A0DE186EC"
+				type: "item"
+				item: "steam_gramophone:white_disc"
+			}]
+			rewards: [
+				{
+					id: "14CACE65ED237DF9"
+					type: "xp"
+					xp: 50
+				}
+				{
+					id: "544FB45D42FF36E5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Недостижимая мечта"
+			description: ["&7Я успел оставить след в этом мире. Неоднократно ошибался, но исправлял ошибки. И есть ещё одна, разобраться с которой следует непременно. "]
+			hide_dependency_lines: true
+			dependencies: ["45DCC77F434F1E0B"]
+			id: "6B945193ECDBBD6F"
+			tasks: [{
+				id: "2CBCC5B0021127B2"
+				type: "item"
+				item: "steam_gramophone:orange_disc"
+			}]
+			rewards: [{
+				id: "086858D4BF26BBEB"
+				type: "item"
+				item: "alloyed:bronze_sheet"
+				count: 16
+			}]
+		}
+		{
+			x: 6.0d
+			y: 1.5d
+			subtitle: "Что вершит судьбу человечества в этом мире?"
+			description: ["&7Так звучит падший человек. Ужасное дребезжание голоса и печаль отдаёт звоном в ушах, оставляет неисправимо больные отпечатки на сердце. Почему люди причиняют боль друг другу? Неужели я не мог поступить тогда иначе. Втроём нам было бы куда проще. "]
+			hide_dependency_lines: true
+			dependencies: ["45DCC77F434F1E0B"]
+			id: "3879F7C1F251F81B"
+			tasks: [{
+				id: "3C2D2FAD50F506D3"
+				type: "item"
+				item: "steam_gramophone:green_disc"
+			}]
+			rewards: [
+				{
+					id: "2481929784947003"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "0A235671B844AAB8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			subtitle: "Тайна Третьих Врат"
+			description: ["&7Я не слышал этот голос уже давно. Навевает далёкими воспоминаниями, когда только начиналось строительство этого места. Время так скоротечно. Тогда всё казалось радужным, благополучие сверкало в глазах людей, которых мы вели за собой. Всё разрушилось в одно мгновение. Глаза людей потеряли свою яркость. Теперь они были пусты."]
+			hide_dependency_lines: true
+			dependencies: ["45DCC77F434F1E0B"]
+			id: "4E95661E4CD09334"
+			tasks: [{
+				id: "6786D52A0DB63B67"
+				type: "item"
+				item: "steam_gramophone:purple_disc"
+			}]
+			rewards: [{
+				id: "681AF258C63AC3B7"
+				type: "item"
+				item: "storagedrawers:diamond_storage_upgrade"
+			}]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			subtitle: "16 Апостолов"
+			description: ["&7Записи прошлого, настоящего и будущего. Эти строки въелись глубоко в меня, теперь их авторы - это я. Вся боль, тоска и одиночество, что перенесли люди стало неотъемлимой частью моего тела и разума. Я живу, потому что когда-то жили они. Благодаря им сейчас я дышу, хожу и мыслю. "]
+			hide_dependency_lines: true
+			dependencies: ["45DCC77F434F1E0B"]
+			id: "040FCA4D39FC4FF5"
+			tasks: [{
+				id: "2E70FFA70F4410BC"
+				type: "item"
+				item: {
+					id: "cyao_lore:note_book_16"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 0
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6EAEA2EEDF9BC4DD"
+					type: "item"
+					item: "minecraft:bookshelf"
+					count: 16
+				}
+				{
+					id: "4D5115C12A1BF3D6"
+					type: "xp"
+					xp: 250
+				}
+			]
+		}
+		{
+			title: "Врата Инженерии"
+			icon: "the_upside_down_world:irongear"
+			x: -4.0d
+			y: 0.0d
+			subtitle: "Шестерёнки наши друзья"
+			description: [
+				"&7Рассказать о себе? Это кажется мне немного сложным, хотя уже бывали упоминания от третьего лица. А если интересно моё личное мнение, то сейчас всё гораздо хуже и одновременно с этим лучше, чем было раньше. Как это? Ну, я чувствую моральный подъём своего настроя на дальнейшую деятельность, но физический мир жесток и вполне может откусить от меня ещё больше. Я буду готов к этому и смело приму наказание за свершённые проступки. Именно с таким настроем я отправляюсь сюда. Бывший когда-то Дом."
+				""
+				"&7С кем я вообще говорю..."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"45DCC77F434F1E0B"
+				"129F2769303358D4"
+			]
+			hide: true
+			id: "4F82F5F048C37656"
+			tasks: [{
+				id: "629456887CD1C9AF"
+				type: "item"
+				item: "cyao_structures:iengie_orb"
+			}]
+			rewards: [
+				{
+					id: "2C0BC3355AF7D327"
+					type: "item"
+					item: "create_things_and_misc:blaze_ballon"
+				}
+				{
+					id: "15A8731508CC8396"
+					type: "item"
+					item: "cyao_stuff:blank_pattern"
+					count: 8
+				}
+			]
+		}
+		{
+			title: "Врата Гравитации"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "cyaoadditions:textures/item/shard.png"
+				}
+			}
+			x: -4.0d
+			y: 1.5d
+			subtitle: "Крепчает ветер — значит, жить старайся"
+			description: ["&7Неприступная воздушная крепость одного из учёных - Серафим. Этот Дирижабль был для людей чем-то вроде оплота надежды на будущее развитие. Однако отсюда появились корни, породившие смуту и отчаяние. Изобретения не вершили судьбу, но сулили всем нам конец. В какой-то момент здешний верховный учёный уволил всех работников, включил защитный механизм и предался каким-то исследованиям. С братом из Врат Алхимии мы часто, невзначай, посматривали на него. Ведь никто из нас не был уверен, что конкретно стало причиной Катастрофы, кто именно открыл Ящик Пандоры и поверг мир в хаос. Возможно, нам стоило доверять друг другу чуть больше."]
+			hide_dependency_lines: true
+			dependencies: [
+				"45DCC77F434F1E0B"
+				"129F2769303358D4"
+			]
+			hide: true
+			id: "3425737F43B20F1D"
+			tasks: [{
+				id: "7C1C83A7A17656E9"
+				type: "item"
+				item: "cyao_structures:gravito_orb"
+			}]
+			rewards: [
+				{
+					id: "07D330C5E3701351"
+					type: "item"
+					item: "paraglider:deku_leaf"
+				}
+				{
+					id: "767D76171BDA15AE"
+					type: "item"
+					item: "paraglider:stamina_vessel"
+				}
+			]
+		}
+		{
+			title: "Врата Алхимии"
+			icon: "ud_world_items:mechanical_battery"
+			x: -6.0d
+			y: 1.5d
+			subtitle: "Мы обойдёмся и без магии!"
+			description: ["&7Место, пропитанное чужеродным зловонием. Я не выбирался со своего рабочего места долгие годы и даже не знал, как обстоят дела у других. Почему мы прекратили нашу тесную связь, породившую само существование движущей нами силы? И отчего он сломался? Учёный, что жил здесь, он был грустным на вид, когда мы выбирались отсюда. Было ли ему обидно за утрату работы всей его жизни? Или же это было несчастье по-весёлому?"]
+			hide_dependency_lines: true
+			dependencies: [
+				"45DCC77F434F1E0B"
+				"129F2769303358D4"
+			]
+			hide: true
+			id: "24531E9729660779"
+			tasks: [{
+				id: "05A7CD3B91FA9045"
+				type: "item"
+				item: "cyao_structures:alchemito_orb"
+			}]
+			rewards: [
+				{
+					id: "0FE42B2444A0C7BF"
+					type: "item"
+					item: "minecraft:milk_bucket"
+				}
+				{
+					id: "327FAE0FC6A49772"
+					type: "item"
+					item: {
+						id: "minecraft:potion"
+						Count: 1b
+						tag: {
+							Potion: "minecraft:regeneration"
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Механический Ползун"
+			x: -4.0d
+			y: 4.5d
+			subtitle: "Душа машины сильнее стали"
+			description: ["&7Этот робот... Я лично конструировал его. Часть за частью продумывал я его дизайн и функционал. Предназначался Ползун сперва для покорения нового ландшафта нашего мира. Чуть позже в него был внедрён механизм по созданию других роботов, чтобы на горячих точках они могли зачистить территорию от опасных обитателей и начать добычу минералов или иных ресурсов. Как-то даже грустно, что такое создание сейчас может запросто раздавить своего изобретателя."]
+			hide_dependency_lines: true
+			dependencies: [
+				"45DCC77F434F1E0B"
+				"4F82F5F048C37656"
+			]
+			id: "4AAD5C90124F516A"
+			tasks: [{
+				id: "7438A73D3425E348"
+				type: "kill"
+				title: "Уничтожить Механический Ползун"
+				icon: "the_upside_down_world:mechasencor"
+				entity: "the_upside_down_world:mecha_boss"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "5702ED5AC7093BF8"
+					type: "item"
+					item: "create:precision_mechanism"
+				}
+				{
+					id: "0B005CFC3743ADC6"
+					type: "item"
+					item: "create:brass_block"
+				}
+			]
+		}
+		{
+			title: "Босс Врат Алхимии"
+			icon: "ud_world_items:gravity_stabilizer"
+			x: -6.0d
+			y: 6.0d
+			subtitle: "Магия рождается не из таланта, она рождается из боли"
+			description: [
+				"&7Сбежавший перед Катастрофой учёный отдела Алхимии. Он поместил своё тело и разум в колбу с разработанной им же жидкостью. Но проверить её времени не было. Как следствие, всё тело вмиг растворилось. Мозги расплавились, смешавшись с человеческим супом из органов и изначального раствора."
+				""
+				"&7В данный момент это Существо таится на верхнем этаже Врат Алхимии и охраняет одно из важных для приобретения мной изобретений. Мне ничего не остаётся, кроме как сразить его и забрать Стабилизатор Гравитации."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"45DCC77F434F1E0B"
+				"24531E9729660779"
+			]
+			id: "0822181079E05A38"
+			tasks: [{
+				id: "24F860C698D8D9BD"
+				type: "kill"
+				title: "Освободить душу Гения"
+				icon: "ud_world_items:gravity_stabilizer"
+				entity: "alchemy_boss:trapped_genius"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "15AD80BFAA1089F1"
+					type: "item"
+					item: "malum:spirit_pouch"
+				}
+				{
+					id: "164D036D4B7A043B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+			]
+		}
+		{
+			title: "Иссушение нипочём"
+			x: -4.0d
+			y: 6.0d
+			subtitle: "Кто волей слаб, страдает больше всех"
+			description: [
+				"&7Трёхголовое Чудо-юдо или проект \"Визер\" - особый эксперимент содружества учёных из всех Трёх Врат. Каждая команда вложила в него что-то от себя, благодаря чему он стал резервным источником силы Серафима. Но проект прикрыли, так как верховный учёный увидел в нём опасность для своего Дирижабля. Посему он томится в недостроенном виде где-то в одной из генераторных Врат Гравитации. "
+				""
+				"&7Что же случится, если я попробую пробудить это Нечто?"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"45DCC77F434F1E0B"
+				"3425737F43B20F1D"
+			]
+			id: "135F776791B01756"
+			tasks: [{
+				id: "5AFBC39288FD0AE7"
+				type: "kill"
+				title: "Убить Визера"
+				icon: "minecraft:wither_skeleton_skull"
+				entity: "minecraft:wither"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "2E9754C0C5675AD6"
+					type: "item"
+					title: "Трезубец Посейдона"
+					item: {
+						id: "minecraft:trident"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2B847B2CCE8A1A86"
+					type: "xp"
+					xp: 125
+				}
+			]
+		}
+		{
+			title: "Последняя Битва"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "chipped:textures/block/carved_pumpkin/carved_pumpkin_15.png"
+				}
+			}
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Приключение на 15 минут"
+			description: ["&7Искомо найденный мной путь привёл к чреде событий сих. И поглощён был в них я с головой. Оставил след широкий, боле чем ступни мои. Уж с силой данной закончу начатый маршрут, пусть вопреки желанию других построен он. Прощайте все. Я заберу с собою вас."]
+			dependencies: ["51A5745A32265B26"]
+			size: 1.25d
+			id: "3CE1D7F757D89E7E"
+			tasks: [{
+				id: "7315D0F284177F78"
+				type: "kill"
+				title: "???"
+				icon: "cyao_coreworld:coreworld_trophy"
+				entity: "cyao_coreworld:the_reflection"
+				value: 1L
+			}]
+			rewards: [
+				{
+					id: "1914C0588A7510C6"
+					type: "gamestage"
+					title: "&4Новая вкладка в Трансмутации"
+					icon: "cyao_lore:note_book_16"
+					auto: "enabled"
+					ignore_reward_blocking: true
+					stage: "archives"
+				}
+				{
+					id: "1CF7410DD0EC27B9"
+					type: "gamestage"
+					title: "&5Открытие Креативных предметов"
+					icon: "create_sa:creative_filling_tank"
+					auto: "enabled"
+					ignore_reward_blocking: true
+					stage: "creative_item"
+				}
+				{
+					id: "5BACA324A6DAB923"
+					type: "item"
+					auto: "invisible"
+					item: "cyao_coreworld:coreworld_trophy"
+				}
+			]
+		}
+		{
+			title: "Искатель приключений"
+			x: -6.0d
+			y: 0.0d
+			subtitle: "Время приключений"
+			description: [
+				"&7Эти руины частенько напоминают мне о доме. Наверное потому, что здесь я и жил когда-то. Их состояние оставляет желать лучшего, ну, а мне самому ничего другого на ум не приходит, кроме как разбирать дома и строения, чтобы найти новое применение старым материалам. "
+				""
+				"&5Созидатель воспоминаний послужит Вам крафтером Сфер воспоминаний, сохранивших частички прошлого. Каждая такая Сфера будет отвечать за перемещение в определённую локацию. Создайте данный Верстак, чтобы посетить сюжетные данжи."
+				""
+				"Крафты сфер можно посмотреть в самом Созидателе, нажав на кнопку справа внутри интерфейса."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"429C1DA473D5A08E"
+				"45DCC77F434F1E0B"
+			]
+			hide: true
+			id: "129F2769303358D4"
+			tasks: [{
+				id: "3268B859E1C2CCF9"
+				type: "item"
+				item: "cyao_structures:worktable"
+			}]
+			rewards: [
+				{
+					id: "01F096A483522875"
+					type: "item"
+					item: "farmersdelight:steak_and_potatoes"
+				}
+				{
+					id: "1FFE9B2CF558BB91"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+			]
+		}
+		{
+			title: "Путь авантюриста"
+			icon: "ud_world_items:camera_icon"
+			x: -6.0d
+			y: 3.0d
+			subtitle: "Изменить волю божества – та еще авантюра"
+			description: [
+				"&7Душа путешественника лежит к постоянным странствиям и исследованиям неизведанного ранее. Эти люди не могут сидеть на месте, посему изучают все уголки нашего необъятного мира. Их память теперь хранится в этих Сферах. "
+				""
+				"&5Сфера Хранителя переместит Вас в одну из случайных небольших построек, в которых можно узнать больше об истории мира и добыть множество полезных ресурсов. "
+			]
+			hide_dependency_lines: true
+			dependencies: ["129F2769303358D4"]
+			hide: true
+			id: "10454D212287744D"
+			tasks: [{
+				id: "29CFFDBA2B24D78F"
+				type: "item"
+				item: "cyao_structures:hrano_orb"
+			}]
+			rewards: [
+				{
+					id: "7569CCBB9A1B39EF"
+					type: "item"
+					item: "cyao_structures:hrano_orb"
+				}
+				{
+					id: "275AED9104046A6F"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

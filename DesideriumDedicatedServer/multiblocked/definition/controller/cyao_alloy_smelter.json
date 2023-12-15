@@ -1,0 +1,203 @@
+{
+  "version": 3,
+  "location": "cyao:alloy_smelter",
+  "ui": "assets/syao_alloy_smelter_ui.mbdui",
+  "traits": {
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "recipe_1",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "fuel_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "fuel_1",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_1",
+        "x": 31,
+        "y": 52,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:andesite\\\"}\"",
+          "\"{Count:1b,id:\\\"create:zinc_nugget\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:iron_nugget\\\"}\"",
+          "\"{Count:1b,id:\\\"seeds:garbages_block\\\"}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "output_0",
+        "x": 76,
+        "y": 52,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"seeds:stuff\\\"}\"",
+          "\"{Count:1b,id:\\\"create:andesite_alloy\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 11,
+        "y": 52,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"create:zinc_nugget\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:iron_ingot\\\"}\"",
+          "\"{Count:1b,id:\\\"seeds:garbages_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:andesite\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:iron_nugget\\\"}\""
+        ]
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "fuel",
+        "x": 11,
+        "y": 76,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:blaze_rod\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:lava_bucket\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:coal\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:charcoal\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:coal_block\\\"}\""
+        ]
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:andesite_stone_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "aloy_smelter",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "AAA",
+        "A@A",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "A A",
+        "AAA"
+      ],
+      [
+        "AAA",
+        "AAA",
+        "AAA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:andesite_stone_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:alloy_smelter",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

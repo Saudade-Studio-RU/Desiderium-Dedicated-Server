@@ -1,0 +1,60 @@
+{
+	id: "2572228A119E5413"
+	order_index: 4
+	title: "Декоративный кейс"
+	icon: "ud_world_items:decorate_case"
+	tags: ["q4"]
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "another_furniture:oak_shelf", weight: 4 }
+		{ item: "supplementaries:candle_holder", count: 4, weight: 3 }
+		{ item: "supplementaries:clock_block" }
+		{ item: "supplementaries:globe" }
+		{ item: "supplementaries:jar" }
+		{ item: "supplementaries:planter_rich" }
+		{ item: "supplementaries:safe" }
+		{ item: "supplementaries:statue" }
+		{ item: "rsgauges:industrial_small_lever" }
+		{ item: "another_furniture:white_curtain", weight: 4 }
+		{ item: "another_furniture:white_stool", weight: 4 }
+		{ item: "another_furniture:oak_table", weight: 4 }
+		{ item: "another_furniture:oak_chair", weight: 4 }
+		{ item: "rsgauges:industrial_alarm_lamp" }
+		{ item: "rsgauges:industrial_alarm_siren" }
+		{ item: "storagedrawers:oak_full_drawers_1", count: 4, weight: 2 }
+		{ item: "another_furniture:white_lamp", weight: 4 }
+		{ item: "another_furniture:white_sofa", weight: 4 }
+		{ item: "another_furniture:white_tall_stool", weight: 4 }
+		{ item: "minecraft:purple_candle", count: 4, weight: 3 }
+		{ item: "another_furniture:birch_drawer", weight: 3 }
+		{ item: "supplementaries:hourglass", weight: 2 }
+		{ item: "supplementaries:copper_lantern", count: 2, weight: 3 }
+		{ item: "minecraft:jack_o_lantern", weight: 4 }
+		{ item: "minecraft:lantern", count: 2, weight: 3 }
+		{ item: "supplementaries:notice_board", weight: 2 }
+		{ item: "supplementaries:cage", weight: 2 }
+		{ item: "farmersdelight:oak_cabinet", weight: 3 }
+		{ item: "farmersdelight:canvas_sign", weight: 2 }
+		{ item: "rsgauges:industrial_alarm_lamp" }
+		{ item: "rsgauges:industrial_rotary_lever" }
+		{ item: "rsgauges:oldfancy_button" }
+		{ item: "createdeco:dusk_bricks", count: 24 }
+		{ item: "createdeco:pearl_bricks", count: 24 }
+		{ item: "createdeco:blue_bricks", count: 24 }
+		{ item: "immersive_paintings:painting" }
+		{ item: "create:purple_toolbox", weight: 2 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 13712187
+		item_name: "Декоративный кейс"
+		glow: 1b
+		string_id: "decor_loot_box"
+	}
+}

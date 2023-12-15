@@ -1,0 +1,763 @@
+{
+	id: "0E5C4A3A6E1C843E"
+	group: "3D8ADA421153B1A3"
+	order_index: 4
+	filename: "0E5C4A3A6E1C843E"
+	title: "Фермерство"
+	icon: "ud_world_items:plant_icon"
+	subtitle: ["&6Сельское Хозяйство"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Сад Гесперид"
+			x: 0.0d
+			y: 0.0d
+			shape: "heart"
+			subtitle: "Истоки фермерства"
+			description: [
+				"&7В этом мире совершенно невозможно выращивать старинными способами какие-либо сельскохозяйственные культуры. Так недалеко и вовсе погибнуть от голода. Запасов еды немного, нужно срочно что-то придумать."
+				""
+				"Используя свои знания об инженерном ремесле, Вы без проблем способны создать совершенный аппарат - Сад Гесперид. Положите в него семена или растительную культуру, запитайте водой вёдрами или трубами, а на выходе получите в несколько раз большее количество продукции. "
+				""
+				"У Сада присутствует удобный интерфейс, где слева находится шкала заполнения воды, под ней - слот для ведра или другого резервуара с водой. По середине снизу слот приёма сырья, сверху Вы можете забрать результат работы механизма."
+				""
+				"Кроме подачи воды, Вам также стоит наладить производство костной муки, используемой как удобрение в слоте водоснабжения."
+			]
+			dependencies: [
+				"4005D946F9F00F8A"
+				"3003695F3A27EAC0"
+			]
+			hide: true
+			size: 1.25d
+			id: "040483BB075CA73D"
+			tasks: [{
+				id: "598824A5A0692B82"
+				type: "item"
+				item: "cyao:hesperites_garden"
+			}]
+			rewards: [
+				{
+					id: "3C33A54C125F0D54"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "64F4D087EC939555"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Началась в душе весна. Где же, где же семена?"
+			x: 2.0d
+			y: 1.5d
+			subtitle: "Собери их всех!"
+			description: ["&5Первые семена доступны к получению через Фермерские Кейсы, добываемые в качестве награды за выполнение квестов, а также посредством ломания травы в Перевернутом Мире или через Сквизер."]
+			dependencies: ["040483BB075CA73D"]
+			hide: true
+			id: "0B475FB3008B50B4"
+			tasks: [
+				{
+					id: "6A020E4BF53469E1"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "40A1228202746822"
+					type: "item"
+					item: "minecraft:pumpkin_seeds"
+				}
+				{
+					id: "7402002E8E062D39"
+					type: "item"
+					item: "minecraft:melon_seeds"
+				}
+				{
+					id: "3CBEC7EDE06A415F"
+					type: "item"
+					item: "minecraft:beetroot_seeds"
+				}
+				{
+					id: "4DCC92AF512C30FB"
+					type: "item"
+					item: "farmersdelight:cabbage_seeds"
+				}
+				{
+					id: "43A19171F82F6066"
+					type: "item"
+					item: "farmersdelight:tomato_seeds"
+				}
+				{
+					id: "3F9B143673E683A5"
+					type: "item"
+					item: "corn_delight:corn_seeds"
+				}
+			]
+			rewards: [{
+				id: "2A63326012A5FD62"
+				type: "item"
+				item: "minecraft:rooted_dirt"
+				count: 12
+			}]
+		}
+		{
+			x: 2.0d
+			y: 0.0d
+			subtitle: "Если каша в голове, значит котелок варит"
+			description: ["Чаша для хранения жидкостей и съестных блюд."]
+			dependencies: ["040483BB075CA73D"]
+			hide: true
+			id: "2993A122F545D653"
+			tasks: [{
+				id: "6C8CA19B372DB15E"
+				type: "item"
+				item: "miners_delight:copper_cup"
+			}]
+			rewards: [{
+				id: "46D8C07DEF2CDA63"
+				type: "item"
+				item: {
+					id: "minecraft:fishing_rod"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: 4.0d
+			y: 0.0d
+			subtitle: "Простая готовка"
+			description: ["Как и Кухонный котёл, Горшок имеет ряд рецептов уникальных блюд, доступных Вам для создания на разных уровнях развития."]
+			dependencies: ["040483BB075CA73D"]
+			id: "59E7DAB4795F873C"
+			tasks: [{
+				id: "639DEBAB60D8CACA"
+				type: "item"
+				item: "miners_delight:copper_pot"
+			}]
+			rewards: [{
+				id: "1EBB191192CCF7E2"
+				type: "item"
+				item: "miners_delight:baked_cave_carrot"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: -1.5d
+			subtitle: "Первобытное пламя"
+			description: ["Может быть использован в декоре, в готовке и в сожжении еретиков."]
+			dependencies: ["040483BB075CA73D"]
+			hide: true
+			id: "6D1357AF4E8DFEEF"
+			tasks: [{
+				id: "3D381A915FE55706"
+				type: "item"
+				item: "minecraft:campfire"
+			}]
+			rewards: [{
+				id: "01F87F003D1D8FF3"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			subtitle: "Из неё можно получить звёздный нефрит?"
+			description: [
+				"&5Есть ненужные ресурсы? Переработайте их в Шлак!"
+				""
+				"Поместите нажатием ПКМ любой материал в Помойку, заполните её до конца и на выходе получите Шлак."
+			]
+			dependencies: ["040483BB075CA73D"]
+			hide: true
+			id: "74FAB49C0F98C0E6"
+			tasks: [{
+				id: "5F70AAD0BD618FC9"
+				type: "item"
+				item: "seeds:trash"
+			}]
+			rewards: [{
+				id: "799BAC2C3A8D1925"
+				type: "item"
+				item: "chipped:carved_pumpkin_19"
+			}]
+		}
+		{
+			x: 2.0d
+			y: -3.0d
+			subtitle: "Поместите на плиту и обжарьте без топлива"
+			description: ["Подобный Костру по функционалу кухонный блок. Поместите на него до 9 предметов для жарки или поставьте Горшок, Котёл или Сковороду, чтобы начать приготовления на них."]
+			dependencies: ["6D1357AF4E8DFEEF"]
+			id: "3D0A8286AD9CECD0"
+			tasks: [{
+				id: "28D15C61D991829B"
+				type: "item"
+				item: "farmersdelight:stove"
+			}]
+			rewards: [
+				{
+					id: "1DEFF2859E04EC0E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1250721272784892157L
+				}
+				{
+					id: "40F46273AA77F4C3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -1.5d
+			subtitle: "Ем свой утренний рис"
+			description: ["Использование котла даёт доступ к созданию продвинутых блюд с повышенным насыщением."]
+			dependencies: ["6D1357AF4E8DFEEF"]
+			id: "77A7D617F2413500"
+			tasks: [{
+				id: "6898185A1281D299"
+				type: "item"
+				item: "farmersdelight:cooking_pot"
+			}]
+			rewards: [
+				{
+					id: "190C7818566F7527"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1250721272784892157L
+				}
+				{
+					id: "264B963616D6AFAC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -3.0d
+			subtitle: "Сковородка — оружие свободы!"
+			description: ["Удобное оружие и полезное приспособление в прожарке."]
+			dependencies: ["6D1357AF4E8DFEEF"]
+			id: "5028589DA78750BD"
+			tasks: [{
+				id: "4B3A31B668BA5EBD"
+				type: "item"
+				item: {
+					id: "farmersdelight:skillet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "63B58C0A28155929"
+				type: "item"
+				item: "minecraft:clay"
+				count: 4
+			}]
+		}
+		{
+			x: 2.0d
+			y: 3.0d
+			subtitle: "H2O: просто оставь в мире"
+			description: ["Расположите блок Органического Компоста в мире и подождите. Для ускорения процесса превращения в Плодородную почву могут быть использованы различные внешние факторы."]
+			dependencies: [
+				"040483BB075CA73D"
+				"5871B4CDAB8FCCD5"
+			]
+			hide: true
+			id: "74437C270F862B79"
+			tasks: [{
+				id: "7E8AA524E55ECDB4"
+				type: "item"
+				item: "farmersdelight:organic_compost"
+			}]
+			rewards: [{
+				id: "6BA8D84A2F94D5FE"
+				type: "item"
+				item: "minecraft:bone_block"
+				count: 4
+			}]
+		}
+		{
+			x: 4.0d
+			y: 3.0d
+			subtitle: "Повышенная скорость роста растений"
+			description: [
+				"Растения на Плодородной Почве растут с большим ускорением. С использованием данного блока можно сделать неплохие автофермы."
+				""
+				"&5Однако же, не стоит забывать, что Вы не умеете создавать ручные приспособления для обработки земли. Вероятно, стоит найти иной подход к использованию данной Почвы."
+			]
+			dependencies: ["74437C270F862B79"]
+			id: "32173F65B848A89A"
+			tasks: [{
+				id: "657606F05EA2C2B8"
+				type: "item"
+				item: "farmersdelight:rich_soil"
+			}]
+			rewards: [{
+				id: "2E8230863CCC5180"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 3.0d
+			subtitle: "Можно поставить на подоконник"
+			description: ["Компактное вместилище Плодородной Почвы, которое можно разместить в любом месте своей базы. Оно не требует обработки, потому может сразу начать выращивать посаженное растение."]
+			dependencies: ["32173F65B848A89A"]
+			id: "1BB0C2CB33EFBE37"
+			tasks: [{
+				id: "7D03893B17837871"
+				type: "item"
+				item: "supplementaries:planter_rich"
+			}]
+			rewards: [{
+				id: "394467730ADAACC0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 3.0d
+			subtitle: "Летний дождь наливает в бутылку двора ночь"
+			description: ["&5Как Вы, вероятно, уже знаете, использование Костной муки никаким образом не помогает в выращивании растений. В качестве альтернативы для выращивания тех же деревьев Вам следует использовать специальное удобрение."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3003695F3A27EAC0"
+				"040483BB075CA73D"
+			]
+			hide: true
+			id: "24CFADABD945DEAE"
+			tasks: [{
+				id: "34B6EFEED265A05E"
+				type: "item"
+				item: "create:tree_fertilizer"
+			}]
+			rewards: [{
+				id: "30B7E5701886F4E3"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			title: "&rШлак"
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Шлакоблокунь"
+			description: ["Промежуточный материал, получаемый при переработке разных материалов в Помойке. В дальнейшем используется в Заводе Сплавов для создания Мусора."]
+			dependencies: ["74FAB49C0F98C0E6"]
+			hide: true
+			id: "3C97435CA394D3C2"
+			tasks: [{
+				id: "66B4244E9E09BBA1"
+				type: "item"
+				item: "seeds:garbages"
+			}]
+			rewards: [{
+				id: "7DFDA3292C04A29D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3022466149224120138L
+			}]
+		}
+		{
+			title: "&rМусор"
+			x: 2.0d
+			y: -4.5d
+			subtitle: "Полезная переработка"
+			description: [
+				"Сплав из Шлака и Железа, Мусор имеет одно из важнейших способ применения - создание Восстановителей. "
+				""
+				"&5А для чего ещё, по Вашему мнению, нужен мусор?!"
+			]
+			dependencies: ["3C97435CA394D3C2"]
+			hide: true
+			id: "25CA71F24B776EE3"
+			tasks: [{
+				id: "716E2BB4578A1DE3"
+				type: "item"
+				item: "seeds:stuff"
+			}]
+			rewards: [
+				{
+					id: "0D2251041697A7CD"
+					type: "item"
+					item: "seeds:stuff"
+				}
+				{
+					id: "7C8EA3280A4B68D2"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "&rМалый Восстановитель"
+			x: 4.0d
+			y: -4.5d
+			subtitle: "Если ты маленький, то всё равно способен на великое"
+			description: ["Восстановители чинят предметы, находящиеся в плачевном состоянии. От размера Восстановителя зависит количество прочности, которое может быть отремонтировано у инструмента."]
+			dependencies: ["25CA71F24B776EE3"]
+			id: "115F31B033BB8939"
+			tasks: [{
+				id: "7704382B3C0D4176"
+				type: "item"
+				item: {
+					id: "seeds:small_repairer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "2C797EA9474A7EAE"
+				type: "item"
+				item: "minecraft:raw_iron"
+				count: 5
+			}]
+		}
+		{
+			title: "&rСредний Восстановитель"
+			x: 6.0d
+			y: -4.5d
+			subtitle: "Золотая середина"
+			dependencies: ["115F31B033BB8939"]
+			id: "66B271721EC44CB1"
+			tasks: [{
+				id: "231CC9A3AF72EA3A"
+				type: "item"
+				item: {
+					id: "seeds:medium_repairer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "71AEA39941963D3D"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2698257103144768531L
+			}]
+		}
+		{
+			title: "&rБольшой Восстановитель"
+			x: 6.0d
+			y: -3.0d
+			subtitle: "Бесконечность не предел"
+			dependencies: ["66B271721EC44CB1"]
+			id: "17D643E474FBDABA"
+			tasks: [{
+				id: "4277AF30A0453450"
+				type: "item"
+				item: {
+					id: "seeds:big_repairer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "03EED73E3B41E3D2"
+					type: "item"
+					item: {
+						id: "create_sa:zinc_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "63B8E02F85D17280"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Продаётся картошка… Урожай 2017 года. 50 рублей стакан"
+			x: 4.0d
+			y: 1.5d
+			subtitle: "Первая степень фермера"
+			dependencies: ["0B475FB3008B50B4"]
+			id: "76BB6DF216694AFD"
+			tasks: [
+				{
+					id: "04F10AE761E769CF"
+					type: "item"
+					item: "minecraft:wheat"
+				}
+				{
+					id: "5064431706389125"
+					type: "item"
+					item: "minecraft:pumpkin"
+				}
+				{
+					id: "1A937846297F321F"
+					type: "item"
+					item: "minecraft:melon_slice"
+				}
+				{
+					id: "04BC19A1F6857705"
+					type: "item"
+					item: "minecraft:beetroot"
+				}
+				{
+					id: "7CB18967E459679E"
+					type: "item"
+					item: "farmersdelight:cabbage"
+				}
+				{
+					id: "4A6AE585FF0DB6F2"
+					type: "item"
+					item: "farmersdelight:tomato"
+				}
+				{
+					id: "0C189F7EADD7A4FE"
+					type: "item"
+					item: "corn_delight:corn"
+				}
+			]
+			rewards: [{
+				id: "5F5FD92FD16CF352"
+				type: "xp"
+				xp: 75
+			}]
+		}
+		{
+			icon: "ud_world_items:empty_tube"
+			x: 8.0d
+			y: 1.5d
+			subtitle: "Прессанём-ка"
+			description: ["Основа для будущих тюбиков с едой. Создание доступно на Прессе."]
+			dependencies: ["00D632F1F8E18FC7"]
+			hide: true
+			id: "579D244978A1D003"
+			tasks: [{
+				id: "698F107DDBC5EC94"
+				type: "item"
+				item: "ud_world_items:empty_tube"
+			}]
+			rewards: [
+				{
+					id: "4D5FF794C79F622F"
+					type: "item"
+					item: "farmersdelight:chicken_sandwich"
+				}
+				{
+					id: "505C841DA273B19C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 0.0d
+			subtitle: "Кто это есть-то будет?"
+			dependencies: ["579D244978A1D003"]
+			id: "4259318BF12BE943"
+			tasks: [{
+				id: "11BDF0397A9A86F1"
+				type: "item"
+				item: "ud_world_items:garbage_tube"
+			}]
+			rewards: [{
+				id: "5A2508A1623058C0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 0.0d
+			subtitle: "Если семена девать некуда"
+			dependencies: ["579D244978A1D003"]
+			id: "3023987DCABC034B"
+			tasks: [{
+				id: "64D11E7CD6E1010D"
+				type: "item"
+				item: "ud_world_items:seed_tube"
+			}]
+			rewards: [{
+				id: "7F8AB17BD7F0107B"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 12
+			}]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			subtitle: "Держи порох в пороховницах, а ягоды в ягодицах"
+			dependencies: ["579D244978A1D003"]
+			id: "0A9D633B6FB744F7"
+			tasks: [{
+				id: "735C73CB2F848C2D"
+				type: "item"
+				item: "ud_world_items:fruit_berry_tube"
+			}]
+			rewards: [{
+				id: "34F0BBC337109C25"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -1.5d
+			subtitle: "Упаковка овощей"
+			dependencies: ["579D244978A1D003"]
+			id: "6AF0980C888DC2A9"
+			tasks: [{
+				id: "34654BF80D514F9B"
+				type: "item"
+				item: "ud_world_items:vegetable_tube"
+			}]
+			rewards: [{
+				id: "4FA2A1859AE73C4C"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			x: 8.0d
+			y: -3.0d
+			subtitle: "Высшее блаженство"
+			dependencies: ["579D244978A1D003"]
+			id: "6F820F7195B59C3A"
+			tasks: [{
+				id: "44CB7236D3F831F0"
+				type: "item"
+				item: "ud_world_items:meat_tube"
+			}]
+			rewards: [{
+				id: "674FEB38FEE2D95B"
+				type: "item"
+				item: "farmersdelight:cooked_mutton_chops"
+				count: 3
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Живот не от пива, живот — для пива"
+			dependencies: ["040483BB075CA73D"]
+			hide: true
+			id: "6EFDE69C00690A20"
+			tasks: [{
+				id: "7213EFAC36264A22"
+				type: "item"
+				item: "brewinandchewin:keg"
+			}]
+			rewards: [{
+				id: "4BB8689092C9E71B"
+				type: "item"
+				item: "brewinandchewin:mead"
+			}]
+		}
+		{
+			title: "Завод Тюбиков"
+			icon: "ud_world_items:tube_icon"
+			x: 6.0d
+			y: 1.5d
+			shape: "heart"
+			subtitle: "Лучшая еда в сборке"
+			description: [
+				"&5Не всегда много еды - это хорошо. Бывает, что меньшее их количество упрощает хранение и получение. Для этого Вы должны превзойти сами себя. Что же будет, если объединить инженерию и готовку?"
+				""
+				"Завод Тюбиков потребляет FE-энергию и создаёт тюбик с определённым наполнением, которое определяет сам игрок. Вы можете создавать различные виды тюбов, эксперементируя с содержанием и получая на выходе лучший продукт питания."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"040483BB075CA73D"
+				"0B9189302064A77A"
+			]
+			hide: true
+			size: 1.25d
+			id: "00D632F1F8E18FC7"
+			tasks: [
+				{
+					id: "1BD171CBD60EA669"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "tube_factory"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "5B692255BEE2CB52"
+					type: "item"
+					item: "ud_world_items:simple_engineering_controller"
+				}
+				{
+					id: "72F0FAD3FDA7FCE1"
+					type: "item"
+					item: "ud_world_items:simple_engineering_input_block"
+				}
+				{
+					id: "14B81C359290779C"
+					type: "item"
+					item: "ud_world_items:simple_engineering_output_block"
+				}
+				{
+					id: "38147566018F1F54"
+					type: "item"
+					item: "ud_world_items:simple_engineering_bricks"
+					count: 9L
+				}
+				{
+					id: "300F82CA1B92B1D0"
+					type: "item"
+					item: "ud_world_items:simple_engineering_pillar"
+					count: 12L
+				}
+				{
+					id: "32AC15DEF1435FA5"
+					type: "item"
+					item: "ud_world_items:simple_engineering_base_block"
+				}
+			]
+			rewards: [{
+				id: "0D1675D25B0D4123"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,218 @@
+{
+  "version": 3,
+  "location": "cyao:basic_generator",
+  "ui": "assets/basic_generator_ui.mbdui",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 66,
+        "y": 68,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:blaze_rod\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:bucket\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:lava_bucket\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:coal_block\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:coal\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:charcoal\\\"}\"",
+          "\"{Count:1b,id:\\\"malum:arcane_charcoal\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:dried_kelp_block\\\"}\""
+        ]
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "progess",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:simple_engineering_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "basic_generator",
+  "basePattern": {
+    "structureDir": [
+      "FRONT",
+      "UP",
+      "LEFT"
+    ],
+    "pattern": [
+      [
+        "ABBA",
+        "ACCA",
+        "ABBA"
+      ],
+      [
+        "DBBD",
+        "E  B",
+        "DBBD"
+      ],
+      [
+        "BBBB",
+        "B  @",
+        "BBBB"
+      ],
+      [
+        "DBBD",
+        "F  B",
+        "DBBD"
+      ],
+      [
+        "ABBA",
+        "ACCA",
+        "ABBA"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:simple_engineering_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:basic_generator",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:simple_engineering_bricks"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "minecraft:redstone_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ud_world_items:simple_engineering_base_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "cyao:energy_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "cyao:energy_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ]
+    }
+  }
+}

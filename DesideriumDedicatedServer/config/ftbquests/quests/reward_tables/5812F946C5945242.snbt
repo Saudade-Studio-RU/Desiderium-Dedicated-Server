@@ -1,0 +1,44 @@
+{
+	id: "5812F946C5945242"
+	order_index: 1
+	title: "Алхимический кейс"
+	icon: "ud_world_items:alchemical_case"
+	tags: ["q3"]
+	loot_size: 1
+	hide_tooltip: true
+	use_title: true
+	rewards: [
+		{ item: "minecraft:gunpowder", count: 4, weight: 5 }
+		{ item: "minecraft:glowstone", count: 3, weight: 5 }
+		{ item: "minecraft:ender_pearl", weight: 5 }
+		{ item: "malum:processed_soulstone", weight: 4 }
+		{ item: "malum:runewood_sapling", weight: 4 }
+		{ item: "malum:hex_ash", count: 2, weight: 4 }
+		{ item: "malum:cursed_grit", count: 4, weight: 4 }
+		{ item: "malum:hallowed_gold_ingot", count: 3, weight: 3 }
+		{ item: "malum:soul_stained_steel_ingot", count: 3, weight: 3 }
+		{ item: "malum:ether", weight: 3 }
+		{ item: "spirit:soul_powder", count: 3, weight: 3 }
+		{ item: "ars_nouveau:purple_archwood_sapling", weight: 2 }
+		{ item: "ars_nouveau:magebloom_fiber", count: 3, weight: 2 }
+		{ item: "ars_nouveau:magebloom", weight: 2 }
+		{ item: "ars_nouveau:source_gem" }
+		{ item: "ars_nouveau:dull_trinket" }
+		{ item: "ars_nouveau:wilden_horn", count: 3 }
+		{ item: "ars_nouveau:wilden_wing", count: 2 }
+		{ item: "ars_nouveau:wilden_spike" }
+		{ item: "occultism:datura", count: 2, weight: 4 }
+		{ item: "occultism:otherworld_ashes", count: 3, weight: 4 }
+	]
+	loot_crate: {
+		drops: {
+			boss: 0
+			passive: 0
+			monster: 0
+		}
+		color: 7605127
+		item_name: "Алхимический кейс"
+		glow: 1b
+		string_id: "alchemy_loot_box"
+	}
+}

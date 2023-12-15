@@ -1,0 +1,271 @@
+{
+  "name": "byo_generator_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "a9bef7a5-67c0-45bd-9664-812927e480b3",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:apple"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 200,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "4ce9efe3-3822-415f-b9b7-9c142dda0a0b",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": [
+                {
+                  "item": "minecraft:sweet_berries"
+                },
+                {
+                  "item": "minecraft:glow_berries"
+                },
+                {
+                  "item": "minecraft:rotten_flesh"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 100,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "98ba40c7-ab91-4052-90b8-f6aba00d791b",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": [
+                {
+                  "item": "minecraft:kelp"
+                },
+                {
+                  "item": "minecraft:seagrass"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 100,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "04462410-d9ad-45fd-9ee7-f1d67d958d50",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": [
+                {
+                  "item": "minecraft:bamboo"
+                },
+                {
+                  "item": "minecraft:cactus"
+                },
+                {
+                  "item": "minecraft:sea_pickle"
+                },
+                {
+                  "item": "minecraft:big_dripleaf"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 100,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "a5ef7c28-3854-4da9-b70a-505f1d058651",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:cocoa_beans"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 50,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "16b387b3-150d-4d4e-8b25-170383e773f0",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": [
+                {
+                  "item": "minecraft:oak_sapling"
+                },
+                {
+                  "item": "minecraft:spruce_sapling"
+                },
+                {
+                  "item": "minecraft:birch_sapling"
+                },
+                {
+                  "item": "minecraft:jungle_sapling"
+                },
+                {
+                  "item": "minecraft:acacia_sapling"
+                },
+                {
+                  "item": "minecraft:dark_oak_sapling"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 150,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "cacadf92-8793-48b8-8eda-2325bc4e3f05",
+      "duration": 10,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": [
+                {
+                  "item": "farmersdelight:cabbage"
+                },
+                {
+                  "item": "minecraft:beetroot"
+                },
+                {
+                  "item": "farmersdelight:tomato"
+                },
+                {
+                  "item": "minecraft:potato"
+                },
+                {
+                  "item": "minecraft:carrot"
+                },
+                {
+                  "item": "minecraft:wheat"
+                },
+                {
+                  "item": "supplementaries:flax_seeds"
+                },
+                {
+                  "item": "farmersdelight:tomato_seeds"
+                },
+                {
+                  "item": "farmersdelight:cabbage_seeds"
+                },
+                {
+                  "item": "minecraft:beetroot_seeds"
+                },
+                {
+                  "item": "minecraft:melon_seeds"
+                },
+                {
+                  "item": "minecraft:pumpkin_seeds"
+                },
+                {
+                  "item": "minecraft:wheat_seeds"
+                },
+                {
+                  "item": "corn_delight:corn"
+                }
+              ]
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 150,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

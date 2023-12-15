@@ -1,0 +1,1933 @@
+{
+	id: "64C646F561034ABC"
+	group: "3D8ADA421153B1A3"
+	order_index: 0
+	filename: "64C646F561034ABC"
+	title: "Скитания"
+	icon: "ud_world_items:wandering_icon"
+	subtitle: ["&6Перевёрнутый Мир"]
+	default_quest_shape: "square"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&mПервое &mДерево"
+			x: 0.0d
+			y: 1.25d
+			subtitle: "Новый старт"
+			description: [
+				"&7Подобных миров Вы не увидите никогда. Невообразимая фауна и флора. Занимательная геологистика и крутые ландшафты. Одновременно с этим место столь отрешённое от поверхности, окутанное самой тьмой. Здесь будто не ступала нога человека, но вместе с тем здесь когда-то жила целая цивилизация. Что-то даже не верится. "
+				""
+				"&5Как и раньше, Ваше выживание начнётся с добычи дерева. Как говорится, бревно - всему голова!"
+			]
+			dependencies: ["3A34A9DF8765CFAC"]
+			hide: true
+			size: 1.25d
+			id: "14862C0DCF2E1058"
+			tasks: [{
+				id: "5A6DB60110A5E7F4"
+				type: "item"
+				title: "Любое бревно"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1F6F05181306681F"
+					type: "item"
+					item: "minecraft:oak_planks"
+					count: 16
+				}
+				{
+					id: "30E098005E047D80"
+					type: "item"
+					item: "minecraft:black_dye"
+					count: 4
+				}
+				{
+					id: "015D767A6C0DAA2D"
+					type: "item"
+					item: "minecraft:purple_bed"
+				}
+				{
+					id: "21CDD0BA6EBF91E3"
+					type: "command"
+					title: "Не забудь поспать!"
+					icon: "ars_nouveau:glyph_harm"
+					auto: "invisible"
+					command: "/tellraw @a {\"text\":\"Я так устал... Может быть лечь поспать, прежде чем продолжить путь?\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			title: "Буратино"
+			icon: "farmersdelight:cutting_board"
+			x: -2.0d
+			y: 1.5d
+			subtitle: "Всё начинается здесь"
+			description: ["&7Древесина - очень практичный материал для обуздания в разных жизненных ситуациях. Нужно подготовить первые устройства для снятия коры и получить надлежащие древесные материалы, чтобы придумать новейшее приспособление. Назову-ка я его..."]
+			dependencies: ["14862C0DCF2E1058"]
+			hide: true
+			id: "5871B4CDAB8FCCD5"
+			tasks: [
+				{
+					id: "2CDA8D3FE4408E1B"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "1724D233CFCA2D3C"
+					type: "item"
+					item: "farmersdelight:tree_bark"
+				}
+				{
+					id: "58F408A8333E5E38"
+					type: "item"
+					item: "farmersdelight:straw"
+				}
+			]
+			rewards: [{
+				id: "368E3195D9E0D7E4"
+				type: "item"
+				item: "farmersdelight:straw_bale"
+			}]
+		}
+		{
+			title: "Крюк-кошка"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Крюк делает *Вжух*"
+			description: ["&7О-да, это то, что нужно! Теперь я смогу перемещаться по верхним участкам Перевернутого Мира и даже цепляться за отвесные склоны. Мне подвластно всё в этом мире!"]
+			dependencies: ["5871B4CDAB8FCCD5"]
+			hide: true
+			id: "5BC7F5216EAE9DE9"
+			tasks: [{
+				id: "0EC300DA967F657F"
+				type: "item"
+				item: {
+					id: "grapplemod:grapplinghook"
+					Count: 1b
+					tag: {
+						Damage: 0
+						custom: {
+							doublehook: 0b
+							motor: 0b
+							phaserope: 0b
+							attract: 0b
+							rocket: 0b
+							hookgravity: 1.0d
+							repelforce: 1.0d
+							attractradius: 3.0d
+							pullbackwards: 1b
+							smartmotor: 0b
+							detachonkeyrelease: 0b
+							angle: 20.0d
+							crc32: 2252267022L
+							rocket_vertical_angle: 0.0d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							motordampener: 0b
+							rocket_active_time: 0.5d
+							throwspeed: 2.0d
+							motoracceleration: 0.2d
+							enderstaff: 0b
+							oneropepull: 0b
+							sneakingverticalthrowangle: 0.0d
+							smartdoublemotor: 1b
+							repel: 0b
+							sneakingangle: 10.0d
+							motormaxspeed: 4.0d
+							playermovementmult: 1.0d
+							reelin: 1b
+							sticky: 0b
+							verticalthrowangle: 0.0d
+							maxlen: 30.0d
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "1BBB2A0F3F5ECAC4"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			title: "Камнебор"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Набор каменных инструментов"
+			description: [
+				"&7Теперь-то можно и разгуляться!"
+				""
+				"&5Для создания каменных инструментов Вам потребуется печь, чтобы обработать Булыжник в Камень и приспособить его в рецепте."
+			]
+			dependencies: [
+				"14862C0DCF2E1058"
+				"1AC0418F34C4DDEC"
+			]
+			id: "4E3EAC8FF7E95964"
+			tasks: [
+				{
+					id: "672B1A1EF449F9C9"
+					type: "item"
+					item: {
+						id: "minecraft:stone_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F2C1DD5C28BF647"
+					type: "item"
+					item: {
+						id: "minecraft:stone_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5658C438E1288595"
+					type: "item"
+					item: {
+						id: "minecraft:stone_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3BBC11597BA8B928"
+					type: "item"
+					item: {
+						id: "minecraft:stone_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6D89179606A9B3E2"
+					type: "item"
+					item: "farmersdelight:kelp_roll_slice"
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Штирлиц топил печку. Через час печка утонула"
+			description: ["&7Благо теперь мне не нужно создавать сложные мультиблочные механизмы для переплавки ресурсов. Новая печь будет компактной и универсальной."]
+			dependencies: ["14862C0DCF2E1058"]
+			id: "1AC0418F34C4DDEC"
+			tasks: [{
+				id: "263A0026D207916D"
+				type: "item"
+				item: "minecraft:furnace"
+			}]
+			rewards: [
+				{
+					id: "40D91553593AF84E"
+					type: "item"
+					item: "minecraft:charcoal"
+					count: 3
+				}
+				{
+					id: "0AF26F0E8C37B956"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Руды"
+			icon: "minecraft:raw_iron"
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Твой шахтёр идёт домой..."
+			description: ["&5Для дальнейшего развития модификаций Вам обязательно понадобятся базовые ресурсы данного мира: железо, медь и уголь в качестве топлива. Когда же Вы откроете новые уровни копания, сможете добывать больше разных материалов."]
+			dependencies: ["4E3EAC8FF7E95964"]
+			id: "429C1DA473D5A08E"
+			tasks: [
+				{
+					id: "2CA7B31565CF2022"
+					type: "item"
+					title: "Уголь"
+					item: "minecraft:coal"
+					count: 8L
+				}
+				{
+					id: "0CE5784AAD3C97EC"
+					type: "item"
+					title: "Рудное железо"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:raw_materials/iron"
+						}
+					}
+					count: 4L
+				}
+				{
+					id: "0D4DC615428E2708"
+					type: "item"
+					title: "Рудная медь"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:raw_materials/copper"
+						}
+					}
+					count: 8L
+				}
+			]
+			rewards: [{
+				id: "55EF1BE296F5155B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2698257103144768531L
+			}]
+		}
+		{
+			title: "Хранилища"
+			icon: "minecraft:barrel"
+			x: -4.0d
+			y: 4.5d
+			subtitle: "Просто и удобно"
+			description: ["&7Здесь и комментировать сложно, это же просто базовые виды хранилищ, которые доступны мне на данный момент."]
+			hide_dependency_lines: true
+			dependencies: ["14862C0DCF2E1058"]
+			hide: true
+			id: "63553A01CF18A3E4"
+			tasks: [
+				{
+					id: "2C7477D1CF43C8B5"
+					type: "item"
+					title: "Бочка"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:barrels"
+						}
+					}
+				}
+				{
+					id: "1B386DED4F80BC2E"
+					type: "item"
+					item: "minecraft:chest"
+				}
+			]
+			rewards: [{
+				id: "5301328A1D33F7BB"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2698257103144768531L
+			}]
+		}
+		{
+			title: "Продвинутое хранение"
+			icon: "storagedrawers:oak_full_drawers_4"
+			x: -4.0d
+			y: 6.0d
+			subtitle: "Всего и сразу"
+			description: ["В разных ящиках Вы можете хранить разное количество видов ресурсов. Количество закладываемых ресурсов ограничено. Для увеличения вместимости могут быть использованы улучшения."]
+			dependencies: ["63553A01CF18A3E4"]
+			hide: true
+			id: "1B703162F494F7D1"
+			tasks: [{
+				id: "3CF9775AB20A5E3A"
+				type: "item"
+				title: "Любой ящик"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1C7EE73FB26639E3"
+					type: "item"
+					item: "minecraft:birch_log"
+					count: 8
+				}
+				{
+					id: "3AE733DD5D54F625"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Железный сундук"
+			x: -6.0d
+			y: 10.5d
+			subtitle: "Береги железо от ржавчины"
+			hide_dependency_lines: true
+			dependencies: [
+				"429C1DA473D5A08E"
+				"3505363151F5C9BE"
+			]
+			hide: true
+			id: "78E4D1AD22A79A58"
+			tasks: [{
+				id: "7EB06DE905EC6216"
+				type: "item"
+				item: "ironchest:iron_chest"
+			}]
+			rewards: [{
+				id: "5A48DC57B6C69E0A"
+				type: "item"
+				item: "minecraft:raw_iron_block"
+			}]
+		}
+		{
+			title: "Украшения"
+			icon: "another_furniture:oak_chair"
+			x: -6.0d
+			y: 4.5d
+			subtitle: "Будет на чём посидеть"
+			description: ["Неплохой начальный набор украшений для украшения собственной кибитки."]
+			hide_dependency_lines: true
+			dependencies: ["14862C0DCF2E1058"]
+			hide: true
+			id: "30346F83CC8C1F0B"
+			tasks: [
+				{
+					id: "1BF13CA0172DBEBC"
+					type: "item"
+					title: "Стул"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "another_furniture:chairs"
+						}
+					}
+				}
+				{
+					id: "408416DE238FDF4A"
+					type: "item"
+					title: "Полка"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "another_furniture:shelves"
+						}
+					}
+				}
+				{
+					id: "4A742BCF990AC393"
+					type: "item"
+					title: "Стол"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "another_furniture:tables"
+						}
+					}
+				}
+				{
+					id: "547251540B14E9DF"
+					type: "item"
+					title: "Ящик"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "another_furniture:drawers"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1479B75FEED816BC"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 2698257103144768531L
+			}]
+		}
+		{
+			title: "Столы для обработки"
+			icon: "chipped:botanist_workbench"
+			x: -6.0d
+			y: 6.0d
+			subtitle: "Аналог Chisel"
+			description: ["Каждый отдельный стол используется для создания вариаций различных блоков."]
+			hide_dependency_lines: true
+			dependencies: ["14862C0DCF2E1058"]
+			hide: true
+			id: "12A9358C53606CC4"
+			tasks: [
+				{
+					id: "204362A0F0AE0E87"
+					type: "item"
+					item: "chipped:botanist_workbench"
+				}
+				{
+					id: "2BEBC3D4D8486E46"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "7465C1620B5F8763"
+					type: "item"
+					item: "chipped:carpenters_table"
+				}
+				{
+					id: "5FEECE85A315DFA4"
+					type: "item"
+					item: "chipped:loom_table"
+				}
+				{
+					id: "496A9E4A213F5591"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+				{
+					id: "044881B2F8BD81BE"
+					type: "item"
+					item: "chipped:alchemy_bench"
+				}
+				{
+					id: "5606A124E71AFDA2"
+					type: "item"
+					item: "chipped:mechanist_workbench"
+				}
+			]
+			rewards: [
+				{
+					id: "796A6E5FA9275597"
+					type: "item"
+					item: "storagedrawers:gold_storage_upgrade"
+				}
+				{
+					id: "49CDDFAF287FB3A7"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+			]
+		}
+		{
+			title: "Базовое улучшение крюк-кошки"
+			x: 6.0d
+			y: 6.0d
+			subtitle: "Если есть то, чего ты не знаешь, — изучай это"
+			description: ["Основа для будущих улучшений Крюк-Кошки."]
+			hide_dependency_lines: true
+			dependencies: ["5BC7F5216EAE9DE9"]
+			hide: true
+			id: "29EC79125FAE057D"
+			tasks: [{
+				id: "2B54AFBCF9F364EC"
+				type: "item"
+				item: "grapplemod:baseupgradeitem"
+			}]
+			rewards: [
+				{
+					id: "58E584DE04E33355"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "5104DE4EF820976B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.5d
+			subtitle: "Порхай как бабочка, жаль как пчела"
+			description: ["&7В начале сгодится и незатейливый планер. Тем паче, что уже с ним будет куда проще опускаться с высоких поверхностей и передвигаться по Миру."]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			id: "410FC0291E82D284"
+			tasks: [{
+				id: "0B178C77C28DE75B"
+				type: "item"
+				item: "paraglider:paraglider"
+			}]
+			rewards: [
+				{
+					id: "5EB107BB19097D2F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1250721272784892157L
+				}
+				{
+					id: "5918DFF7A4D4C320"
+					type: "item"
+					item: "cyao_lore:note_4"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 9.0d
+			subtitle: "Одна нога - здесь, другая - там"
+			description: ["&7Путеводные Обелиски использовались почти повсеместно. Люди привыкли к телепортации на большие дистанции и уже редко когда прибегали к более простым способам транспортировки. Пожалуй, мне тоже стоит наконец-то вырасти из своих устройств."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4CF9A4B0E9A7A5A1"
+				"7C9A227AC62D95C8"
+			]
+			hide: true
+			id: "6C12C25FA7885B6B"
+			tasks: [{
+				id: "6E12F7F3A6304CA3"
+				type: "item"
+				item: "waystones:waystone"
+			}]
+			rewards: [
+				{
+					id: "08E0F27B2253C08A"
+					type: "item"
+					item: "endertaur:enderium_bucket"
+				}
+				{
+					id: "0E284D3549175E81"
+					type: "item"
+					item: "farmersdelight:hamburger"
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 9.0d
+			subtitle: "Не все то золото, что блестит"
+			hide_dependency_lines: true
+			dependencies: [
+				"429C1DA473D5A08E"
+				"78E4D1AD22A79A58"
+			]
+			hide: true
+			id: "51571FBDB890CB52"
+			tasks: [{
+				id: "6A6DDE82E1BA973F"
+				type: "item"
+				item: "ironchest:gold_chest"
+			}]
+			rewards: [{
+				id: "3374BE51A2EF8F8F"
+				type: "item"
+				item: "farmersdelight:bone_broth"
+			}]
+		}
+		{
+			x: -6.0d
+			y: 9.0d
+			subtitle: "Как деревянный, но лучше"
+			description: ["Продвинутые разновидности сундуков имеют в себе больше свободного пространства для хранения ресурсов. От вида используемого материала зависит прочность и заполняемость."]
+			hide_dependency_lines: true
+			dependencies: ["429C1DA473D5A08E"]
+			hide: true
+			id: "3505363151F5C9BE"
+			tasks: [{
+				id: "22F77D784A36992C"
+				type: "item"
+				item: "ironchest:copper_chest"
+			}]
+			rewards: [
+				{
+					id: "39B66F02D3CC1830"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+				{
+					id: "7ACB7BF4FA198792"
+					type: "item"
+					item: "ud_world_items:seed_tube"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 10.5d
+			subtitle: "Всё же огранённый"
+			hide_dependency_lines: true
+			dependencies: [
+				"429C1DA473D5A08E"
+				"51571FBDB890CB52"
+				"7C9A227AC62D95C8"
+			]
+			hide: true
+			id: "26FC77541993E792"
+			tasks: [{
+				id: "2755D81641EDD154"
+				type: "item"
+				item: "ironchest:diamond_chest"
+			}]
+			rewards: [
+				{
+					id: "027FAF7B23DB2198"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "25EBDC08DF65E82D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 4.5d
+			shape: "octagon"
+			subtitle: "Эра Андезита"
+			description: ["&7Находясь глубоко в шахте, на миг я задумался... Что, если уже не один и не два раза мне приходится проходить через это? Вдруг нечто похожее случалось и впредь? Почему я всегда всё забываю? Что именно было позади и что нужно пережить вновь, там, в будущем? Эти вопросы не дают мне покоя, пока я копаю Андезит."]
+			hide_dependency_lines: true
+			dependencies: ["1AC0418F34C4DDEC"]
+			hide: true
+			size: 1.2d
+			id: "01DE57C1A6DF8965"
+			tasks: [{
+				id: "5143213563E038F4"
+				type: "item"
+				item: "minecraft:andesite"
+			}]
+			rewards: [{
+				id: "5206481C37CD1B07"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 8
+			}]
+		}
+		{
+			x: 2.0d
+			y: 4.0d
+			subtitle: "Еда для гурманов"
+			description: ["&7В недрах местных пещер я могу найти съестную разновидность Морковки. Она станет моей первой едой. Неплохое начало, скажу я."]
+			hide_dependency_lines: true
+			dependencies: ["4E3EAC8FF7E95964"]
+			hide: true
+			id: "4005D946F9F00F8A"
+			tasks: [{
+				id: "3521A6B77A3EA9E8"
+				type: "item"
+				item: "miners_delight:cave_carrot"
+			}]
+			rewards: [{
+				id: "6F2C9CF46F8DE936"
+				type: "item"
+				item: "farmersdelight:melon_popsicle"
+			}]
+		}
+		{
+			title: "Обработка диорита"
+			x: 0.0d
+			y: 6.0d
+			subtitle: "Tinkers Construct на минималках"
+			description: [
+				"В этой сборке существует одна очень занятная механика - создание инструментов посредством залива заранее вырезанных из диорита форм. "
+				""
+				"&5Итак, чтобы создать первые инструменты с повышенным уровнем копания Вам предстоит собрать немного диорита, создать Пустой шаблон, а затем вырезать нужную Форму в Камнерезе."
+			]
+			dependencies: ["4E3EAC8FF7E95964"]
+			id: "38B83887C30CEF17"
+			tasks: [
+				{
+					id: "2AE263289EA1BD1B"
+					type: "item"
+					item: "minecraft:diorite"
+					count: 8L
+				}
+				{
+					id: "76BDF8BC9971C7E5"
+					type: "item"
+					item: "cyao_stuff:blank_pattern"
+				}
+			]
+			rewards: [{
+				id: "62CDA3AD50A72D57"
+				type: "item"
+				item: "cyao_stuff:blank_pattern"
+				count: 2
+			}]
+		}
+		{
+			x: -2.0d
+			y: 6.0d
+			subtitle: "Отсечь всё лишнее"
+			description: ["&7Камнерез должен позволить мне создавать вариации разных каменных блоков, а может даже я смогу обуздать и иной его функционал."]
+			dependencies: ["1AC0418F34C4DDEC"]
+			hide: true
+			id: "272C7F151576395B"
+			tasks: [{
+				id: "17AEA6F93AC8C227"
+				type: "item"
+				item: "minecraft:stonecutter"
+			}]
+			rewards: [{
+				id: "6C3B5612EE60EBA8"
+				type: "item"
+				item: "minecraft:stone"
+				count: 24
+			}]
+		}
+		{
+			title: "Шаблоны инструментов"
+			x: 0.0d
+			y: 7.5d
+			subtitle: "Всё собрал?"
+			description: ["&5На камнерезе Вы можете создать шаблоны инструментов, чтобы впоследствии залить их определённым переплавленным материалом и сконструировать первые продвинутые инструменты."]
+			dependencies: [
+				"272C7F151576395B"
+				"38B83887C30CEF17"
+			]
+			id: "53360587D65C45D1"
+			tasks: [
+				{
+					id: "6E49D1CDAB82B9F8"
+					type: "item"
+					item: "cyao_stuff:axe_head_pattern"
+				}
+				{
+					id: "2D49FC01C5EE1270"
+					type: "item"
+					item: "cyao_stuff:pickaxe_head_pattern"
+				}
+				{
+					id: "2867404ED7BCCF5B"
+					type: "item"
+					item: "cyao_stuff:shovel_head_pattern"
+				}
+			]
+			rewards: [
+				{
+					id: "6E25CF333455984E"
+					type: "item"
+					item: "cyao_stuff:sword_head_pattern"
+				}
+				{
+					id: "03842C13B1EFFCC5"
+					type: "item"
+					item: "ud_world_items:vegetable_tube"
+					count: 4
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 9.0d
+			subtitle: "Создание Всполоха"
+			description: [
+				"&5Получите Порошок Блейза в Смешивателе, используя Порох и Измельчённую магму."
+				""
+				"&5Найдите в мире Зомби, нажмите ПКМ и заспавните Ифрита. Затем Вы можете поместить его в Горелку для Всполоха."
+			]
+			dependencies: ["71ABDAB398D3D0A6"]
+			id: "0B49FBF552A0BD1A"
+			tasks: [{
+				id: "5FB37090DC569959"
+				type: "item"
+				item: "minecraft:blaze_powder"
+			}]
+			rewards: [
+				{
+					id: "4EE4B1A02C29B7BD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1748955132031137801L
+				}
+				{
+					id: "03DC5BB76B489F4E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 7.5d
+			subtitle: "Ад в комнатных условиях"
+			description: [
+				"&5Залейте Булыжник в Чане Лавой и получите на выходе Магму. В дальнейшем Вам это пригодится для продвижения."
+				""
+				"&5Разбейте Блок Магмы Киркой, используя ПКМ, чтобы добыть Измельчённую Магму."
+			]
+			dependencies: ["708C13855415261C"]
+			id: "71ABDAB398D3D0A6"
+			tasks: [{
+				id: "40932FB02B4E53EB"
+				type: "item"
+				item: "minecraft:magma_block"
+			}]
+			rewards: [{
+				id: "3DA3E9F80E017F08"
+				type: "item"
+				item: "create_things_and_misc:crushed_magma"
+			}]
+		}
+		{
+			title: "Железный арсенал"
+			x: 0.0d
+			y: 9.0d
+			subtitle: "Мой дорогой солдат, что ты натворил?"
+			description: ["&7Отлично! Мне наконец-то доступны улучшенные инструменты! Интересно, какие ресурсы теперь я могу добывать с их помощью?"]
+			dependencies: [
+				"53360587D65C45D1"
+				"0B49FBF552A0BD1A"
+			]
+			id: "3491429455E0844E"
+			tasks: [
+				{
+					id: "32A6BA774F63CC7E"
+					type: "item"
+					item: {
+						id: "minecraft:iron_pickaxe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0D2105E0268F53B9"
+					type: "item"
+					item: {
+						id: "minecraft:iron_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "04AD8939D836EB1D"
+					type: "item"
+					item: {
+						id: "minecraft:iron_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "76C84ABBCE4B5B1D"
+				type: "item"
+				item: {
+					id: "minecraft:iron_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+		}
+		{
+			x: -2.0d
+			y: 9.0d
+			subtitle: "Щ.И.Т."
+			description: ["Блокируйте удары монстров и летящие в Вас снаряды нажатием ПКМ, держа Щит в одной из рук."]
+			hide_dependency_lines: true
+			dependencies: [
+				"3491429455E0844E"
+				"3003695F3A27EAC0"
+			]
+			hide: true
+			id: "50CFB84870199124"
+			tasks: [{
+				id: "02BA90E262AB529B"
+				type: "item"
+				item: {
+					id: "minecraft:shield"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "47D7D36E18E6127E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+				{
+					id: "787EDF7D260E66E8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 10.5d
+			subtitle: "Углеродное золото"
+			description: [
+				"&7Я думал, уж некая часть воспоминаний вернётся ко мне, я пойму, где и почему нахожусь. В моей голове есть лишь поверхностные сведения о том, что это за материалы, как их использовать. Но зачем всё это? У меня ещё нет ответа. Существует ли он вообще?"
+				""
+				"&5Не удаётся найти алмазную руду? Преобразуйте через магию душ изумруды в нужный Вам драгоценный камень!"
+			]
+			dependencies: ["3491429455E0844E"]
+			hide: true
+			id: "7C9A227AC62D95C8"
+			tasks: [{
+				id: "01E405B7BCEF3FDE"
+				type: "item"
+				item: "minecraft:diamond"
+			}]
+			rewards: [
+				{
+					id: "0034BE66E54F2FD5"
+					type: "item"
+					item: {
+						id: "supplementaries:flute"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "369F69AF21157074"
+					type: "item"
+					item: "farmersdelight:glow_berry_custard"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 10.5d
+			subtitle: "Карьерный рост"
+			description: ["&7В момент, когда я добыл \"первые свои Алмазы\", мне открылись не только знания о материале, но и понимание, как их можно использовать. Вылитые из железа инструменты уже не прельщают своей эффективностью и прочностью, а создать подобное из алмазов попросту невозможно. Потому я вынужден искать обходной путь. Что, если я вернусь чуток назад, когда в Пустоши создал Железный Бур? Наверняка можно опираться на старую концепцию, использовать новые ресурсы и получить совершенно Новый Бур?"]
+			dependencies: ["7C9A227AC62D95C8"]
+			id: "56B6238FD19FF99B"
+			tasks: [{
+				id: "6F0C38E6A8F50470"
+				type: "item"
+				item: {
+					id: "drills:diamond_drill"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "67D42790A4273719"
+					type: "item"
+					item: "minecraft:diamond_ore"
+					count: 3
+				}
+				{
+					id: "19D011F2173ACA10"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "78FA45182F59EA7C"
+					type: "item"
+					item: "cyao_lore:note_6"
+				}
+			]
+		}
+		{
+			title: "Редстоуновая пыль"
+			x: 4.0d
+			y: 9.0d
+			subtitle: "Сила Красных!"
+			description: ["&7Редстоун, на удивление, имеет отличную энергопроводимость и может статься, получится его использовать для допотопных механических структур."]
+			dependencies: ["3491429455E0844E"]
+			hide: true
+			id: "620820CCA387BA42"
+			tasks: [{
+				id: "367EF1A54330E5F1"
+				type: "item"
+				item: "minecraft:redstone"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "4E9FC28983B68386"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1748955132031137801L
+				}
+				{
+					id: "26CCB70C1C67AC1D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Редстоун Инженерия"
+			x: 4.0d
+			y: 10.5d
+			subtitle: "Микроблоки"
+			description: ["Микроблочные экземпляры редстоун-блоков и механизмов будут полезны для игроков, желающих создать незаметную логистику для своей базы на основе ванильной автоматизации."]
+			dependencies: ["620820CCA387BA42"]
+			hide: true
+			id: "2D3FA3F4A198ADE8"
+			tasks: [
+				{
+					id: "1129878CE8EB2B60"
+					type: "item"
+					item: "tinyredstone:redstone_wrench"
+				}
+				{
+					id: "415D4F6D827AE238"
+					type: "item"
+					item: "tinyredstone:block_chopper"
+				}
+				{
+					id: "38A758FFB1BF8663"
+					type: "item"
+					item: "tinyredstone:redstone_panel"
+				}
+			]
+			rewards: [{
+				id: "5948B41A33E79EF2"
+				type: "item"
+				item: "minecraft:redstone_block"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 12.0d
+			subtitle: "Зачаровать или очаровать?"
+			description: ["&7Объединив углерод, обсидиановые блоки и мистические книги, я получил энный механизм. Чисто в теории допускаю возможность усиления с помощью своего изобретения имеющихся на руках у меня инструментов. Вероятно, для лучшего эффекта стоит поставить больше Книжных Полок рядом."]
+			dependencies: [
+				"7C9A227AC62D95C8"
+				"0A8D69C76439C156"
+			]
+			id: "46A91588323EDA1D"
+			tasks: [{
+				id: "5FC19F07F6A41348"
+				type: "item"
+				item: "minecraft:enchanting_table"
+			}]
+			rewards: [{
+				id: "3C5E435778D5E89F"
+				type: "item"
+				item: "minecraft:bookshelf"
+				count: 3
+			}]
+		}
+		{
+			title: "Медный Всадник"
+			icon: "minecraft:raw_copper"
+			x: 4.0d
+			y: 4.5d
+			subtitle: "Через огонь, воду и медные трубы"
+			description: ["&7Эта броня получилась такой знакомой. Где я её уже видел?"]
+			hide_dependency_lines: true
+			dependencies: [
+				"4E3EAC8FF7E95964"
+				"429C1DA473D5A08E"
+				"3003695F3A27EAC0"
+			]
+			hide: true
+			id: "5C40FE925AE1B69C"
+			tasks: [
+				{
+					id: "523F5BA0767956BA"
+					type: "item"
+					item: {
+						id: "ud_world_items:copper_sheet_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C7C0460CDD14583"
+					type: "item"
+					item: {
+						id: "ud_world_items:copper_sheet_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4B1D5142134659C2"
+					type: "item"
+					item: {
+						id: "ud_world_items:copper_sheet_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "69EAB353984ABE01"
+					type: "item"
+					item: {
+						id: "ud_world_items:copper_sheet_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2F2C27D46F9E032E"
+					type: "item"
+					item: {
+						id: "supplementaries:wrench"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0E63C804B141E558"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Железный человек"
+			x: 4.0d
+			y: 6.0d
+			subtitle: "Железобетон"
+			description: ["&7Раньше это, кажется, называли \"Снаряжением рыцаря\". В моём мире, конечно, никто подобного не носил. Это просто неудобно. У нас были комфортные плащи, смокинги или стандартное снаряжение рабочего из углеволокна или вторичного сырья. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"429C1DA473D5A08E"
+				"1AC0418F34C4DDEC"
+			]
+			hide: true
+			id: "0FC280587C0D5E95"
+			tasks: [
+				{
+					id: "22DD8A3F7D22972A"
+					type: "item"
+					item: {
+						id: "minecraft:iron_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0C76214D538AF868"
+					type: "item"
+					item: {
+						id: "minecraft:iron_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "78773E520E448982"
+					type: "item"
+					item: {
+						id: "minecraft:iron_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2F84208D9C4EF8F7"
+					type: "item"
+					item: {
+						id: "minecraft:iron_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "224FEBCA108091B5"
+				type: "item"
+				item: "create:crushed_iron_ore"
+				count: 7
+			}]
+		}
+		{
+			x: 4.0d
+			y: 13.5d
+			subtitle: "Юный Алхимик"
+			description: ["&7В условиях, когда моя жизнь напрямую зависит от того, что я сейчас делаю, последнее, чем хотелось бы заняться - это приготовление Зелий разного содержания. Однако же, совсем забивать на Зельеварение не стоит, в будущем мне могут пригодиться Снадобья с положительными эффектами."]
+			hide_dependency_lines: true
+			dependencies: ["0B49FBF552A0BD1A"]
+			hide: true
+			id: "1C6082C0250AE5CD"
+			tasks: [{
+				id: "5CF275C3D692BD11"
+				type: "item"
+				item: "minecraft:brewing_stand"
+			}]
+			rewards: [
+				{
+					id: "7D6DE7A0E2ACA794"
+					type: "item"
+					item: "minecraft:experience_bottle"
+					count: 4
+				}
+				{
+					id: "33998D84B56431A8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Какой ты Эндермен?"
+			x: 6.0d
+			y: 13.5d
+			subtitle: "Скажи моё имя"
+			description: ["Отдельные резервуары и хранилища помогут сохранить вещи и структурировать логистику. Покрасьте Сундук или Резервуар в определённую комбинацию цвета, используя шерсть, чтобы создать отдельное пространство. От назначаемых цветов в Контейнерах будет зависеть принадлежность блока или рюкзака хранения."]
+			hide_dependency_lines: true
+			dependencies: ["0B49FBF552A0BD1A"]
+			hide: true
+			id: "4F4302D2D00C20CD"
+			tasks: [
+				{
+					id: "1125F3C5635023B5"
+					type: "item"
+					item: "enderstorage:ender_chest"
+					match_nbt: false
+				}
+				{
+					id: "36BCD601E55AF07C"
+					type: "item"
+					item: "enderstorage:ender_tank"
+					match_nbt: false
+				}
+				{
+					id: "3404841DDA0A1FA5"
+					type: "item"
+					item: "enderstorage:ender_pouch"
+					match_nbt: false
+				}
+			]
+			rewards: [{
+				id: "4432F302E8D358F0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			title: "Охотник на Ос"
+			icon: {
+				id: "wasps:swarm_scepter"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: 13.5d
+			subtitle: "Летит оса, летит оса"
+			description: ["&7Условия существования живых организмов в этом мире изменились. Следствием подобного стало появление адаптирующихся животных и монстров. Осы - один из подвидов летающих существ, способных поразить противника при приближении. Обычно обитают в ульях, располагаемых на деревьях и возвышенностях. Придерживаются стадной охоты."]
+			hide_dependency_lines: true
+			dependencies: ["7C9A227AC62D95C8"]
+			hide: true
+			id: "4D52786023774E96"
+			tasks: [{
+				id: "4CD56E8E6F83C389"
+				type: "kill"
+				title: "Убить Осу x2"
+				entity: "wasps:wasp"
+				value: 2L
+			}]
+			rewards: [{
+				id: "277DB3219D5E4D63"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: -2.0d
+			y: 12.0d
+			subtitle: "WorldEdit"
+			description: ["&7Люди часто прибегали к изобретениям, которые упростили бы их существование в новых условиях. Мы все не обделены этой черты, а потому нужно продолжить совершенствовать свой арсенал, чтобы выжить в суровом Перевёрнутом мире."]
+			dependencies: ["7C9A227AC62D95C8"]
+			id: "04E792896D575B02"
+			tasks: [{
+				id: "70FF7ADAAEDF2B40"
+				type: "item"
+				item: {
+					id: "constructionwand:diamond_wand"
+					Count: 1b
+					tag: {
+						wand_options: { }
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1829F89C3262C33E"
+				type: "xp"
+				xp: 65
+			}]
+		}
+		{
+			x: -2.0d
+			y: 13.5d
+			subtitle: "Лёгок спуск в Ад"
+			description: ["&7Голос внутри никогда не молчит. Я чётко слышу отголоски чьей-то памяти внутри себя. Оно повторяет: сломай обсидиан, построй рамку портала и зажги его огнивом. Но зачем мне это? Неужели я переборщил с Алхимией, надышался испарениями, и теперь меня мучают галлюцинации? Нужно выйти подышать свежим воздухом, прежде чем продолжить."]
+			dependencies: ["7C9A227AC62D95C8"]
+			hide: true
+			id: "5270E80E56286A44"
+			tasks: [{
+				id: "2298E86C34F0DB8D"
+				type: "item"
+				item: "minecraft:netherite_scrap"
+			}]
+			rewards: [{
+				id: "69A1A86267448F50"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 6346408907276309058L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 10.5d
+			subtitle: "*Вжух* и ты..."
+			description: ["Посох, позволяющий ставить временные блоки в нужном направлении. "]
+			hide_dependency_lines: true
+			dependencies: [
+				"620820CCA387BA42"
+				"429C1DA473D5A08E"
+			]
+			hide: true
+			id: "2325E7E93CC6C8D1"
+			tasks: [{
+				id: "4792B66678401559"
+				type: "item"
+				item: "placementutil:temporary_wand"
+			}]
+			rewards: [{
+				id: "6B052368765CDF8C"
+				type: "item"
+				title: "Земля??"
+				item: "minecraft:dirt"
+				count: 32
+			}]
+		}
+		{
+			title: "Ферма Лавы"
+			x: 2.0d
+			y: 6.0d
+			subtitle: "Бесконечный источник"
+			description: [
+				"&7Лава как первостепенный источник энергии для механизмов и печей справляется со своей задачей сверх ожидаемого. "
+				""
+				"&5Для создания Фермы необходимо разместить Лаву на поверхности, под блоком поверхности поставить Капельник, а внизу - Котёл. Со временем Лава скопится в Котле, и Вы сможете собрать её в ёмкость."
+			]
+			dependencies: [
+				"429C1DA473D5A08E"
+				"1AC0418F34C4DDEC"
+			]
+			id: "708C13855415261C"
+			tasks: [
+				{
+					id: "6230314835B65AD4"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "30B0EEF8C760F02E"
+					type: "item"
+					item: "minecraft:pointed_dripstone"
+				}
+				{
+					id: "02E806F5E6183EE4"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+			]
+			rewards: [{
+				id: "392E8B1416E05340"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			title: "Король Грязи"
+			x: 2.0d
+			y: 10.5d
+			subtitle: "Пора покопаться в грязи"
+			description: [
+				"&5Сбор экземпляров почвы с поверхностей и внутренних шахт Перевернутого Мира поможет Вам в понимании того, как можно перерабатывать ресурсы и получать новые."
+				""
+				"&5Если с Гравием и Песком всё достаточно просто, то для добычи Корнистой Земли необходимо создать Костную Муку и нажать ею ПКМ по обычной Земле для переработки. Затем просто скопайте появившиеся блоки и выполните этот квест."
+			]
+			dependencies: ["2FCAA20E12DF4EF9"]
+			hide: true
+			id: "64ED38968988DD9F"
+			tasks: [
+				{
+					id: "3252C46980836862"
+					type: "item"
+					item: "minecraft:rooted_dirt"
+					count: 12L
+				}
+				{
+					id: "15020F40A7D4276E"
+					type: "item"
+					item: "minecraft:sand"
+					count: 12L
+				}
+				{
+					id: "39D21FC7BE1A1E91"
+					type: "item"
+					item: "minecraft:gravel"
+					count: 12L
+				}
+			]
+			rewards: [{
+				id: "600425190825454B"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			title: "Зелёные насаждения"
+			x: 2.0d
+			y: 12.0d
+			subtitle: "Научный подход — единственное, что никогда не подведет!"
+			description: ["&7Если я научусь использовать Сквизер с большей продуктивностью, то обязательно смогу просеить разные виды почвы для получения хотя бы каких-нибудь подвидов растений или иной органики. "]
+			dependencies: ["64ED38968988DD9F"]
+			hide: true
+			id: "0335401EE283B741"
+			tasks: [
+				{
+					id: "1F9E101A06F5104C"
+					type: "item"
+					item: "minecraft:sugar_cane"
+				}
+				{
+					id: "3525D68A1AD95D2A"
+					type: "item"
+					item: "minecraft:wheat_seeds"
+				}
+				{
+					id: "794B768CBE86A810"
+					type: "item"
+					item: "minecraft:bamboo"
+				}
+				{
+					id: "1ACBC3DB713EC8D0"
+					type: "item"
+					item: "minecraft:kelp"
+				}
+			]
+			rewards: [{
+				id: "202AA97BF6BDB5C5"
+				type: "item"
+				item: "ud_world_items:seed_tube"
+				count: 3
+			}]
+		}
+		{
+			title: "Книжный червь"
+			x: 2.0d
+			y: 13.5d
+			subtitle: "Знание - сила"
+			description: ["&7Книги всегда были надёжным способом хранения и получения информации. Но в свою пору им на смену пришли Машины, полностью обесценившие буквы и символы на бумаге. Теперь же, когда старый мир рухнул, а новый построить я ещё не успел, предстоит повторить многовековой опыт эволюции и развития моей расы. И начну я, пожалуй, с Книг."]
+			dependencies: ["0335401EE283B741"]
+			hide: true
+			id: "0A8D69C76439C156"
+			tasks: [{
+				id: "15863B40738744E9"
+				type: "item"
+				item: "minecraft:book"
+			}]
+			rewards: [
+				{
+					id: "356FC471E9051564"
+					type: "item"
+					item: "farmersdelight:canvas"
+					count: 3
+				}
+				{
+					id: "278B111177508760"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 15.0d
+			subtitle: "О Боги мои! Яду мне, яду!"
+			description: ["&7А что, если наполнить свой меч ядом Ос? Повысится ли у него урон? "]
+			dependencies: [
+				"5270E80E56286A44"
+				"4D52786023774E96"
+			]
+			hide: true
+			id: "2E92181BC78FA823"
+			tasks: [{
+				id: "33A3410192B95012"
+				type: "item"
+				item: {
+					id: "wasps:netherite_venomous_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2919BB669CB05B7C"
+					type: "item"
+					item: "wasps:wasp_honeycomb"
+					count: 3
+				}
+				{
+					id: "5A03C9C98AE69641"
+					type: "xp"
+					xp: 85
+				}
+			]
+		}
+		{
+			title: "Алхимическое преобразование"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftbmoney:textures/shop.png"
+				}
+			}
+			x: -6.0d
+			y: 13.5d
+			subtitle: "Одно я меняю на другое"
+			description: [
+				"&5В ходе долгих исследований, методом проб и ошибок, Вы наконец-то пришли к чёткому результату в Алхимическом Обмене. "
+				""
+				"&5Алхимическое Преобразование построено на принципе Равноценного обмена. Вы меняете одни ресурсы на другие, соблюдая пропорцию ценности. "
+				""
+				"&5Чтобы начать пользование, нажмите в правом верхнем углу квестового интерфейса на Камень Алхимии, а затем продайте несколько ненужных ресурсов, чтобы в следующей вкладке преобразовать полученную валюту в что-то более ценное."
+			]
+			dependencies: ["48EC19A1A322E617"]
+			hide: true
+			id: "516671C668727083"
+			tasks: [{
+				id: "3BEE2D1E0B1A0A1E"
+				type: "checkmark"
+				title: "Понял!"
+			}]
+			rewards: [{
+				id: "614AF41F22060401"
+				type: "gamestage"
+				title: "&7Открытие Трансмутации"
+				icon: {
+					id: "ftbquests:custom_icon"
+					Count: 1b
+					tag: {
+						Icon: "ftbmoney:textures/icon.png"
+					}
+				}
+				auto: "enabled"
+				ignore_reward_blocking: true
+				stage: "shop"
+			}]
+		}
+		{
+			title: "Транспортировка предметов"
+			x: 6.0d
+			y: 15.0d
+			subtitle: "MAMMA MIA!"
+			description: ["&5Для создания хотя бы простой логистики Вам обязательно понадобятся транспортные устройства с минимальной технической затричаваемостью. И на помощь, конечно же, приходит собственное новаторство. С этими трубами Вы наконец-то создадите массу полезных вещей. "]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			id: "73395111D4C46EE6"
+			tasks: [
+				{
+					id: "6FFCD2BD9A0AC541"
+					type: "item"
+					item: "pipez:item_pipe"
+					count: 16L
+				}
+				{
+					id: "32E8E158A272EF25"
+					type: "item"
+					item: "pipez:wrench"
+				}
+			]
+			rewards: [{
+				id: "5D726ADD76FDDA24"
+				type: "item"
+				item: "create:iron_sheet"
+				count: 3
+			}]
+		}
+		{
+			x: 2.0d
+			y: 15.0d
+			subtitle: "Невероятно прочный"
+			description: ["&7Камень прямиком из Вулканических залежей. Когда-то даже в этом мире существовали Скалы, истекающие магмой и лавой как кровью люди. Но со временем старый мир постигла гибель, забравшая с собой множество природных достояний и оставившая человека наедине с собой. Перевернутая жизнь стала для нас абстрактной клеткой, однако добывать пропитание и налаживать жизнь приходилось нам самим. "]
+			dependencies: ["71ABDAB398D3D0A6"]
+			hide: true
+			id: "00C530B6A37E3BC4"
+			tasks: [{
+				id: "228C07FF33FA59E3"
+				type: "item"
+				item: "minecraft:obsidian"
+			}]
+			rewards: [{
+				id: "04AD7969307383C3"
+				type: "item"
+				item: "supplementaries:candy"
+				count: 7
+			}]
+		}
+		{
+			x: 0.0d
+			y: 15.0d
+			subtitle: "Свет в конце туннеля"
+			description: ["&7Звезда Незера оказалась полезной в приспособлениях разной необходимости. Её потаённые внутри силы легко пробудить при правильном расположении стабилизаторов и проводимых энергию блоков. "]
+			dependencies: [
+				"00C530B6A37E3BC4"
+				"567B5B5E8A3AAF97"
+			]
+			hide: true
+			id: "3B65445DC78DF8BC"
+			tasks: [{
+				id: "17BE793F5854C79E"
+				type: "item"
+				item: "minecraft:beacon"
+			}]
+			rewards: [
+				{
+					id: "61896055D414EA77"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "281E6BD5B82EC3CB"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "6BE660829F806DF1"
+					type: "item"
+					auto: "invisible"
+					item: {
+						id: "bieggos_shovel:bieggos_shovel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 13.5d
+			subtitle: "Не хватает звёзд с неба"
+			description: ["&7Ядро Древнего существа? Откуда оно взялось в нашем мире? Неужели кто-то из учёных преуспел в расшифровке скрижалей Огненных земель? И может ли это значить, что я наконец-то тоже смогу воспользоваться утраченными технологиями? Скорее нужно заняться этим вопросом."]
+			dependencies: [
+				"7C9A227AC62D95C8"
+				"5270E80E56286A44"
+			]
+			hide: true
+			id: "567B5B5E8A3AAF97"
+			tasks: [{
+				id: "45CD6A1F73561F10"
+				type: "item"
+				item: "minecraft:nether_star"
+			}]
+			rewards: [
+				{
+					id: "5284DA80D6B76F69"
+					type: "item"
+					item: "malum:block_of_soul_stained_steel"
+					count: 3
+				}
+				{
+					id: "6E170D79E656667F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 15.0d
+			subtitle: "Красивая обложка"
+			description: [
+				"&7Я повсюду нахожу какие-то карты... Каждая из них словно фрагмент давно забытой истории. Люди, существа и предметы, изображённые на них будто бы хотят мне что-то сказать."
+				""
+				"&5Будет лучше, если я создам особый ларец с возможностью хранить все эти карточки. "
+			]
+			hide_dependency_lines: true
+			dependencies: ["3491429455E0844E"]
+			hide: true
+			id: "3520DFC35205F9E5"
+			tasks: [{
+				id: "3CCB8F890F7C4371"
+				type: "item"
+				item: {
+					id: "cyao_collectibles:cardcasket"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 48
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1570FDB6E56BCE43"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					id: "02014B78BC767C06"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 15.0d
+			subtitle: "Всё в одном"
+			description: [
+				"&7Книги несут в себе все знания мира, даже когда носитель и воспроизводителей их нет. Но когда информации слишком много, стоит всерьёз заняться структуризацией собственной библиотеки. "
+				""
+				"В Фолианте можно хранить все книги модификаций. Поместите гайдбук с Фолиантом в ячейку крафта, а затем откройте его нажатием ПКМ."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0A8D69C76439C156"]
+			hide: true
+			id: "007712A6EA354F12"
+			tasks: [{
+				id: "5D39E009F85F7EA4"
+				type: "item"
+				item: {
+					id: "eccentrictome:tome"
+					Count: 1b
+					tag: {
+						"eccentrictome:mods": { }
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57C9937F1D61CEDD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+				{
+					id: "37F7FD8A743CA28C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 1s
+								id: "minecraft:frost_walker"
+							}]
+						}
+					}
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: 15.0d
+			subtitle: "Стань вновь видимым!"
+			description: ["&7Приборы, что заменяют человеческий глаз стали доступны людям сразу с появлением алхимической альтернативы Ока Эндера, получаемого теперь в жидкой форме. Один такой Загрузчик заменит наблюдателя за механизмами, что, в случае с полным отсутствием других людей, очень полезно для меня."]
+			hide_dependency_lines: true
+			dependencies: [
+				"4CF9A4B0E9A7A5A1"
+				"3491429455E0844E"
+			]
+			hide: true
+			id: "5E7345FA82053562"
+			tasks: [{
+				id: "09132C653467A92F"
+				type: "item"
+				item: "weirdinggadget:weirding_gadget"
+			}]
+			rewards: [
+				{
+					id: "70890CD2BCB6AC7A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+				{
+					id: "051773DB3E782D6D"
+					type: "item"
+					item: "farmersdelight:pasta_with_mutton_chop"
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

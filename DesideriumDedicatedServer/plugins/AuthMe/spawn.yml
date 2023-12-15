@@ -1,0 +1,14 @@
+spawn:
+  world: 'wasteland:wasteland'
+  x: '-117'
+  y: '-8'
+  z: '18'
+  yaw: ''
+  pitch: ''
+firstspawn:
+  world: 'wasteland:wasteland'
+  x: '-117'
+  y: '-8'
+  z: '18'
+  yaw: ''
+  pitch: ''

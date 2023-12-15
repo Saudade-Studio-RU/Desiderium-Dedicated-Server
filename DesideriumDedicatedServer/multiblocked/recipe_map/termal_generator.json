@@ -1,0 +1,97 @@
+{
+  "name": "termal_generator",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "338cb132-e352-45b4-972c-67665b1e9228",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:blaze_rod"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 1500,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "f50eee17-7a0e-4c3b-9d66-8e0fa7e84753",
+      "duration": 40,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:magma_block"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 2000,
+            "chance": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "uid": "8c020fb1-a1ea-48b4-8587-7ab3276aeba2",
+      "duration": 50,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:lava_bucket"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:bucket"
+              }
+            },
+            "chance": 1.0
+          }
+        ],
+        "forge_energy": [
+          {
+            "content": 10000,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

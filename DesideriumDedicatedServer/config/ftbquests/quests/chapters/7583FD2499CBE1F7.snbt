@@ -1,0 +1,1226 @@
+{
+	id: "7583FD2499CBE1F7"
+	group: "3D8ADA421153B1A3"
+	order_index: 3
+	filename: "7583FD2499CBE1F7"
+	title: "Гравитация"
+	icon: "ud_world_items:gravito_crystal_icon"
+	subtitle: ["&5Учение о Гравитации"]
+	default_quest_shape: "rsquare"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			subtitle: "Здесь начинаюсь Я"
+			description: [
+				"&7До моего рождения люди получили в своё распоряжение самый лучший по эффективности и вместе с тем ужаснейший по морали ресурс - Гравито-Кристаллы. Человеческие учёные извлекли первые образцы задолго до моего рождения. Говорят, что их природа даже в наше время была не подтверждена. Одни рассуждают об их происхождении как об инопланетном вторжении, когда Планета была атакована метеоритами с целью уничтожения жившей тогда расы, другие же твердят о закономерности существования подобных минералов и самой планеты, мол, без этих Кристаллов летающая в космосе глыба не смогла бы существовать."
+				""
+				"&7Для меня эти Кристаллы - символ всех свершённых нами грехов за прошедшую историю. Мы получили их в качестве наказания и проверки, данной нам самими Хранителями как последнего шанса."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1515AFCFF653E6B7"]
+			hide: true
+			size: 1.25d
+			id: "0ACD8C77BC7959A0"
+			tasks: [{
+				id: "4D1930F0089A13D3"
+				type: "item"
+				item: "ud_world_items:raw_gravito_crystal"
+			}]
+			rewards: [
+				{
+					id: "5AB9B2C743D9EBE1"
+					type: "item"
+					item: "chemlib:radon"
+				}
+				{
+					id: "588ABC6E96BAEBAF"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			subtitle: "Камень Бесконечности"
+			description: [
+				"&7Обработанные Гравито-Кристаллы выделяют большой концентрат энергии. Использование её погубило мой род, но сейчас, будучи одним обитателем, настигнет ли меня похожая участь? "
+				""
+				"&5Для обработки Кристаллов Вы должны использовать специальную структуру, встречающуюся чуть ранее. Имея на руках уже обработанный материал, можно использовать его в новых рецептах."
+			]
+			dependencies: [
+				"0ACD8C77BC7959A0"
+				"5D83E0645E03BDA9"
+			]
+			hide: true
+			id: "1859340345BB394F"
+			tasks: [{
+				id: "4558895FD6C55DCF"
+				type: "item"
+				item: "ud_world_items:gravito_crystal"
+			}]
+			rewards: [
+				{
+					id: "09D678F6AD1BE4DB"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "5F60BE9DC23946C4"
+					type: "item"
+					item: "cyao_lore:note_14"
+				}
+			]
+		}
+		{
+			title: "Пространственный Обработчик"
+			icon: "ud_world_items:improved_engineering_battery"
+			x: 0.0d
+			y: -1.5d
+			subtitle: "С единственной функцией"
+			description: ["&5Направьте энергию в этот механизм, чтобы обработать Сырой Гравито-Кристалл. Конечно, одной только энергии будет недостаточно, поэтому в качестве катализатора стоит использовать один из химических элементов - Радон."]
+			dependencies: ["0ACD8C77BC7959A0"]
+			id: "5D83E0645E03BDA9"
+			tasks: [
+				{
+					id: "7E20C6EE638E2E5A"
+					type: "questsadditions:structure"
+					title: "Обуздайте гравитацию!"
+					name: "spatial_handler"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "5B5003E12972B2E9"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "01873164A6709832"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "7026811EA5523B70"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "596AD0D4669D8B9F"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 6L
+				}
+				{
+					id: "37E0DF7CB628EDFF"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 20L
+				}
+				{
+					id: "318CA45FB6F87CD0"
+					type: "item"
+					item: "ud_world_items:improved_engineering_base_block"
+				}
+				{
+					id: "0B1D4682BEAB4DF7"
+					type: "item"
+					item: "ud_world_items:improved_engineering_lamp"
+					count: 2L
+				}
+				{
+					id: "70FC22E0696369CF"
+					type: "item"
+					item: "minecraft:diamond_block"
+				}
+			]
+			rewards: [
+				{
+					id: "23C1C586DBC36630"
+					type: "item"
+					item: "supplementaries:bomb_blue"
+				}
+				{
+					id: "2E24CD82D1242CFA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+			]
+		}
+		{
+			title: "Продвинутые Гравито-Механизмы"
+			icon: "ud_world_items:advanced_g_c_controller"
+			x: -2.0d
+			y: 1.5d
+			subtitle: "Контролируя саму Вселенную"
+			description: ["&5Ну вот, Вы на пути к завершению начатого однажды пути. Сделанное не воротить, а посему - продолжайте идти в том направлении, куда ведёт Ваш разум или душа. Вы не ошибётесь, даже если примете неверное решение. Лишь потому, что решение это приняли Вы сами."]
+			dependencies: ["1859340345BB394F"]
+			hide: true
+			id: "34F469B9D85F9B5E"
+			tasks: [{
+				id: "7BA7D1E40BC9226B"
+				type: "checkmark"
+				title: "Понял!"
+			}]
+			rewards: [{
+				id: "1EA35D93F9F71C10"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			title: "Продвинутый Гравито-Генератор"
+			icon: "ud_world_items:advanced_g_c_battery"
+			x: -4.0d
+			y: 1.5d
+			subtitle: "Энергии не может быть слишком много!"
+			description: [
+				"&7Обуздание энергии Гравитации может быть опасным при неправильном подходе. Через этот Генератор я могу выделить отдельные частицы Кристалла и направить их на расщепление в специальном аппарате. И этот процесс выдаст мне наибольшее возможное количество энергии. "
+				""
+				"Преобразуйте Гравито-Кристаллы в FE энергию."
+			]
+			dependencies: ["34F469B9D85F9B5E"]
+			hide: true
+			id: "51451EFD22815370"
+			tasks: [
+				{
+					id: "083D4FC1E11C369A"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "advanced_gravito_generator"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "20E25657272B2A03"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_controller"
+				}
+				{
+					id: "036395E675CD5975"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_input_block"
+				}
+				{
+					id: "35E2A5E67924EC7C"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_output_block"
+				}
+				{
+					id: "513CF771C612B0FB"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_pillar"
+					count: 12L
+				}
+				{
+					id: "665A1514AD539AA1"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 13L
+				}
+				{
+					id: "260DC5C312A1C6EB"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_lamp"
+				}
+				{
+					id: "323DBC25BE3E4296"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_battery"
+					count: 2L
+				}
+				{
+					id: "319C19933B613273"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_heater"
+					count: 2L
+				}
+			]
+			rewards: [{
+				id: "18C60375D68F418E"
+				type: "item"
+				item: "minecraft:coal_block"
+				count: 6
+			}]
+		}
+		{
+			title: "ТКАЧ"
+			icon: "ud_world_items:advanced_g_c_base_block"
+			x: -4.0d
+			y: 3.0d
+			subtitle: "Из чего твой панцирь, черепаха?"
+			description: [
+				"&7Некоторые материалы достаточно сложно обработать для создания снаряжения. Это устройство будет использоваться с целью автоматизации процесса переработки и сбора моих будущих доспехов. Это очень скрупулёзный процесс, который можно произвести только с использованием механики. "
+				""
+				"ТКАЧ - механизм, необходимый для крафта кастомной брони."
+			]
+			dependencies: ["34F469B9D85F9B5E"]
+			hide: true
+			id: "7574876A039ADC8F"
+			tasks: [
+				{
+					id: "2A44E4FF70193A1E"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "weaver1"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "25694DBC35460152"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_controller"
+				}
+				{
+					id: "08FEF68EAE57E769"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_input_block"
+				}
+				{
+					id: "7F8C998D282AC5D2"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_output_block"
+				}
+				{
+					id: "75F1CB47FEF13B91"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_pillar"
+					count: 16L
+				}
+				{
+					id: "2310DD027B35C57A"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 35L
+				}
+				{
+					id: "46CCBCEFE8B3ABE2"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_lamp"
+					count: 2L
+				}
+				{
+					id: "1B48C66829D936E9"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_battery"
+				}
+			]
+			rewards: [
+				{
+					id: "22FE599A27C1DF58"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "230DA19C90A67CDD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+			]
+		}
+		{
+			title: "Межпространственный Гравито-Карьер"
+			icon: "ud_world_items:advanced_g_c_drill_on"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "Копать - не перекопать"
+			description: [
+				"&7Сейчас меня вдруг осинило. А что, если я использую те же линзы, что нужны для Камер преобразования с потоками энергии моего мира? Что я буду получать на выходе?"
+				""
+				"&5Гравито-Карьер запитывается энергией и добывает для Вас всевозможные руды."
+			]
+			dependencies: ["34F469B9D85F9B5E"]
+			hide: true
+			id: "63B2FAECFCB181B4"
+			tasks: [
+				{
+					id: "6D6B9714091B41E0"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "interdimensional_gravity_quarry1"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "3F55EBA2F46F4E72"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_controller"
+				}
+				{
+					id: "3F0F97D4B6769781"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_input_block"
+				}
+				{
+					id: "28F7091E6E9D9444"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_output_block"
+				}
+				{
+					id: "434B8C4C556412F5"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_bricks"
+					count: 24L
+				}
+				{
+					id: "2BE2CB19F388A07B"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 48L
+				}
+				{
+					id: "2A86F71FC6B42404"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_base_block"
+					count: 13L
+				}
+				{
+					id: "6432A6B35A38E463"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_lamp"
+					count: 4L
+				}
+				{
+					id: "4D0A2157F9F186B1"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_battery"
+				}
+				{
+					id: "252D1C24BD5D7B2D"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_drill"
+					count: 4L
+				}
+				{
+					id: "69D9CDC718881A41"
+					type: "item"
+					item: "ud_world_items:gravito_crystal_block"
+				}
+			]
+			rewards: [
+				{
+					id: "712DEAC8ADB2A4E2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [{
+								lvl: 3s
+								id: "minecraft:fortune"
+							}]
+						}
+					}
+				}
+				{
+					id: "4A7A6FC76DC8B226"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Гравито-Завод Рандомайза"
+			icon: "ud_world_items:advanced_g_c_lamp_on"
+			x: 0.0d
+			y: 3.0d
+			subtitle: "Гача гейминг"
+			description: ["&7Вершить свою судьбу посредством выпадения нужных мне значений на кубике - прелестное занятие, но я могу играть по-крупному. Например, настроить отдельную Мультиблочную структуру так, чтобы вливаемая энергия проходила в определённый момент через неопознанную линзу измерения, в результате чего буквально из воздуха выйдет случайный предмет. В конечном счёте список предметов будет ограничен, но уже так я буду выбивать больше полезных предметов. "]
+			dependencies: ["34F469B9D85F9B5E"]
+			hide: true
+			id: "5E68F6BF92E7FF92"
+			tasks: [
+				{
+					id: "1874CC54D042A608"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "gravito_randomizer"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "053DD952C85F323C"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_controller"
+				}
+				{
+					id: "5E6535047031F20F"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_input_block"
+				}
+				{
+					id: "10CFE10B9D81064B"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_output_block"
+				}
+				{
+					id: "739FE8E4962686C0"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_pillar"
+					count: 28L
+				}
+				{
+					id: "684FF0221FFE9F4D"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 64L
+				}
+				{
+					id: "48E535334196BD93"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 22L
+				}
+				{
+					id: "45A2C8BAA57FAF24"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_lamp"
+					count: 4L
+				}
+				{
+					id: "3CCA00DF91868E0D"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_battery"
+				}
+				{
+					id: "3E9DAF9B497DBC9E"
+					type: "item"
+					item: "ud_world_items:gravito_crystal_block"
+				}
+			]
+			rewards: [
+				{
+					id: "77B58A2B5F59A3A7"
+					type: "item"
+					item: "minecraft:name_tag"
+					count: 3
+				}
+				{
+					id: "5D40D845E8A84468"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Гравито-Камера Пустоты"
+			icon: "ud_world_items:advanced_g_c_pillar"
+			x: 0.0d
+			y: 1.5d
+			subtitle: "Благими намерениями вымощена дорога в энд"
+			description: [
+				"&7Путешествие в другие миры всё ещё не доступно мне, как бы далеко в своём развитии не зашёл. Однако теперь, по крайней мере уже, я способен создать новую Камеру для преобразования предметов из моего измерения в те, что добываются в \"Энде\"."
+				""
+				"&5В новой Мультиблочной структуре Вы сможете создавать новые вариации недоступных предметов."
+			]
+			dependencies: ["34F469B9D85F9B5E"]
+			hide: true
+			id: "4B8B4CEFA74F0B99"
+			tasks: [
+				{
+					id: "72974A2B062748DE"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "gravito_void_chamber1"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "505F5A383FC4892C"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_controller"
+				}
+				{
+					id: "0F49C2C0E6412A93"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_input_block"
+				}
+				{
+					id: "7984058725B6286D"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_output_block"
+				}
+				{
+					id: "4F9329AA0A447036"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_bricks"
+					count: 32L
+				}
+				{
+					id: "0DD3BC2BD55D2862"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_pillar"
+					count: 18L
+				}
+				{
+					id: "3DE1D7A72310B268"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 31L
+				}
+				{
+					id: "3BC093C12C641B61"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_base_block"
+					count: 13L
+				}
+				{
+					id: "10B44095F6144D79"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_battery"
+				}
+			]
+			rewards: [
+				{
+					id: "76A0FCAE7D206F8F"
+					type: "gamestage"
+					title: "&5Новые предметы в Трансмутации"
+					icon: "ud_world_items:gravito_crystal_icon"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "end_shop"
+				}
+				{
+					id: "6D3559A10BBF8F62"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+			]
+		}
+		{
+			title: "Продвинутый Инженерный Конструктор"
+			icon: "ud_world_items:advanced_g_c_input_block"
+			x: -2.0d
+			y: 4.5d
+			subtitle: "Создание невозможного"
+			description: [
+				"&7Я прошёл все невзгоды и препятствия для этого самого момента. Три уровня конструкторов, в каждом из которых я могу создавать различные предметы. Они не работают самостоятельно и не дублируют свои возможности при создании лучшей структуры. Они не идеальны. Но это то, что я могу сделать в своих условиях."
+				""
+				"&5Продвинутый Инженерный Конструктор необходим Вам для крафта самых лучших предметов, включая те, что нужны для прохождения сборки. Принцип работы абсолютно схож с другими механизмами, так что проблем в использовании быть не должно, наверное."
+			]
+			dependencies: ["34F469B9D85F9B5E"]
+			hide: true
+			id: "7CD707355BA6E9EA"
+			tasks: [
+				{
+					id: "4EAC2D30A39BE608"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "advanced_engineering_constructor"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "21BB7DBD37EB5DEB"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_controller"
+				}
+				{
+					id: "389F2075F463C852"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_input_block"
+				}
+				{
+					id: "5267EEF02A4D03B1"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_output_block"
+				}
+				{
+					id: "6A09C9BA5BA7C2E5"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_pillar"
+					count: 24L
+				}
+				{
+					id: "6CAD74657358DA3A"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 12L
+				}
+				{
+					id: "66F77227985C1A23"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_base_block"
+					count: 9L
+				}
+				{
+					id: "30378AC4FBB26578"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_lamp"
+					count: 8L
+				}
+				{
+					id: "71B4D26021F0E255"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_battery"
+					count: 4L
+				}
+				{
+					id: "5879035F215A6B73"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_heater"
+				}
+				{
+					id: "5259F1F1F596AE3F"
+					type: "item"
+					item: "ud_world_items:gravito_crystal_block"
+				}
+			]
+			rewards: [
+				{
+					id: "3E9A869B245B0E90"
+					type: "item"
+					item: "ud_world_items:gravito_crystal_block"
+				}
+				{
+					id: "65FCB557BBBAF1A6"
+					type: "item"
+					item: "ars_nouveau:jar_of_light"
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			subtitle: "Faber est suae quisque fortunae"
+			description: ["&7Истоки разработки Кремния лежат корнями в далёком прошлом, когда ещё не существовало самого понятия \"Алхимия\" и люди не знали о Дробителях. Сейчас же есть лишь единственный способ образования этого ресурса через химию. Этому способствовали последние события и исчезновение важных для простого создания ресурсов. "]
+			dependencies: ["1859340345BB394F"]
+			hide: true
+			dependency_requirement: "all_started"
+			id: "18EC8A8118F23669"
+			tasks: [{
+				id: "58B7666B00681671"
+				type: "item"
+				item: "refinedstorage:silicon"
+			}]
+			rewards: [
+				{
+					id: "389509F86D75F6BF"
+					type: "item"
+					item: "integrateddynamics:bucket_liquid_chorus"
+				}
+				{
+					id: "68D270E90EBF0C09"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -1.5d
+			subtitle: "Тенденция к обогащению"
+			description: ["&7Процессом обогащения я обеспечу надёжность использования металла в своих Информационных технологических механизмов. "]
+			dependencies: ["1859340345BB394F"]
+			hide: true
+			id: "5C3DB580862D96BA"
+			tasks: [{
+				id: "5EDFC0FA255B9198"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron"
+			}]
+			rewards: [{
+				id: "2533EDB52E4560CD"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			x: 0.0d
+			y: -4.5d
+			subtitle: "Очень вязкий"
+			description: ["&7Липкое соединение некоторых элементов. Этот материал можно использовать для соединения мелких деталей."]
+			hide_dependency_lines: true
+			dependencies: ["18EC8A8118F23669"]
+			id: "73299CCFD66A4DA7"
+			tasks: [{
+				id: "1D1052A4A690383B"
+				type: "item"
+				item: "refinedstorage:processor_binding"
+			}]
+			rewards: [
+				{
+					id: "02C14E0262879D42"
+					type: "item"
+					item: "malum:holy_syrup"
+					count: 5
+				}
+				{
+					id: "395CFC37A75B54D7"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -3.0d
+			subtitle: "Записывайте рецерт маминых блинчиков. Берём, значит..."
+			description: ["&7В начале самых сложных технологий лежат не менее замысловатые базовые детали. Для обработки данных о предметах и веществах понадобятся процессоры."]
+			dependencies: [
+				"18EC8A8118F23669"
+				"73299CCFD66A4DA7"
+			]
+			id: "687EB53C22F04A5F"
+			tasks: [{
+				id: "415CECDC16581E6A"
+				type: "item"
+				item: "refinedstorage:raw_basic_processor"
+			}]
+			rewards: [{
+				id: "2386C33BFA590B53"
+				type: "item"
+				item: "create:schematicannon"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -4.5d
+			subtitle: "Процессирование на высшем уровне"
+			dependencies: [
+				"18EC8A8118F23669"
+				"73299CCFD66A4DA7"
+			]
+			id: "588B64AFBC5F3720"
+			tasks: [{
+				id: "2D8D92426D46BB9C"
+				type: "item"
+				item: "refinedstorage:raw_improved_processor"
+			}]
+			rewards: [{
+				id: "4DAA1E1C3D7E9224"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: -2.0d
+			y: -6.0d
+			subtitle: "Я — живое мыслящее существо, рожденное в океане информации"
+			dependencies: [
+				"18EC8A8118F23669"
+				"73299CCFD66A4DA7"
+			]
+			id: "3136AC035C750A7C"
+			tasks: [{
+				id: "0475ABA18C8536F2"
+				type: "item"
+				item: "refinedstorage:raw_advanced_processor"
+			}]
+			rewards: [{
+				id: "7900207259198224"
+				type: "item"
+				item: "chemlib:aluminum_ingot"
+				count: 4
+			}]
+		}
+		{
+			x: -6.0d
+			y: -1.5d
+			subtitle: "Машины должны работать"
+			description: ["&7Микромиры были лишь стартовой точкой на пути к новейшим технологиям. Сейчас для меня особенно важно обуздать механизмы хранения вещей в сжатом виде. Я перенесу данные о своих ресурсах и смогу тем самым хранить большое количество предметов в малых машинных узлах."]
+			dependencies: ["5C3DB580862D96BA"]
+			hide: true
+			id: "7ECBB0041F3E0E29"
+			tasks: [{
+				id: "3AA4755EC03EABBD"
+				type: "item"
+				item: "refinedstorage:machine_casing"
+			}]
+			rewards: [{
+				id: "4D1E86262B83C3DE"
+				type: "item"
+				item: "create_sa:steam_engine"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -3.0d
+			subtitle: "Главный недостаток"
+			description: ["&5Разноуровневые компоненты служат для хранения соответственно разного количества предметов в будущих полноценных ячейках. Выбирайте с умом, чем будете заполнять свою систему хранения."]
+			dependencies: ["18EC8A8118F23669"]
+			hide: true
+			id: "7B1A567B3A93E9A8"
+			tasks: [{
+				id: "3E91410D8CA10C27"
+				type: "item"
+				item: "refinedstorage:1k_storage_part"
+			}]
+			rewards: [
+				{
+					id: "1A17E999B27E486C"
+					type: "item"
+					item: "pipez:improved_upgrade"
+				}
+				{
+					id: "254A3FED3A18A8E5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -3.0d
+			subtitle: "Изобилие данных порождает недостаток внимания"
+			description: ["&7Для непосредственной обработки будущих массивов данных мне пригодится механизм с функционалом диска, который возьмёт на себя загрузку сведений. Таким может стать Блок Хранения."]
+			dependencies: [
+				"7B1A567B3A93E9A8"
+				"7ECBB0041F3E0E29"
+			]
+			id: "58FF04C486085443"
+			tasks: [{
+				id: "5F99AA4579E4C924"
+				type: "item"
+				item: "refinedstorage:1k_storage_block"
+			}]
+			rewards: [
+				{
+					id: "49315C42B05744AE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "2D051DBA6FD4353A"
+					type: "item"
+					item: "refinedstorage:silicon"
+					count: 8
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.5d
+			subtitle: "Шаблоны - это готовые кирпичики, из которых выстроена стена на пути к уникальности"
+			description: ["&5Промежуточный предмет для последующего заполнения."]
+			dependencies: ["5C3DB580862D96BA"]
+			hide: true
+			id: "0F92BE16B81EBD12"
+			tasks: [{
+				id: "1556720721C2B841"
+				type: "item"
+				item: "refinedstorage:pattern"
+			}]
+			rewards: [
+				{
+					id: "404383CE7D1AC26B"
+					type: "item"
+					item: "farmersdelight:pasta_with_mutton_chop"
+				}
+				{
+					id: "270230107AAE561F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.5d
+			subtitle: "Сеть и настоящий мир — одно и то же"
+			description: ["Служит для отображения данных о заданных рецептах."]
+			dependencies: [
+				"0F92BE16B81EBD12"
+				"588B64AFBC5F3720"
+				"7ECBB0041F3E0E29"
+			]
+			hide: true
+			id: "718DC2BD2DFE14F1"
+			tasks: [{
+				id: "3FE0DB9BB7C17546"
+				type: "item"
+				item: "refinedstorage:crafting_monitor"
+			}]
+			rewards: [
+				{
+					id: "0B92399EAA235F12"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "3F55885040FF5262"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Хаос и Порядок"
+			x: -4.0d
+			y: -4.5d
+			subtitle: "Две стороны одной монеты"
+			description: ["&7Как Инь и Ян, Хаос и Порядок идут рука об руку всю известную нам историю. Люди научились использовать стихии на благо своего рода. Мы игрались этими понятиями и никогда не думали, что чаша весов может склониться неравномерно в одну из сторон. "]
+			dependencies: ["687EB53C22F04A5F"]
+			hide: true
+			id: "30B82405869E92F1"
+			tasks: [
+				{
+					id: "77AA26DD6EE2E00E"
+					type: "item"
+					item: "refinedstorage:destruction_core"
+				}
+				{
+					id: "5D555BD5C6AC7FEE"
+					type: "item"
+					item: "refinedstorage:construction_core"
+				}
+			]
+			rewards: [
+				{
+					id: "717D2E70447ECDE0"
+					type: "item"
+					item: "ars_nouveau:source_berry_pie"
+					count: 3
+				}
+				{
+					id: "1CD7ED06001C46AE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			subtitle: "Это мой диск с..."
+			description: ["&5Храните свои Диски с данными в данном механизме."]
+			dependencies: [
+				"7ECBB0041F3E0E29"
+				"3136AC035C750A7C"
+			]
+			hide: true
+			id: "5237B6770B64CD5F"
+			tasks: [{
+				id: "6C7F52CA70331D8E"
+				type: "item"
+				item: "refinedstorage:disk_drive"
+			}]
+			rewards: [{
+				id: "26BB6B729B888689"
+				type: "item"
+				item: "malum:natural_quartz"
+				count: 18
+			}]
+		}
+		{
+			title: "Контроллер"
+			x: -6.0d
+			y: -7.5d
+			subtitle: "Я не доверяю компьютеру, который не могу поднять"
+			description: ["&7Ядром любой сложной системы является некий Контроллер или его иной аналог. Для работы стоит запитать его энергией, а затем присоединить все остальные составляющие будущей системы хранения. "]
+			dependencies: [
+				"7ECBB0041F3E0E29"
+				"3136AC035C750A7C"
+			]
+			hide: true
+			id: "560D48377E00B36B"
+			tasks: [{
+				id: "568E807C0E238B53"
+				type: "item"
+				title: "Контроллер"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:controller"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "06549A56ADA264E9"
+					type: "gamestage"
+					title: "&3Новые предметы в Трансмутации"
+					icon: "refinedstorage:fortune_3_upgrade"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "rs_shop"
+				}
+				{
+					id: "2175C597CD94BE73"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+			]
+		}
+		{
+			title: "Терминал"
+			x: -6.0d
+			y: -4.5d
+			subtitle: "Киборги не чувствуют боли"
+			description: ["&7В Терминалах я могу хранить свои предметы. Нужно лишь установить Дисковой привод, разместить в него Диск хранения, а также подать энергию через Контроллер. Просто как два пальца об..."]
+			dependencies: [
+				"30B82405869E92F1"
+				"588B64AFBC5F3720"
+				"7ECBB0041F3E0E29"
+			]
+			hide: true
+			id: "3C9DA3D2E96867B5"
+			tasks: [{
+				id: "7B0E888FF72F2FB0"
+				type: "item"
+				title: "Терминал"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "refinedstorage:grid"
+					}
+				}
+			}]
+			rewards: [{
+				id: "23C6A8E590382E8B"
+				type: "item"
+				item: "refinedstorage:quartz_enriched_iron_block"
+			}]
+		}
+		{
+			x: -4.0d
+			y: -6.0d
+			subtitle: "Управление на расстоянии"
+			description: ["&5С помощью Беспроводного подключения у Вас будет постоянный доступ к своей системе хранения. Только не забудьте зарядить его!"]
+			dependencies: [
+				"3C9DA3D2E96867B5"
+				"3136AC035C750A7C"
+			]
+			hide: true
+			id: "250AC8971D13E137"
+			tasks: [{
+				id: "673CFA3603C4CAB8"
+				type: "item"
+				item: "refinedstorage:wireless_grid"
+			}]
+			rewards: [{
+				id: "25A0E24C347508AC"
+				type: "item"
+				item: "plushies:enderman"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			subtitle: "Может разломать само мироздание"
+			description: [
+				"&7Посмотрим-с. Наконечник из Гравито-Кристаллов, основа из латуни и несколько шестерёнок. Запитать стартовой энергией и... Готово!"
+				""
+				"&5Гравититовый Бур способен сломать даже самые прочные минералы. За счёт внесённой изначально энергии он будет работать дольше обычных инструментов, а образуемое Гравито-поле притянет все лежащие рядом со мной вещи."
+			]
+			dependencies: ["7CD707355BA6E9EA"]
+			hide: true
+			id: "65CA6FBC71E5374E"
+			tasks: [{
+				id: "3559D28246285615"
+				type: "item"
+				item: {
+					id: "drills:gravity_drill"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A6D5B1ECDC4B470"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "7E2FA48842A7D672"
+					type: "xp"
+					xp: 125
+				}
+			]
+		}
+		{
+			title: "Частичка Пустоты"
+			x: 2.0d
+			y: 3.0d
+			subtitle: "Без убийства Дракона"
+			description: ["&5Ресурсы из другого измерения позволят создать больше новых предметов."]
+			dependencies: ["4B8B4CEFA74F0B99"]
+			hide: true
+			id: "610D802EB010742A"
+			tasks: [
+				{
+					id: "591F546C9745BDE4"
+					type: "item"
+					item: "minecraft:end_stone"
+				}
+				{
+					id: "1F6FA2C54723E541"
+					type: "item"
+					item: "minecraft:shulker_shell"
+				}
+				{
+					id: "1F5116079A55F04A"
+					type: "item"
+					item: "minecraft:chorus_fruit"
+				}
+				{
+					id: "22E14321EE045DD7"
+					type: "item"
+					item: "minecraft:chorus_flower"
+				}
+			]
+			rewards: [
+				{
+					id: "5D83BE3AD474ECBA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 6346408907276309058L
+				}
+				{
+					id: "009FA7E7DEA2E7D9"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "4E4C1A6A361F0540"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1748955132031137801L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,34 @@
+{
+  "item.cyao_stuff.axe_head_pattern" : "Шаблон наконечника топора",
+  "item.cyao_stuff.blank_pattern" : "Чистый шаблон",
+  "item.cyao_stuff.pickaxe_head_pattern" : "Шаблон наконечника кирки",
+  "item.cyao_stuff.shovel_head_pattern" : "Шаблон наконечника лопаты",
+  "item.cyao_stuff.sword_head_pattern" : "Шаблон наконечника меча",
+
+  "item.cyao_stuff.brass_axe_head" : "Латунный наконечник топора",
+  "item.cyao_stuff.brass_pickaxe_head" : "Латунный наконечник кирки",
+  "item.cyao_stuff.brass_shovel_head" : "Латунный наконечник лопаты",
+  "item.cyao_stuff.brass_sword_head" : "Латунный наконечник меча",
+
+  "item.cyao_stuff.copper_sword_head" : "Медный клинок меча",
+  "item.cyao_stuff.copper_axe_head" : "Медный наконечник топора",
+  "item.cyao_stuff.copper_pickaxe_head" : "Медный наконечник кирки",
+  "item.cyao_stuff.copper_shovel_head" : "Медный наконечник лопаты",
+
+  "item.cyao_stuff.gold_sword_head" : "Золотой наконечник меча",
+  "item.cyao_stuff.gold_axe_head" : "Золотой наконечник топора",
+  "item.cyao_stuff.gold_pickaxe_head" : "Золотой наконечник кирки",
+  "item.cyao_stuff.gold_shovel_head" : "Золотой наконечник лопаты",
+
+  "item.cyao_stuff.iron_sword_head" : "Железный клинок меча",
+  "item.cyao_stuff.iron_axe_head" : "Железный наконечник топора",
+  "item.cyao_stuff.iron_pickaxe_head" : "Железный наконечник кирки",
+  "item.cyao_stuff.iron_shovel_head" : "Железный наконечник лопаты",
+
+  "item.cyao_stuff.zinc_sword_head" : "Цинковый клинок меча",
+  "item.cyao_stuff.zinc_axe_head" : "Цинковый наконечник топора",
+  "item.cyao_stuff.zinc_pickaxe_head" : "Цинковый наконечник кирки",
+  "item.cyao_stuff.zinc_shovel_head" : "Цинковый наконечник лопаты",
+  
+  "itemGroup.cyaostufftabs" : "§fСоздание инструментов"
+}

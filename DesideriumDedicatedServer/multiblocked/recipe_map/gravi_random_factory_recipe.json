@@ -1,0 +1,393 @@
+{
+  "name": "gravi_random_factory_recipe",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "ec49628b-1dc8-4fd6-a783-c4df08bf74c5",
+      "duration": 120,
+      "inputs": {
+        "forge_energy": [
+          {
+            "content": 50000,
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:dragon_egg"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "supplementaries:antique_ink"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "grapplemod:longfallboots"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "brewinandchewin:kombucha"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "the_upside_down_world:boxitem"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:music_disc_otherside"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:turtle_spawn_egg"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:axolotl_bucket"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:heart_of_the_sea"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:nautilus_shell"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:totem_of_undying"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "minecraft:dragon_head"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "paraglider:spirit_orb"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "paraglider:stamina_vessel"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "paraglider:heart_container"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "wasteland:iron_copper_shard"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "wasteland:music_disc_wasteland"
+              }
+            },
+            "chance": 0.023
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:panda"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:axolotl"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:bee"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:cat"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:cow"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:dolphin"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:dragon"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:enderman"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:frog"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:llama"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:slime"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:magma_cube"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:mooshroom"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:parrot"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:red_fox"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:white_fox"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:warden"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:sheep"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:turtle"
+              }
+            },
+            "chance": 0.05
+          },
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "plushies:snow_golem"
+              }
+            },
+            "chance": 0.05
+          }
+        ]
+      }
+    }
+  ]
+}

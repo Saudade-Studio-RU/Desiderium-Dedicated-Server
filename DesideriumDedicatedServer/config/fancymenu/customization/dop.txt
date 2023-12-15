@@ -1,0 +1,192 @@
+type = menu
+
+customization-meta {
+  identifier = menu_desiderium
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  orientation = bottom-centered
+  shape = rectangle
+  color = #34343463
+  x = -926
+  width = 1846
+  action = addshape
+  actionid = 2e9c7d79-fea9-4053-ab2a-ffe80b3b16a91698338719248
+  y = -115
+  height = 758
+}
+
+customization {
+  orientation = top-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Сборка разработана студией Saudade. %n%Мы создаём уникальные проекты по Майнкрафт %n%и вкладываем в каждый из них частичку собственной души!
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -157
+  width = 319
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 00127495-a53d-4699-bf53-d7d03496f5041698339249748
+  y = 124
+  alignment = centered
+  height = 37
+}
+
+customization {
+  path = config/fancymenu/resources/img/desiderium.png
+  orientation = top-centered
+  x = -190
+  width = 386
+  action = addtexture
+  actionid = d34c667a-70c1-413e-afae-00759939cd071698338869312
+  y = 26
+  height = 54
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://discord.gg/HSCMrqCNpD%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/ds.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 2e9c7d79-fea9-4053-ab2a-ffe80b3b16a91698338719248
+  x = 666
+  width = 33
+  action = addbutton
+  actionid = e9c8f88a-4b4a-4ca5-ae28-84fb2a2b083c1698339419597
+  y = -25
+  backgroundnormal = config/fancymenu/resources/img/ds.png
+  height = 23
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://boosty.to/saudade_studio%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/boos.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 2e9c7d79-fea9-4053-ab2a-ffe80b3b16a91698338719248
+  x = 739
+  width = 20
+  action = addbutton
+  actionid = cb183060-e219-4f72-a535-9f27033e64ad1698339483665
+  y = -29
+  backgroundnormal = config/fancymenu/resources/img/boos.png
+  height = 26
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://vk.com/saudade_mine%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/vk.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 2e9c7d79-fea9-4053-ab2a-ffe80b3b16a91698338719248
+  x = 698
+  width = 22
+  action = addbutton
+  actionid = 6aef2131-b800-420e-92b2-8e834dfb9aca1698339576654
+  y = -25
+  backgroundnormal = config/fancymenu/resources/img/vk.png
+  height = 22
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://saudade-studio.ru/%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/sdm2.png
+  label = 
+  loopbackgroundanimations = true
+  orientation_element = 2e9c7d79-fea9-4053-ab2a-ffe80b3b16a91698338719248
+  x = 719
+  width = 21
+  action = addbutton
+  actionid = 49e1be98-abb8-47eb-ba86-3363f8c339dc1698339711998
+  y = -26
+  backgroundnormal = config/fancymenu/resources/img/sdm2.png
+  height = 22
+}
+
+customization {
+  orientation = top-centered
+  basecolor = #D0C96D
+  shadow = true
+  splashfilepath = config/fancymenu/resources/txt/tag.txt
+  rotation = 20.0
+  scale = 0.8
+  refresh = true
+  bouncing = false
+  vanilla-like = false
+  x = 159
+  actionid = 6394b4d5-3034-4fc1-9c27-bd6294e618431698341074527
+  action = addsplash
+  y = 31
+}
+
+customization {
+  orientation = element
+  shape = rectangle
+  color = #04040478
+  orientation_element = 2e9c7d79-fea9-4053-ab2a-ffe80b3b16a91698338719248
+  x = -472
+  width = 2345
+  action = addshape
+  actionid = 8e69602d-f228-4b43-a1d2-6987323d0ec31698342348373
+  y = 0
+  height = 6
+}
+
+customization {
+  orientation = element
+  enable_scrolling = true
+  shadow = true
+  scale = 1.1
+  source = ### &l&9 Ведущие разработчики %n%%n%ySh%n%Allman%n%8sixik%n%%n%%n%### &l&8 Авторы &7идеи %n%%n%ySh%n%Grihail%n%Allman%n%%n%%n%### &l&1Д&2и&3з&4а&5й&6н&7е&9&cр&eы%n%%n%Charlotte%n%TVpomexu%n%%n%%n%### &6⚙&eРазработчики модификаций&6⚙%n%%n%Hrumer%n%SlashBro31%n%TranklER%n%SuperFeda%n%Nord_Act%n%Mint%n%%n%### &l&4Ху&6д&2о&eжн&2ик&1и%n%SlashBro31%n%TranklER%n%SuperFeda%n%riki_lotiev%n%Samuelchik%n%Nord_Act%n%kriptor_71%n%TVpomexu%n%Spinoraptor%n%%n%%n%### &l&6 Рецепты &a11101000 &6скрипты%n%%n%Allman%n%ApelsinTony%n%8sixik%n%FireV1ndicator%n%%n%%n%### &l&e&n&oКвесты%n%%n%ySh%n%creo37%n%%n%%n%### &f⚒&6Строители&f⚒%n%%n%GemesFoxes%n%Samuelchik%n%Arisa%n%Bivrik%n%%n%%n%### &6 Perevod модификаций%n%%n%DenBallTongue%n%MrLegendary%n%ySh%n%Arisa%n%%n%%n%### &l&6 Меню%n%%n%GamesFoxes%n%TVpomexu%n%%n%%n%### &6 Экраны &f"Загрузка..."%n%%n%kriptor_71%n%IGameOverI%n%Soud_Puro%n%%n%%n%### &6 Мультиблочные механизмы%n%%n%8sixik%n%%n%%n%### \_&9Концепты&f_/%n%%n%Allman%n%RoMaHa814%n%%n%%n%###  &d♪Музыка♪%n%%n%Luntard%n%Faorum%n%%n%%n%### &l &4|&fМедиа&4|%n%%n%MrLegendary%n%Prince_Vladislav%n%ItzKoulDog%n%kriptor_71%n%GemesFoxes%n%%n%%n%### &6&l Озвучка (больше экспрессии)%n%%n%Prince_Vladislav%n%GemesFoxes%n%Inwindyous%n%%n%%n%### &5&l ✎Публикация✎%n%%n%Astrononeko%n%ySh%n%%n%%n%### &6  &4★&6Особая благодарность&4★%n%%n%Yoshino%n%Vanret__%n%Zrikon%n%ka4ergaa%n%Procte%n%Kirilla39%n%%n%### &6 Fork Created by LateTeam%n%%n%kriptor_71%n%Soud_Puro%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%%n%привет%n%%n%%n%%n%
+  text_border = 1
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  orientation_element = 2e9c7d79-fea9-4053-ab2a-ffe80b3b16a91698338719248
+  x = 670
+  width = 504
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 0399b0c3-7d48-4897-8a2b-577eeebd77591698343460914
+  y = 7
+  alignment = centered
+  height = 502
+}
+
+customization {
+  orientation = element
+  restartbackgroundanimations = true
+  buttonaction = closegui%btnaction_splitter_fm%
+  backgroundhovered = config/fancymenu/resources/img/knop_nastr_kyr.png
+  label = На главную
+  loopbackgroundanimations = true
+  hoverlabel = &9На главную
+  orientation_element = 0399b0c3-7d48-4897-8a2b-577eeebd77591698343460914
+  x = 423
+  width = 98
+  action = addbutton
+  actionid = 2b9968b5-3bce-4dde-b063-fb2ff466e99e1698656276568
+  y = -32
+  backgroundnormal = config/fancymenu/resources/img/knop_nastr.png
+  height = 20
+}
+

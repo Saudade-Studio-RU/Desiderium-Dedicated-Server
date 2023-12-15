@@ -1,0 +1,9 @@
+{
+  "block.melter.melter": "Тигель",
+  "itemGroup.Melter": "§fMelter",
+  "melter.block.display": "Тигель",
+  "melter.tooltip.multiplier": "Единицы Тепла: %d",
+  "melter.tooltip.multiplier_none": "\u00A7Недостаточно Нагрет!",
+  "melter.tooltip.progress": "Выполнено: %d%%",
+  "melting.recipe": "Плавление"
+}

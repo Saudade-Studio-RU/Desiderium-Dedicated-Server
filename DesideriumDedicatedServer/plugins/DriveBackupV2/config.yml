@@ -1,0 +1,73 @@
+#################################################
+# DriveBackupV2   -   by Max Maeder (MaxTheGinus)
+#################################################
+
+# DOCUMENTATION HAS MOVED
+# Now available online at: https://github.com/MaxMaeder/DriveBackupV2/wiki
+
+version: 2
+
+delay: 720
+backup-thread-priority: 1
+keep-count: 1
+local-keep-count: 1
+zip-compression: 6
+backups-require-players: true
+disable-saving-during-backups: true
+
+scheduled-backups: true
+backup-schedule-list:
+
+backup-list:
+- glob: "world*"
+  format: "Backup-world-%FORMAT.zip"
+  create: true
+
+external-backup-list:
+
+local-save-directory: "/home/moderator/cyao/backups/"
+remote-save-directory: "backups"
+
+googledrive:
+  enabled: false
+  shared-drive-id: ""
+onedrive:
+  enabled: false
+dropbox:
+  enabled: false
+webdav:
+  enabled: false
+  hostname: "http://example.com/directory"
+  username: "Username"
+  password: "Password"
+nextcloud:
+  enabled: false
+  hostname: "https://example.com/remote.php/dav/files/user/"
+  username: "Username"
+  password: "Password"
+  chunk-size: 20_000_000
+ftp:
+  enabled: false
+  hostname: "ftp.example.com"
+  port: 21
+  sftp: false
+  ftps: false
+  username: "Username"
+  password: "Password"
+  sftp-public-key: 
+  sftp-passphrase: 
+  working-dir:
+
+messages:
+  send-in-chat: true
+  prefix: "&6[&5&lLateBackup&6] "
+  default-color: "&3"
+
+advanced:
+  metrics: true
+  update-check: false
+  suppress-errors: false
+  debug: false
+  date-language: "en"
+  date-timezone: "-00:00"
+  ftp-file-separator: "/"

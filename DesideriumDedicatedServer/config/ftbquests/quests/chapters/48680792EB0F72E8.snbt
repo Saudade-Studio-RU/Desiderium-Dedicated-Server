@@ -1,0 +1,2304 @@
+{
+	id: "48680792EB0F72E8"
+	group: "3D8ADA421153B1A3"
+	order_index: 1
+	filename: "48680792EB0F72E8"
+	title: "Инженерия"
+	icon: "ud_world_items:copper_gear_icon"
+	subtitle: ["&6Стезя Технологий"]
+	default_quest_shape: "octagon"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Завод сплавов"
+			icon: "ud_world_items:andesite_stone_controller"
+			x: -1.0d
+			y: 0.5d
+			subtitle: "Расцвет Инженерии"
+			description: [
+				"&7Ведущей тропой развития этого мира веками был и остаётся по сей день Путь Инженерии. Целыми эпохами люди и их творения - машины шли бок о бок, созидая условия для совместной эволюции. И когда человечество с плодами своих стараний настигли своего пика - настал конец."
+				""
+				"&5В этой квестовой главе Вам предстоит пройти собственную тропу обучения Технологическому ремеслу. Начните с простых машин и конструкций, а затем создайте собственные Фабрики и Заводы по производству необходимых ресурсов. "
+				""
+				"Первое, что необходимо смастерить - Машину для создания Сплавов из базовых материалов. В неё Вам стоит загрузить Андезит и Кусоки железа для получения первостепенно важного Андезитового Сплава. "
+				""
+				"Для активации Мультиблочного механизма нажмите Гаечным Ключом ПКМ по Контроллеру."
+			]
+			dependencies: ["01DE57C1A6DF8965"]
+			hide: true
+			size: 1.25d
+			id: "5AA489BE062F8503"
+			tasks: [
+				{
+					id: "43A65BD9E55B8311"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "andesite_alloy_smelter"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "3C4081A391018313"
+					type: "item"
+					item: "ud_world_items:andesite_stone_controller"
+				}
+				{
+					id: "4C1DEAEFBEC275AB"
+					type: "item"
+					item: "ud_world_items:andesite_stone_bricks"
+					count: 25L
+				}
+			]
+			rewards: [
+				{
+					id: "033E781678EACC40"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 3022466149224120138L
+				}
+				{
+					id: "504F444752B7B003"
+					type: "item"
+					item: "ud_world_items:meat_tube"
+					count: 2
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			subtitle: "Сплавленные андезит и металл"
+			description: ["&7В любом научном обществе открытия подаются оспариванию и одобрению с противоположных сторон. Но впоследствии принимаются лишь новые знания и методы, каким бы шокирующим содержанием они не обладали. Такой неожиданностью для всех Инженеров когда-то стало открытие Андезитового Сплава с его невероятными свойствами: он прочен, легко перерабатывается и может принимать разные формы. Мечта любого изобретателя."]
+			dependencies: ["5AA489BE062F8503"]
+			hide: true
+			id: "53CD1280526D38BB"
+			tasks: [{
+				id: "2ADBADA8406DA71C"
+				type: "item"
+				item: "create:andesite_alloy"
+			}]
+			rewards: [{
+				id: "4F918E76251872BD"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 3
+			}]
+		}
+		{
+			title: "Базовые принадлежности"
+			x: 3.0d
+			y: 0.5d
+			subtitle: "Крутящий момент выигрывает гонки"
+			description: [
+				"&7Простые на первый взгляд, но необходимые - данные детали являются важнейшей составляющей любого механизма. Пожалуй, стоит сделать их побольше, наперёд."
+				""
+				"&5Вы можете переделать шестерни, созданные из определённого дерева в нейтральные, требуемые в рецептах."
+			]
+			dependencies: ["53CD1280526D38BB"]
+			hide: true
+			id: "63555EDD0D765ACE"
+			tasks: [
+				{
+					id: "53481EEF2D3BE0A8"
+					type: "item"
+					item: "create:shaft"
+					count: 8L
+				}
+				{
+					id: "733A9A0A0FC5209A"
+					type: "item"
+					title: "Шестерня"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:cogwheels"
+						}
+					}
+				}
+				{
+					id: "327444B38A76940F"
+					type: "item"
+					title: "Большая шестерня"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:large_cogwheels"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "4553FBACBC3B2489"
+				type: "item"
+				item: "farmersdelight:egg_sandwich"
+			}]
+		}
+		{
+			title: "Сплавы"
+			x: -1.0d
+			y: -1.0d
+			subtitle: "Инженерные металлы"
+			description: [
+				"&7Любой уважающий себя Инженер должен непременно улучшать собственные творения, даже ценой полного хаоса внутри ферм и заводов. Ведь из хаоса, как известно, рано или поздно родится новый порядок, а затем всё вновь превратится в нечто абсурдное и неясное. По крайней мере, кто-то говорил мне об этом, хоть сейчас уже я и не вспомню автора цитаты. Наверное, это был очень умный человек. Однако самому мне с подобным ещё не доводилось встречаться. Вероятно..."
+				""
+				"&5Сплавы, нужные для выполнения задания, станут базовыми материалами в дальнейшем Вашем изучении различных Технологий и Механических строений. Создать их Вы можете полноценно только на Улучшенном Заводе Сплавов."
+			]
+			dependencies: ["5AA489BE062F8503"]
+			hide: true
+			id: "3784BE19F567701C"
+			tasks: [
+				{
+					id: "7319EEA06B1DE07D"
+					type: "item"
+					item: "create:brass_ingot"
+				}
+				{
+					id: "39052150B26725F0"
+					type: "item"
+					item: "alloyed:bronze_ingot"
+				}
+				{
+					id: "5163FC47FFD4D75F"
+					type: "item"
+					item: "alloyed:steel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "68D44CEF2E3C57AB"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 2698257103144768531L
+				}
+				{
+					id: "431816E2F00D78ED"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.0d
+			subtitle: "Переключите передачу"
+			description: ["&7Через неё я могу подавать энергию вращения в нужное направление. А если чуть изменить её рецепт, то получится отзеркаленная версия. Даже уже созданная Коробка передач может быть переделена мною на Верстаке. Это только начало, но я уже чувствую восторг от создаваемых предметов и механизмов. Какая же потрясающая это наука!"]
+			dependencies: ["63555EDD0D765ACE"]
+			id: "511993A024953BCD"
+			tasks: [{
+				id: "458F41EDD9C0C437"
+				type: "item"
+				item: "create:gearbox"
+			}]
+			rewards: [{
+				id: "14164B68D38D7920"
+				type: "item"
+				item: "minecraft:oak_log"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: -1.0d
+			subtitle: "Опять по кругу"
+			description: ["Генерирует энергию вращения на потоке воды. Разместите Колесо в плоскость 3х3 и залейте в один из углов Воду. Может быть размещено в любой позиции, за счёт чего есть вариация количества получаемой на выходе энергии."]
+			dependencies: ["63555EDD0D765ACE"]
+			id: "5C656173A0AD0249"
+			tasks: [{
+				id: "15F148819460E57A"
+				type: "item"
+				item: "create:water_wheel"
+			}]
+			rewards: [
+				{
+					id: "446149FC4D65642A"
+					type: "item"
+					item: "minecraft:bucket"
+				}
+				{
+					id: "10341CB068AEFC8D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.0d
+			subtitle: "Аналог Дробителя"
+			description: ["Замещает привычные индустриальные дробители. Особенно полезен при автоматизации получения песка, гравия или иных перерабатываемых ресурсов."]
+			dependencies: ["63555EDD0D765ACE"]
+			id: "551440DA8830F740"
+			tasks: [{
+				id: "0E5E7396DCD25677"
+				type: "item"
+				item: "create:millstone"
+			}]
+			rewards: [{
+				id: "7E86BA401DD1532E"
+				type: "item"
+				item: "minecraft:andesite"
+				count: 24
+			}]
+		}
+		{
+			x: 4.0d
+			y: 2.0d
+			subtitle: "Работает как швейцарские часы"
+			description: [
+				"Процесс Прессования с использованием данной конструкции открывает новые способы переработки материалов в новые, с иным применением. "
+				""
+				"Использование механизма максимально простое: поставьте Пресс, подведите к нему энергию вращения, положите под пресс, с разницей в один пустой блок, материал, для этого можно использовать и Депо, а затем получите на выходе нужный ресурс."
+			]
+			dependencies: ["63555EDD0D765ACE"]
+			id: "3003695F3A27EAC0"
+			tasks: [
+				{
+					id: "178C138B44CF6A2A"
+					type: "item"
+					item: "create:mechanical_press"
+				}
+				{
+					id: "625E7D7A17F6AEC4"
+					type: "item"
+					item: "create:depot"
+				}
+			]
+			rewards: [{
+				id: "4F92E18AA27A4AA6"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			title: "Что нужно, чтобы править миром?"
+			x: 5.0d
+			y: 0.5d
+			subtitle: "Оптимизация препятствует эволюции"
+			description: ["&7Признаться честно, недавно я видел сон. Словно мои воспоминания нахлынули на меня морской волной, и я ещё раз ощутил морской бриз юношеских годов. Тогда я ещё не представлял, кем хочу стать, но меня всегда тянуло к изобретению и новаторству. Уже тогда мне удавалось мастерить сложные вещи для автоматизации простых дел, будь то уборка или нечто другое."]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			id: "42183D42D22F63DA"
+			tasks: [
+				{
+					id: "1F2C46ED65BF56BA"
+					type: "item"
+					item: "create:propeller"
+				}
+				{
+					id: "31E2EF564B921B40"
+					type: "item"
+					item: "create:whisk"
+				}
+			]
+			rewards: [
+				{
+					id: "1284F32E494526EC"
+					type: "item"
+					item: "minecraft:iron_block"
+				}
+				{
+					id: "16BF9979455C075C"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 3.5d
+			subtitle: "Клетка для Ифрита"
+			description: ["Нажмите ПКМ, держа в руках Клетку, по Ифриту, чтобы поместить его внутрь и тем самым создать Горелку Всполоха."]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			id: "10A1A410962ED3E2"
+			tasks: [{
+				id: "401FD472663F2C28"
+				type: "item"
+				item: "create:empty_blaze_burner"
+			}]
+			rewards: [{
+				id: "706830A0F92C4DDD"
+				type: "item"
+				item: "minecraft:charcoal"
+				count: 7
+			}]
+		}
+		{
+			x: 7.0d
+			y: 3.5d
+			subtitle: "Помни: спички детям не игрушка!"
+			description: ["&7Не сказал бы, что принимаю и понимаю методы Древних Инженеров, однако же, в моих условиях использование существ с нескончаемым внутренним запасом энергии - наилучший подход к запитыванию механизмов."]
+			dependencies: ["10A1A410962ED3E2"]
+			hide: true
+			id: "5C96879819D068C8"
+			tasks: [{
+				id: "6FBC82FF980B65AA"
+				type: "item"
+				item: "create:blaze_burner"
+			}]
+			rewards: [{
+				id: "62066F6548CC74E5"
+				type: "item"
+				item: "minecraft:blaze_powder"
+				count: 2
+			}]
+		}
+		{
+			x: 2.0d
+			y: 5.0d
+			subtitle: "Жми рычаг, Игрок!"
+			description: ["Поместите ресурс в Сквизер с помощью ПКМ, затем встаньте на сам механизм и прыгайте до преобразования. Для возвращения в исходное положение используйте редстоун сигнал. Механизм может быть автоматизирован через воронки, редстоун схемы или иными способами. "]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			id: "2FCAA20E12DF4EF9"
+			tasks: [{
+				id: "3FB199D51A4ED169"
+				type: "item"
+				item: "integrateddynamics:squeezer"
+			}]
+			rewards: [{
+				id: "77E8E45C6AC770C0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3022466149224120138L
+			}]
+		}
+		{
+			title: "Сушильный Чан"
+			x: 3.0d
+			y: 3.5d
+			subtitle: "Давай, помойка, разгоняйся!"
+			description: [
+				"&7Любое новое дело начинается с малых вершин. Эти банальные механизмы откроют для меня проходят в новый век технологий, где машины самостоятельно смогут производить сложные задачи без присутствия человека."
+				""
+				"Поместите в Сушильный Чан ресурсы для обработки. В некоторых рецептах может требоваться вода или иная жидкость, залить которую можно вёдрами с нажатием ПКМ. "
+			]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			id: "6873E6A6C5883FB9"
+			tasks: [{
+				id: "68E35670F7DD100D"
+				type: "item"
+				item: "integrateddynamics:drying_basin"
+			}]
+			rewards: [{
+				id: "4EA97320144A99F8"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			title: "Механический крафтер"
+			x: 8.0d
+			y: 0.5d
+			subtitle: "Следующий будет лучше"
+			description: ["&7Теперь пришёл черёд организовать Механическое создание с простым принципом автоматизации. От моего оборудования до Катастрофы всё создаваемое сейчас несомненно отличается, и даже не в лучшую сторону, но сейчас для меня главное как можно скорее возвратить часть утраченного и испытать удачу ещё раз. Не уверен, что результат удовлетворит меня, но так я хотя бы очищу свою совесть."]
+			dependencies: ["0D2F5E21FD7FC6E0"]
+			hide: true
+			id: "56E267010ED17E54"
+			tasks: [{
+				id: "02E226D6A6CC111D"
+				type: "item"
+				item: "create:mechanical_crafter"
+				count: 21L
+			}]
+			rewards: [
+				{
+					id: "26F6EB4174CDA2BE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1748955132031137801L
+				}
+				{
+					id: "409BAE05A9B7092F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 2.0d
+			subtitle: "Укреплённый латунью"
+			description: ["&7Сплав Латуни есть нечто необузданное поистине до предела своих возможностей. Латунь, бронза и другие подобные металлы, создаваемые из других составляющих, используются в Перевёрнутом Мире повсеместно. Ими даже укрепляют строения и охранных роботов. Жаль, конечно, что масштабное производство утеряно, и я вынужден настраивать логистику с самого нуля."]
+			dependencies: ["5C96879819D068C8"]
+			hide: true
+			id: "0D2F5E21FD7FC6E0"
+			tasks: [{
+				id: "2FBF2DB4B3DE77D5"
+				type: "item"
+				item: "create:brass_casing"
+			}]
+			rewards: [{
+				id: "28D40D3E66588550"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: 6.0d
+			y: 2.0d
+			subtitle: "Две щепотки суетных мыслей"
+			description: ["Смешиватель, как и пресс обладает схожим применением, где из одних материалов на выходе получаются новые. Но у него же есть и свойственные только ему функции использования - Вы можете смешивать не только материалы, но и жидкости, комбинируя рецепты и получая разное итоговое содержание. Для Смешивателя очень важно наличие Чана на блок ниже самого механизма, под ним."]
+			dependencies: [
+				"42183D42D22F63DA"
+				"3003695F3A27EAC0"
+			]
+			id: "4C96EAD2C1973F2C"
+			tasks: [{
+				id: "1746C2C84282106D"
+				type: "item"
+				item: "create:mechanical_mixer"
+			}]
+			rewards: [
+				{
+					id: "1759B0C53D0A7239"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1250721272784892157L
+				}
+				{
+					id: "31CC870F63B2E53E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Колёса дробления"
+			x: 8.0d
+			y: -1.0d
+			subtitle: "Каждый день для меня... как бессмысленная рутина"
+			description: ["&5К каждому Колесу проведите источник энергии вращения, учитывая, что крутиться механические детали должны в разные стороны. Ресурсы поместите сверху вручную или через выбрасыватель. Готовый продукт выходит снизу."]
+			dependencies: ["56E267010ED17E54"]
+			hide: true
+			id: "0500D09E7E44D1F6"
+			tasks: [{
+				id: "19C26D5471E4A3CD"
+				type: "item"
+				item: "create:crushing_wheel"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "1430EA9A629125DD"
+					type: "item"
+					item: "malum:cthonic_gold"
+					count: 3
+				}
+				{
+					id: "215BDC995BE9E98D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 2.0d
+			subtitle: "Используем Ксегонит"
+			description: [
+				"&7Аппараты для перемещения действительно необходимы, если, конечно, я хочу изучить  останки прошлого мира. Ведь всё не так просто здесь, мне нужны недостающие кусочки информации для обзора полной картины."
+				""
+				"&5Добудьте Ксегонит из руд в Перевёрнутом мире, а затем используйте их в рецепте Машинных деталей. Позже Вам откроется создание Дирижаблей."
+			]
+			dependencies: [
+				"56E267010ED17E54"
+				"08C7F603767255F3"
+			]
+			hide: true
+			id: "6187D18329219C86"
+			tasks: [{
+				id: "3C601509F1F4901D"
+				type: "item"
+				item: "viescraftmachines:machine_parts_mold"
+			}]
+			rewards: [
+				{
+					id: "287170D6E6C8B798"
+					type: "item"
+					item: "minecraft:iron_ore"
+					count: 8
+				}
+				{
+					id: "7B4A46A29178B9D5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: -2.5d
+			subtitle: "Труха"
+			description: ["Прогоните Обсидиан через Колёса Дробления для получения специального порошка, используемого в рецептах создания."]
+			dependencies: ["0500D09E7E44D1F6"]
+			hide: true
+			id: "47D721DA90A55AF8"
+			tasks: [{
+				id: "0E3330E1A34DD54B"
+				type: "item"
+				item: "create:powdered_obsidian"
+			}]
+			rewards: [{
+				id: "06863547D421D767"
+				type: "item"
+				item: "corn_delight:corn_soup"
+			}]
+		}
+		{
+			x: 12.0d
+			y: -2.5d
+			subtitle: "Сколько резину не тяни, всё равно когда-нибудь кончится…"
+			description: [
+				"&7С восстановлением целой цивилизации я, конечно, поспешил, однако всё равно можно попытаться восстановить некую частичку флоры мира до всплеска. "
+				""
+				"&5Менриловые деревья Вы можете вырастить в условиях Перевернутого мира, нужно лишь постараться создать больше свободного места. Получайте больше дерева при добыче и перерабатывайте в Менрил, чтобы обойти долгую последовательность изначального рецепта. "
+			]
+			dependencies: ["08C7F603767255F3"]
+			id: "4A112893663B7420"
+			tasks: [{
+				id: "2260FA40A7D87451"
+				type: "item"
+				item: "integrateddynamics:menril_sapling"
+			}]
+			rewards: [
+				{
+					id: "1487862F8D99CDB0"
+					type: "item"
+					item: "integrateddynamics:menril_log"
+					count: 4
+				}
+				{
+					id: "3188BA8944C73F94"
+					type: "item"
+					item: "integrateddynamics:menril_leaves"
+					count: 4
+				}
+			]
+		}
+		{
+			title: "Торт Всполоха"
+			icon: "create:blaze_cake"
+			x: 10.0d
+			y: -1.0d
+			subtitle: "Все дело в сливочном креме!"
+			description: ["&7Существо под названием Всполох в моих руках стало частью единых механических структур. И сейчас, и раньше подобное не было редкостью - люди приспосабливали не только природу неживую, но и разные организмы в своих устройствах, как бы эгоистичными не казались методы использования биогенетики. Это приносит достаточно пользы, чтобы быть оправданным."]
+			dependencies: ["0500D09E7E44D1F6"]
+			hide: true
+			id: "6E3DDCF3F853EEE9"
+			tasks: [
+				{
+					id: "6108C7DEBE8BFB88"
+					type: "item"
+					item: "create:cinder_flour"
+				}
+				{
+					id: "71686730586A679E"
+					type: "item"
+					item: "create:blaze_cake"
+				}
+			]
+			rewards: [{
+				id: "163D3119FCCF98C0"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: 12.0d
+			y: -1.0d
+			subtitle: "- Это невозможно! - Это наука!"
+			description: ["&5Первый жидкий Менрил Вы можете получить в Смешивании. Затем необходимо переработать его в Блок в Сушильном Чане. Впоследствии этот путь будет очень неудобен, так что Вам станут доступны альтернативные методы получения. "]
+			dependencies: [
+				"6E3DDCF3F853EEE9"
+				"47D721DA90A55AF8"
+			]
+			hide: true
+			id: "08C7F603767255F3"
+			tasks: [{
+				id: "7B85AFE1F10F9F4A"
+				type: "item"
+				item: "integrateddynamics:crystalized_menril_block"
+			}]
+			rewards: [{
+				id: "7FDE3BA27E32C363"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 2.0d
+			subtitle: "Я буду летать!"
+			description: ["&7Машинный сплав из Ксегонита позволит сделать лёгкие и вместе с тем прочные детали моего воздушного корабля. "]
+			dependencies: ["6187D18329219C86"]
+			id: "4860C7A1E49D7263"
+			tasks: [{
+				id: "3E63E3B4DEA0221F"
+				type: "item"
+				item: "viescraftmachines:machine_parts"
+			}]
+			rewards: [{
+				id: "42599B7B0F7C49F8"
+				type: "item"
+				item: "create:brass_sheet"
+				count: 6
+			}]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			subtitle: "Сушка и точка"
+			description: ["&7Очень питательное растение, но сырым даже подводные обитатели не съели бы и листик. Откуда только у меня знания о мире, не понимаю."]
+			dependencies: ["6873E6A6C5883FB9"]
+			hide: true
+			id: "36D91B9457E08F3E"
+			tasks: [{
+				id: "49BB5D7FF48CD7E8"
+				type: "item"
+				item: "minecraft:dried_kelp"
+			}]
+			rewards: [{
+				id: "5D354AA1E275669B"
+				type: "item"
+				item: "minecraft:dried_kelp_block"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			subtitle: "Затянуть пояса"
+			description: ["&7Как и предполагалось, Ламинарии оказались очень прочны, когда их переплавляешь. Это как жевательная резинка, только в производстве её можно использовать не хуже, чем в качестве еды. "]
+			dependencies: ["36D91B9457E08F3E"]
+			id: "638E80592E221BDE"
+			tasks: [{
+				id: "7DE8FBCF14A18E92"
+				type: "item"
+				item: "create:belt_connector"
+			}]
+			rewards: [{
+				id: "36CD314DEB07BC07"
+				type: "item"
+				item: "create:builders_tea"
+			}]
+		}
+		{
+			title: "Мультиблочные Механизмы"
+			icon: "ud_world_items:copper_gear_icon"
+			x: 4.0d
+			y: 6.5d
+			subtitle: "Империя Машин"
+			description: [
+				"&7Пришло время выходить на новый этап развития Инженерного ремесла. Теперь я займусь разработкой Мультиблочных механизмов. С их помощью я смогу создать ряд уникальных предметов, автоматизировать добычу и производство ресурсов, а также, надеюсь, мне удастся добыть кристаллы со способностью к контролю гравитации и самого пространства."
+				""
+				"&5Ваше дальнейшее развитие и продвижение по сборке будет напрямую зависеть от строительства Мультиблочных механизмов. Только с их помощью Вы откроете больше контента и продвинитесь в сюжетном направлении."
+				""
+				"Для отображения структур нажмите на задание левой кнопки мыши, затем выведите его, прикрепите в мире нажатием ПКМ и начните строить.  Для преобразования контроллера или блоков входа/выхода используйте Гаечный Ключ, нажимая им ПКМ по определённому блоку. Для завершения квеста нажмите после создания механизма ЛКМ по условию."
+				""
+				"&7Стоит заметить, что Гаечный Ключ перестаёт быть полезным в создании структур даже после незначительной поломки. Это так неудобно..."
+			]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			size: 1.25d
+			id: "0B9189302064A77A"
+			tasks: [{
+				id: "5E6B3BD072DC0EE2"
+				type: "checkmark"
+				title: "Понял!"
+			}]
+			rewards: [
+				{
+					id: "0AC0336A407B6957"
+					type: "xp"
+					xp: 85
+				}
+				{
+					id: "38BB6F6EDEF76261"
+					type: "item"
+					item: {
+						id: "the_upside_down_world:wrench"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: 3.5d
+			subtitle: "Аэродинамика — это для тех, кто не умеет строить мощные моторы"
+			description: ["&7Рюкзак Инженера вечно представляет из себя \"Зиг инвентаря\", определение, внесённое одним из передовых учёных - технологов, когда Ваша рабочая зона напоминает помойное ведро, в кое сбрасывают всё без разбора, а найти в нём ничего нельзя. Но для кого-то это может быть очень удобно, если Вы легко ориентируетесь и можете найти даже Ключ от определённой машины."]
+			dependencies: ["4860C7A1E49D7263"]
+			hide: true
+			id: "4155F387C8C86F88"
+			tasks: [{
+				id: "11166CFFB502ED43"
+				type: "item"
+				item: {
+					id: "viescraftmachines:tool_machine_wrench"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "320100136221422E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 3022466149224120138L
+			}]
+		}
+		{
+			x: 14.0d
+			y: 2.0d
+			subtitle: "Был бы логист, а проблемы найдутся"
+			description: ["&7Для работы Воздушного судна понадобится хотя бы допотопный пульт управления. Здесь точно не обойтись без схем или плат. Это кропотливая работа, нужно сконцентрироваться."]
+			dependencies: ["4860C7A1E49D7263"]
+			hide: true
+			id: "3AA03EB64381EE47"
+			tasks: [{
+				id: "4FA9B6D2A44FC57D"
+				type: "item"
+				item: "viescraftmachines:circuit_logic"
+			}]
+			rewards: [
+				{
+					id: "3D9FC736841C4CB1"
+					type: "xp"
+					xp: 55
+				}
+				{
+					id: "455F43D3650406DB"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 14.0d
+			y: 3.5d
+			subtitle: "Корпус Дирижабля"
+			description: ["&5Нажмите ПКМ с Шасси в руках, чтобы разместить Макет Дирижабля. После этого Вы можете навесить на него необходимые Комплекты, а в дальнейшем запустить в воздух сам Дирижабль. "]
+			dependencies: ["3AA03EB64381EE47"]
+			hide: true
+			id: "28A516601B832106"
+			tasks: [{
+				id: "6F0BA3208410FBCE"
+				type: "item"
+				item: "viescraftmachines:machine_chassis_flying"
+			}]
+			rewards: [{
+				id: "1BDB2CEEA66FBC66"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			title: "Карта Переменных"
+			x: 14.0d
+			y: -1.0d
+			subtitle: "Истина существует "
+			description: ["&7Нули, единицы, знаки и иные цифровые определения шокируют меня до сих пор. Буквально вчера мы со всем научным обществом совершили прорыв в информационных технологиях, а уже сегодня я нахожусь здесь, в мире без разумных братьев и сестёр. Это не апокалипсис, но катастрофа. В том числе и для технологических прорывов, которые реализовать смогу теперь лишь я."]
+			dependencies: ["08C7F603767255F3"]
+			hide: true
+			id: "02C173D52A5C9B69"
+			tasks: [{
+				id: "277B151739DFE449"
+				type: "item"
+				item: "integrateddynamics:variable"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "2A5EA3D88E55E74C"
+					type: "item"
+					item: "ironchest:gold_to_diamond_chest_upgrade"
+				}
+				{
+					id: "2F81011BB7CE6861"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Переменные Трансформаторы"
+			x: 14.0d
+			y: -2.5d
+			subtitle: "Автоботы, трансформируемся!"
+			description: ["&5Эти детали позволят Вам сделать первый шаг в сторону компьютеризации Ваших механизмов, ферм или иных происходящих процессов. Сами по себе это лишь материалы для будущих рецептов, но уже их создание вселяет в Вас надежду на полную автоматизацию всего и вся."]
+			dependencies: ["02C173D52A5C9B69"]
+			hide: true
+			id: "56538A78F1A4CDF0"
+			tasks: [
+				{
+					id: "7A10D5D29D5E4FFD"
+					type: "item"
+					item: "integrateddynamics:variable_transformer_input"
+				}
+				{
+					id: "0805197D688E5F5F"
+					type: "item"
+					item: "integrateddynamics:variable_transformer_output"
+				}
+			]
+			rewards: [{
+				id: "7382FDA9F2A45972"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			x: 12.0d
+			y: 0.5d
+			subtitle: "Азбука по-инженерски"
+			description: ["&5Здесь и впредь Вам будет попадаться множество различных Книг с информацией о модах. Когда для Вас наступает тяжёлый период в изучении модификации - смело обращайтесь к Интернет-Вики или к подобным Гайдбукам."]
+			dependencies: ["08C7F603767255F3"]
+			id: "30BDAE50BCDA870D"
+			tasks: [{
+				id: "51AB042357C89F34"
+				type: "item"
+				item: "integrateddynamics:on_the_dynamics_of_integration"
+			}]
+			rewards: [{
+				id: "0893D95853AE9276"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 2s
+							id: "minecraft:feather_falling"
+						}]
+					}
+				}
+			}]
+		}
+		{
+			x: 16.0d
+			y: -1.0d
+			subtitle: "Несовершенные детали вместе образуют совершенное целое"
+			description: ["&7Голова начинает взрываться при попытке разобраться во всём этом. Скручивать шестерни в механических заводах куда проще, чем программировать. "]
+			dependencies: ["08C7F603767255F3"]
+			hide: true
+			id: "065D324E5444A273"
+			tasks: [{
+				id: "45A39E3F45D7C4F5"
+				type: "item"
+				item: "integrateddynamics:logic_programmer"
+			}]
+			rewards: [{
+				id: "2DB159FD654549F4"
+				type: "item"
+				item: "farmersdelight:mutton_wrap"
+				count: 2
+			}]
+		}
+		{
+			x: 14.0d
+			y: 0.5d
+			subtitle: "Сбор FE-энергии"
+			description: ["Удобное хранилище RF-энергии, получаемой в данном моде. В будущем Вы сможете конвертировать FE-энергию в RF, чтобы в полной мере пользоваться замечательными механизмами из IntegratedDynamics."]
+			dependencies: ["08C7F603767255F3"]
+			id: "29724A4D5CA13080"
+			tasks: [{
+				id: "66DBBD3BCEF646AB"
+				type: "item"
+				item: {
+					id: "integrateddynamics:energy_battery"
+					Count: 1b
+					tag: {
+						energy: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0FDD3AA1B78FD4C7"
+				type: "item"
+				item: "minecraft:redstone_block"
+				count: 3
+			}]
+		}
+		{
+			x: 16.0d
+			y: 0.5d
+			subtitle: "Мусоропровод, работающий в обратную сторону"
+			description: ["&7Никогда бы не подумал, что человечество, в моё единственном лице, понятное дело, будет вынуждено обращаться к допотопным генераторам энергии. По крайней мере, сейчас это не столь важно, если уже совсем скоро получится получать энерию почти из воздуха, можно будет и индустриализацию провести."]
+			dependencies: ["29724A4D5CA13080"]
+			hide: true
+			id: "73BD6D089549305D"
+			tasks: [{
+				id: "739C41F70D546B48"
+				type: "item"
+				item: "integrateddynamics:coal_generator"
+			}]
+			rewards: [{
+				id: "540658B2D8E802B5"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			title: "Улучшенный Завод Сплавов"
+			icon: "ud_world_items:simple_engineering_bricks"
+			x: 4.0d
+			y: 8.0d
+			subtitle: "Ваш металл в голосе хорошо бы разобрать на утиль"
+			description: [
+				"&7Создавать только Андезитовый сплав и Продвинутый мусор мне невыгодно. Пришла пора подвергуть обработке иные виды металлов. Я должен придти к стали или бронзе, чтобы суметь улучшить свои механизмы. Ведь только с этими сплавами в действие пойдут надёжные и эффективные машины по созданию и обработке. За сплавами будущее!"
+				""
+				"&5Постройте Улучшенный Завод Сплавов для производства Стали, Бронзы или Латуни. В нём так же будут и старые рецепты, такие как Андезитовый сплав. Запитать механизм можно будет привычным топливом: углём, лавой и другими сгораемыми ресурсами."
+			]
+			dependencies: ["0B9189302064A77A"]
+			id: "5588B6E12E04ACF6"
+			tasks: [
+				{
+					id: "0CFBC23245E207BD"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "engineering_alloy_smelter"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "31AE5477488F1F2A"
+					type: "item"
+					item: "ud_world_items:simple_engineering_controller"
+				}
+				{
+					id: "31A8774EDB0AB3F1"
+					type: "item"
+					item: "ud_world_items:simple_engineering_input_block"
+				}
+				{
+					id: "162D1AA4868752C6"
+					type: "item"
+					item: "ud_world_items:simple_engineering_output_block"
+				}
+				{
+					id: "18438404EB1E3BFD"
+					type: "item"
+					item: "createdeco:cast_iron_block"
+				}
+				{
+					id: "0DC263EBF0C8E051"
+					type: "item"
+					item: "ud_world_items:simple_engineering_bricks"
+					count: 13L
+				}
+				{
+					id: "48058B85D1C57F3A"
+					type: "item"
+					item: "ud_world_items:simple_engineering_pillar"
+					count: 5L
+				}
+				{
+					id: "12408A81CEF0B471"
+					type: "item"
+					item: "ud_world_items:simple_engineering_base_block"
+					count: 5L
+				}
+			]
+			rewards: [{
+				id: "499C0757C45E4142"
+				type: "item"
+				item: "kubejs:molter_iron_bucket"
+			}]
+		}
+		{
+			title: "Простой Инженерный Конструктор"
+			icon: "ud_world_items:simple_engineering_controller"
+			x: 8.0d
+			y: 6.5d
+			subtitle: "МультиКрафтер"
+			description: [
+				"&7Когда инженеру становится неудобно пользоваться обычным Верстаком, он переходит на Механический крафтер. Когда же Механический Крафтер тоже становится бесполезным для Инженера, он обращает свой взор на Мультиблочные Конструкторы."
+				""
+				"&5Структура Механического Конструктора - это удачная комбинация небольших частей привычных Механизмов, но с возможностью автоматизации и создания новых предметов. С применением нового Крафтера Вам становятся доступны следующие Мультиблочные механизмы, полезные химические аппараты и множество других необходимых для продвижения по сборке вещей."
+			]
+			dependencies: ["0B9189302064A77A"]
+			id: "0BD6BD40533CC553"
+			tasks: [
+				{
+					id: "1B698E3A4D29443E"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "engineering_constructor"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "4DD72F8561108D15"
+					type: "item"
+					item: "ud_world_items:simple_engineering_controller"
+				}
+				{
+					id: "6BD3CC2A9A51DAFE"
+					type: "item"
+					item: "ud_world_items:simple_engineering_input_block"
+				}
+				{
+					id: "6543C4560CDD9347"
+					type: "item"
+					item: "ud_world_items:simple_engineering_output_block"
+				}
+				{
+					id: "35337C1BC0BCE85A"
+					type: "item"
+					item: "create:item_vault"
+				}
+				{
+					id: "52B54D0ACF14B487"
+					type: "item"
+					item: "createdeco:copper_sheet_slab"
+					count: 12L
+				}
+				{
+					id: "07C0BCCF40DAE7E4"
+					type: "item"
+					item: "supplementaries:cog_block"
+					count: 16L
+				}
+				{
+					id: "10E244C62D9EF4F1"
+					type: "item"
+					item: "ud_world_items:simple_engineering_bricks"
+					count: 18L
+				}
+				{
+					id: "15B32C8106F57C04"
+					type: "item"
+					item: "ud_world_items:simple_engineering_pillar"
+					count: 16L
+				}
+				{
+					id: "6A0D435674A719F4"
+					type: "item"
+					item: "ud_world_items:simple_engineering_base_block"
+					count: 40L
+				}
+			]
+			rewards: [
+				{
+					id: "38110916F0C5291E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "162B909B5999E6B6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1748955132031137801L
+				}
+				{
+					id: "7B7D6E51E13E5B67"
+					type: "item"
+					item: "farmersdelight:honey_glazed_ham"
+					count: 3
+				}
+			]
+		}
+		{
+			title: "Генератор"
+			icon: "ud_world_items:simple_engineering_base_block"
+			x: 2.0d
+			y: 8.0d
+			subtitle: "Я лучше буду гоняться за солнцем, чем ждать его"
+			description: [
+				"&7Энергии вращения или базового топлива не может быть даже приблизительно достаточно для запитывания Мультиблочных механизмов. И если в начале мне хотя бы как-то удавалось балансировать на грани угля или вёдер с лавой, то сейчас придётся начать производить энергию чистого качества посредством всё тех же используемых ресурсов."
+				""
+				"&5В Генераторе Вы сможете добывать FE-энергию. Для этого просто закиньте во Входной Шлюз или Контроллер требуемые ресурсы, а затем через трубы передайте полученное в Энергохранилище."
+			]
+			dependencies: ["0B9189302064A77A"]
+			id: "45A04B52CCF0DC3F"
+			tasks: [
+				{
+					id: "08528863D405B971"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "generator1"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "4EBA035E5B76EB52"
+					type: "item"
+					item: "ud_world_items:simple_engineering_controller"
+				}
+				{
+					id: "417B697560495BE3"
+					type: "item"
+					item: "ud_world_items:simple_engineering_output_block"
+					count: 2L
+				}
+				{
+					id: "7C8F4B9C101CBC11"
+					type: "item"
+					item: "ud_world_items:simple_engineering_bricks"
+					count: 27L
+				}
+				{
+					id: "506364BA1BEE0112"
+					type: "item"
+					item: "ud_world_items:simple_engineering_pillar"
+					count: 12L
+				}
+				{
+					id: "375061F2922F005F"
+					type: "item"
+					item: "ud_world_items:simple_engineering_base_block"
+					count: 8L
+				}
+				{
+					id: "5B85E93E8002E994"
+					type: "item"
+					item: "minecraft:redstone_block"
+					count: 4L
+				}
+			]
+			rewards: [{
+				id: "547F52D2545C0B0F"
+				type: "item"
+				item: "create:andesite_alloy"
+				count: 24
+			}]
+		}
+		{
+			title: "Эко-Теплица"
+			icon: "ud_world_items:simple_engineering_pillar"
+			x: 6.0d
+			y: 8.0d
+			subtitle: "Комнатный сад"
+			description: [
+				"&7После первой катастрофы люди долго гадали, как добывать ресурсы в новых условиях. И только через некое время появились первые адаптивные Механизмы с функцией выращивания в них растений. "
+				""
+				"&7В Эко-теплице я смогу выращивать саженцы деревьев и получать небольшое количество готовой продукции, в частности брёвен, палок и дополнительных ресурсов, которые характерны для некоторых пород. С дуба, например, будут падать яблоки."
+			]
+			dependencies: ["0B9189302064A77A"]
+			id: "060CC46BD603B020"
+			tasks: [
+				{
+					id: "0F7A57BBB93EBB3A"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "greenhouse"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "1913A3B2A67AD3FB"
+					type: "item"
+					item: "ud_world_items:simple_engineering_controller"
+				}
+				{
+					id: "7EB63FE3BD54CF26"
+					type: "item"
+					item: "ud_world_items:simple_engineering_input_block"
+				}
+				{
+					id: "6B1C21B9345560C7"
+					type: "item"
+					item: "ud_world_items:simple_engineering_output_block"
+				}
+				{
+					id: "5349F91C00BD96B9"
+					type: "item"
+					item: "ud_world_items:simple_engineering_pillar"
+					count: 8L
+				}
+				{
+					id: "11F1278521BB4AEA"
+					type: "item"
+					item: "ud_world_items:simple_engineering_base_block"
+					count: 9L
+				}
+				{
+					id: "1187FBA35C7E69DE"
+					type: "item"
+					item: "minecraft:glass"
+					count: 13L
+				}
+				{
+					id: "189893E54793A5E8"
+					type: "item"
+					item: "minecraft:grass_block"
+				}
+			]
+			rewards: [{
+				id: "512F8F3761D7F845"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			x: -1.0d
+			y: -2.5d
+			subtitle: "Мы свернули за угол, и мой дом исчез"
+			description: [
+				"&7Оружие ближнего боя - это, конечно, хорошо, но останавливаться на данном не следует. Я могу создать оружие с использованием пороховых снарядов, чтобы поражать противников на расстоянии. Так я смогу выиграть себе преимущество и отбиться от тройки другой монстров, обитающих здесь."
+				""
+				"На Оружейном Верстаке Вы можете улучшить имеющееся Оружие, навесить на него прицел и другие примочки."
+			]
+			dependencies: ["3784BE19F567701C"]
+			hide: true
+			id: "3B6A1B4F05F911FC"
+			tasks: [{
+				id: "5B2161B77E5A879C"
+				type: "item"
+				item: "alloyedguns:workbench"
+			}]
+			rewards: [{
+				id: "1511831DEBC80183"
+				type: "item"
+				item: "farmersdelight:rice_bale"
+				count: 3
+			}]
+		}
+		{
+			title: "Жидкостные трубы"
+			x: 4.0d
+			y: 5.0d
+			subtitle: "Сантехника"
+			description: ["&5Как и в других ситуациях, где для передачи чего-либо нужны вспомогательные ресурсы, при использовании жидкостей Вам обязательно понадобятся трубы."]
+			dependencies: ["3003695F3A27EAC0"]
+			hide: true
+			id: "531FCFD8E07460A4"
+			tasks: [{
+				id: "300A22A22C7C4027"
+				type: "item"
+				item: "create:fluid_pipe"
+				count: 8L
+			}]
+			rewards: [{
+				id: "452C49101F9D110A"
+				type: "item"
+				item: "createdeco:copper_sheet_metal"
+				count: 3
+			}]
+		}
+		{
+			x: 6.0d
+			y: 5.0d
+			subtitle: "Резервуар"
+			description: ["&7Бак служит неплохим начальным жидкостным хранилищем. Я смогу объединить несколько, чтобы увеличить вместимость. А если провести несколько помп и умных труб..."]
+			dependencies: ["531FCFD8E07460A4"]
+			hide: true
+			id: "4B1C01B3793A279F"
+			tasks: [{
+				id: "0F7671DFDB460AC0"
+				type: "item"
+				item: "create:fluid_tank"
+			}]
+			rewards: [{
+				id: "4DFA82716C6F9F05"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			x: 8.0d
+			y: 5.0d
+			subtitle: "*Бульк*"
+			description: [
+				"Запитывает жидкостью предметы или резервуары. "
+				"Запитайте через трубы Дозатор, поставьте с разницей в блок под механизм Чашу или Депо, поместите предмет. Рецепт начнётся самостоятельно."
+			]
+			dependencies: ["531FCFD8E07460A4"]
+			id: "6271A4C94EA1C1D4"
+			tasks: [{
+				id: "54C23E670E20FCA7"
+				type: "item"
+				item: "create:spout"
+			}]
+			rewards: [
+				{
+					id: "7C117F5060EE7E8E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "2CACE4A4776B6527"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			subtitle: "Лёгкий обдув"
+			description: ["Для создания Вентилятора смастерите Пропеллер и Андезитовый корпус. Лёгким щелчком Правой Кнопки Мыши с Пропеллером преобразуйте Андезитовый Корпус в механизм - Вентилятор."]
+			dependencies: ["42183D42D22F63DA"]
+			id: "6CC273BBFFD57818"
+			tasks: [{
+				id: "1A7DC77149B0445E"
+				type: "item"
+				item: "create:encased_fan"
+			}]
+			rewards: [{
+				id: "517C09DEDE280340"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1748955132031137801L
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			subtitle: "Зачем тебе пистолет? Дави их интеллектом!"
+			description: ["Используйте улучшенный Корпус для оружия при обработке через Последовательную сборку, чтобы создать лучшее оружие."]
+			dependencies: [
+				"3B6A1B4F05F911FC"
+				"265B5A1ACE8A9D87"
+			]
+			id: "7855499CB74D5F03"
+			tasks: [{
+				id: "16E15921D466C629"
+				type: "item"
+				item: "alloyedguns:basic_gun_kit"
+			}]
+			rewards: [{
+				id: "0223FA494DF848EB"
+				type: "item"
+				item: "paraglider:stamina_vessel"
+			}]
+		}
+		{
+			x: 1.0d
+			y: -2.5d
+			subtitle: "Даже если не выстрелит, таким всегда можно дать по голове"
+			description: ["Простой Оружейный корпус для создания допотопных Пистолета или Мушкета."]
+			dependencies: ["3B6A1B4F05F911FC"]
+			id: "265B5A1ACE8A9D87"
+			tasks: [{
+				id: "1FD0F8E3F62E23ED"
+				type: "item"
+				item: "alloyedguns:crude_gun_kit"
+			}]
+			rewards: [{
+				id: "6A0ED857BD4DBD7C"
+				type: "item"
+				item: "farmersdelight:hamburger"
+			}]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			subtitle: "Вы знаете первое правило борьбы? Стреляйте в них прежде, чем застрелят Вас"
+			description: ["Предпоследний по продвинутости Корпус, требующийся в рецептах создания лучших видов огнестрельного оружия."]
+			dependencies: [
+				"3B6A1B4F05F911FC"
+				"7855499CB74D5F03"
+			]
+			id: "2AAB6228176AF5BC"
+			tasks: [{
+				id: "39A8B0ACEFC4C58A"
+				type: "item"
+				item: "alloyedguns:advanced_gun_kit"
+			}]
+			rewards: [
+				{
+					id: "78F30B102E86062F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "6A6AB8F79061C16F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 3.5d
+			subtitle: "Вместо молота"
+			description: [
+				"&7В отличие от других разработок шахтёрских инструментов, этот отличается своей невероятной прочностью и возможность разрушать пространство перед собой в широкой зоне. Исходя из опытов, предел его копания - 3х3 блока. Конечно, это не молоты Древних Копателей, но инструмент стал и вправду полезнее."
+				""
+				"&5Несмотря на преимущества, у данного Бура есть и некоторые недостатки. Так, например, ценой за копание 3х3 стал уровень копания. Вы не сможете добыть руды уровня золота или редстоуна."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"5C96879819D068C8"
+				"1515AFCFF653E6B7"
+			]
+			hide: true
+			id: "57874E4880009FBD"
+			tasks: [{
+				id: "3ECCDFCE10BC1170"
+				type: "item"
+				item: {
+					id: "drills:brass_drill"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42EBA4EEC2F72EE1"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "40893F0137B592D5"
+					type: "item"
+					item: "farmersdelight:mixed_salad"
+				}
+			]
+		}
+		{
+			title: "Стальной Промысел"
+			icon: "ud_world_items:iron_gear_icon"
+			x: 10.0d
+			y: 7.5d
+			subtitle: "Новая Эпоха"
+			description: [
+				"&7Стальные кирпичи, батарея, лампы. Кажется, ничего не забыл. Я запамятовал это чувство новизны от собственных творений. А ведь когда-то я проходил этот круг превращений простых металлов в сплавы, одноблочных механизмов в мультиблочные. Примеров можно приводить много, но суть одна - я даже немного рад оказаться в таких условиях, хоть и не этично говорить об этом. Сейчас даже само слово \"этика\" в условиях отсутствия общества как такого может звучать странно, никто кроме меня не поймёт его значения, а мне оно ни к чему, если цель здесь толька одна - выжить и найти ответы."
+				""
+				"&5Стальные мультиблочные механизмы - улучшенная версия предыдущих. Вам станут доступны новые генераторы, плавильня, дробитель и другие обработчики. С ними Вы сможете покорить потоки гравитации и добыть особые кристаллы энергии."
+			]
+			dependencies: ["0BD6BD40533CC553"]
+			hide: true
+			id: "37D6A16B53B9241B"
+			tasks: [{
+				id: "2356D11BCC1DB5C2"
+				type: "checkmark"
+				title: "Понял!"
+			}]
+			rewards: [
+				{
+					id: "4F7E6DE14B504914"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1748955132031137801L
+				}
+				{
+					id: "7B81824DC3395630"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+				{
+					id: "49059A30DE2059E6"
+					type: "gamestage"
+					title: "&6Новые предметы в Трансмутации"
+					icon: "the_upside_down_world:irongear"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "create_shop"
+				}
+			]
+		}
+		{
+			title: "Инженерная Плавильня"
+			icon: "ud_world_items:improved_engineering_input_block"
+			x: 10.0d
+			y: 9.5d
+			subtitle: "Лучше, чем печь"
+			description: [
+				"&7На горьком опыте я научен не совершать ошибок, допускаемых ранее. Новая Плавильня позволит мне получить с её применением максимальный возможный выхлоп. Единица сырья на выходе будет переплавлена в два слитка или ресурса. "
+				""
+				"Используйте Плавильню, чтобы получать из Дроблёной руды повышенное количество слитков. Здесь также можно будет переплавить и некоторые другие ресурсы, с большим количеством продукта после обработки."
+			]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "34CC08335B007798"
+			tasks: [
+				{
+					id: "13A3C4D681548427"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "engineering_foundry"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "37C96D4DF7B6B270"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "359CEA8AB9BF966C"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "2D19A0D7C1A135C0"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "65E1D80DE1FB4939"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 38L
+				}
+				{
+					id: "56F6504A75D0F3BC"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 12L
+				}
+				{
+					id: "6EA10702DA214CBA"
+					type: "item"
+					item: "ud_world_items:improved_engineering_base_block"
+					count: 20L
+				}
+				{
+					id: "4D2DD0BFA7FB6348"
+					type: "item"
+					item: "ud_world_items:improved_engineering_lamp"
+					count: 3L
+				}
+				{
+					id: "10180AD3115BB3DD"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+				}
+				{
+					id: "5E78AA8F1570499A"
+					type: "item"
+					item: "ud_world_items:improved_engineering_heater"
+				}
+			]
+			rewards: [
+				{
+					id: "4E4434ADA2B07F6A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 1250721272784892157L
+				}
+				{
+					id: "37BCD8670FAEBA34"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Инженерный Дробитель"
+			icon: "ud_world_items:improved_engineering_output_block"
+			x: 10.0d
+			y: 11.0d
+			subtitle: "Удвоение ресурсов"
+			description: [
+				"&5Этот на первый взгляд имба-Дробитель открывает перед игроком важнейший функционал - удвоение ресурсов из рудных осколков и редких блоков."
+				""
+				"С созданием данного Мультиблочного механизма Вы сможете проработать целую систему по переработке руды и увеличению количества выходного материала. Сказка, скажите же!"
+			]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "22AF836269868226"
+			tasks: [
+				{
+					id: "7EC3BE34C723A0D2"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "engineering_crusher"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "78ED281612A02D77"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "331AC07FCFF6A6CF"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "1D3C81F250F3D3FD"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "2EC623866A88C584"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 16L
+				}
+				{
+					id: "1503D6A20EC72FF4"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 8L
+				}
+				{
+					id: "2877CF4D0046A8EB"
+					type: "item"
+					item: "ud_world_items:improved_engineering_base_block"
+					count: 8L
+				}
+				{
+					id: "27D9B3BEA05923AA"
+					type: "item"
+					item: "ud_world_items:improved_engineering_lamp"
+					count: 2L
+				}
+				{
+					id: "369B2FF036FF1C7F"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+				}
+				{
+					id: "0A2B038E80B5B9F5"
+					type: "item"
+					item: "ud_world_items:improved_engineering_drill"
+				}
+			]
+			rewards: [{
+				id: "5A4A8C938625D697"
+				type: "item"
+				item: "create:ochrum"
+				count: 32
+			}]
+		}
+		{
+			title: "Межпространственный Бур"
+			icon: "ud_world_items:improved_engineering_drill_on"
+			x: 8.0d
+			y: 9.5d
+			subtitle: "Разлом гравитации"
+			description: [
+				"&7Если верить записям, так выглядит Древний Механизм по добыче Гравито-Кристаллов. Кажется несложным, нужно построить его как можно скорее. "
+				""
+				"&7Сами по себе Гравито-Кристаллы выглядят безобидно. Но люди научились пользоваться ими в обработке материалов и добыче энергии. И один или другой процесс стал первопричиной двух Катастроф. Осторожность не помешает, конечно."
+			]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "1F872A0702C7DC8A"
+			tasks: [
+				{
+					id: "2659C823066C8B72"
+					type: "questsadditions:structure"
+					title: "Разломите пространство!"
+					name: "interdimensional_drill2"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "612F191FEE1F9532"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "075DC5B80432382E"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "115145A6D91C47D7"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "08CA6DC6665BEF9D"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 8L
+				}
+				{
+					id: "0C2A6C2B11E6847B"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 28L
+				}
+				{
+					id: "0460E54C15EF045C"
+					type: "item"
+					item: "ud_world_items:improved_engineering_polished_block"
+					count: 14L
+				}
+				{
+					id: "7C0B7D7EF6A638B7"
+					type: "item"
+					item: "ud_world_items:improved_engineering_lamp"
+					count: 5L
+				}
+				{
+					id: "2098122A28451E59"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+					count: 2L
+				}
+				{
+					id: "2B9FA7D25C03E179"
+					type: "item"
+					item: "ud_world_items:improved_engineering_drill"
+					count: 23L
+				}
+			]
+			rewards: [{
+				id: "4FF4658EF8E7F110"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 4036276453185466438L
+			}]
+		}
+		{
+			title: "Улучшенный Генератор"
+			icon: "ud_world_items:improved_engineering_polished_block"
+			x: 12.0d
+			y: 6.0d
+			subtitle: "Да здравствуют капитаны!"
+			description: ["Как и предыдущий Генератор, этот производит энергию за счёт поглощения внутри себя разных видов угля и блоков из него. "]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "24DED5E0249FE14C"
+			tasks: [
+				{
+					id: "3C311F8EED4487DF"
+					type: "questsadditions:structure"
+					title: "Постройте структуру! [ПКМ]"
+					name: "improved_generator"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "2EA44D4C8DA1B8AB"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "19410E414042D645"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "2F85C2286B67BDF6"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "676FFFF004B2909B"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 6L
+				}
+				{
+					id: "61CD20E5D8039A22"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 12L
+				}
+				{
+					id: "6CD8974FED8B4E7B"
+					type: "item"
+					item: "ud_world_items:improved_engineering_base_block"
+					count: 20L
+				}
+				{
+					id: "222B857D090DE176"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+				}
+			]
+			rewards: [
+				{
+					id: "5667B713DC9B4F36"
+					type: "item"
+					item: "minecraft:coal_block"
+				}
+				{
+					id: "4E1160ACFADA68F8"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			title: "Термальный Генератор"
+			icon: "ud_world_items:improved_engineering_heater"
+			x: 12.0d
+			y: 7.5d
+			subtitle: "Энергия на лаве"
+			description: ["Генерируем энергию на Лаве, Стержнях ифрита  и Магме."]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "0872F14610B361E2"
+			tasks: [
+				{
+					id: "0807136BE99382AC"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "thermal_generator"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "1708130E90C9AB50"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "15556BC2471651D6"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "4DB603B1D3739A8A"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "5766D17EDC4C88FA"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 10L
+				}
+				{
+					id: "6BB9278E6ED094BD"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 12L
+				}
+				{
+					id: "2593BE27760C48ED"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+				}
+				{
+					id: "1967DAA761F354E9"
+					type: "item"
+					item: "ud_world_items:improved_engineering_heater"
+				}
+			]
+			rewards: [{
+				id: "10C636C735475155"
+				type: "item"
+				item: "minecraft:magma_block"
+				count: 8
+			}]
+		}
+		{
+			title: "Биогенератор"
+			icon: "ud_world_items:improved_engineering_base_block"
+			x: 14.0d
+			y: 7.5d
+			subtitle: "Зелёные не одобряют"
+			description: ["Производство FE-энергии на различных сельскохозяйственных культурах. Используйте семена, овощи, фрукты в механизме  для выработки топлива."]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "199132392708D3CA"
+			tasks: [
+				{
+					id: "3FAB4117F1B7B693"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "biogenerator"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "52C3FD5BFBDFF47E"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "6BAC21BCFE9E47C0"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "61E1C7151C058150"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "28B5B61648FF88B2"
+					type: "item"
+					item: "farmersdelight:rich_soil"
+					count: 9L
+				}
+				{
+					id: "7604EC68B386610F"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 8L
+				}
+				{
+					id: "4AD7EFD284AA3D34"
+					type: "item"
+					item: "ud_world_items:improved_engineering_polished_block"
+					count: 12L
+				}
+				{
+					id: "121CD8CB846C8870"
+					type: "item"
+					item: "ud_world_items:improved_engineering_base_block"
+					count: 6L
+				}
+				{
+					id: "71BB43A2B61B94A3"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+				}
+				{
+					id: "2D162F99263A8985"
+					type: "item"
+					item: "minecraft:tinted_glass"
+					count: 33L
+				}
+			]
+			rewards: [{
+				id: "143F9D3EF2EEB350"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 1250721272784892157L
+			}]
+		}
+		{
+			title: "Камера Пылающей Звезды"
+			icon: "ud_world_items:improved_engineering_bricks"
+			x: 12.0d
+			y: 9.5d
+			subtitle: "Врата в Ад"
+			description: [
+				"&7Наша цивилизация на пике своего развития была богата похожими механизмами на каждом шагу. Мы путешествовали по Древним мирам, добывали оттуда ресурсы и использовали их в изобретениях или архитектуре. Незер - одно из таких измерений, куда наши Авантюристы отправлялись за золотом и редким деревом. Сейчас же все порталы закрыты, поддерживать их энергообеспечение некому, как следствие - невозможность добычи редких минералов и ресурсов. "
+				""
+				"&7Однако, если подумать, я мог бы создать Механизм с функционалом преобразования материалов нашего мира в ресурсы из другого. Я воспользуюсь волнами того мира, направлю их через стальную призму и превращу одно в другое. План надёжный, как швейцарские часы."
+			]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "356CF84CC99C56F5"
+			tasks: [
+				{
+					id: "7B3D2415C6623202"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "flaming_star_chamber"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "059F96C4F45E367A"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "36D2439B5732373E"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "0DB75DE1E3D1AC11"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "38F375FFE0284F9D"
+					type: "item"
+					item: "ud_world_items:improved_engineering_pillar"
+					count: 14L
+				}
+				{
+					id: "6E6A3C1381618E55"
+					type: "item"
+					item: "ud_world_items:improved_engineering_polished_block"
+				}
+				{
+					id: "63B8AEB388D3415E"
+					type: "item"
+					item: "ud_world_items:improved_engineering_base_block"
+					count: 31L
+				}
+				{
+					id: "5684DB9FAA106615"
+					type: "item"
+					item: "ud_world_items:improved_engineering_lamp"
+					count: 3L
+				}
+				{
+					id: "79DE0DDBD00C5B39"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+				}
+				{
+					id: "38CC2AB89F1F5A3B"
+					type: "item"
+					item: "ud_world_items:improved_engineering_heater"
+				}
+			]
+			rewards: [
+				{
+					id: "24F235CCDA3EB53D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+				{
+					id: "6F56D9F540C142D8"
+					type: "gamestage"
+					title: "&6Новые предметы в Трансмутации"
+					icon: "the_upside_down_world:irongear"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "nether_shop"
+				}
+			]
+		}
+		{
+			title: "Улучшенный Инженерный Конструктор"
+			icon: "ud_world_items:improved_engineering_controller"
+			x: 6.0d
+			y: 11.5d
+			subtitle: "Просто о сложном"
+			description: [
+				"&7Не так уж просто изобретать с использованием допотопной техники. Все мои устройства, до этого момента - груда металла, не стоящая даже рядом с этим новым Конструктором. Стальная обшивка, Менрил в качестве проводника, несколько взмахов ключом и та-дам - всё готово!"
+				""
+				"&5По завершении строительства и активации Улучшенного Инженерного Конструктора, Вам становятся доступны рецепты создания лучших предметов. Новый этап уже не за горами!"
+			]
+			dependencies: ["37D6A16B53B9241B"]
+			id: "1515AFCFF653E6B7"
+			tasks: [
+				{
+					id: "35F7299D0CB1400F"
+					type: "questsadditions:structure"
+					title: "Постройте структуру!"
+					name: "improved_engineering_constructor"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "62EA240C5F586F22"
+					type: "item"
+					item: "ud_world_items:improved_engineering_controller"
+				}
+				{
+					id: "1FA546013F256BE3"
+					type: "item"
+					item: "ud_world_items:improved_engineering_input_block"
+				}
+				{
+					id: "3C1778F9B1C7082E"
+					type: "item"
+					item: "ud_world_items:improved_engineering_output_block"
+				}
+				{
+					id: "6CD08492C1481888"
+					type: "item"
+					item: "integrateddynamics:crystalized_menril_block"
+					count: 14L
+				}
+				{
+					id: "6BD6B00881209D42"
+					type: "item"
+					item: "alloyed:steel_sheet_metal"
+					count: 12L
+				}
+				{
+					id: "662DA2FF307AB28A"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 64L
+				}
+				{
+					id: "2A8FE8380B370084"
+					type: "item"
+					item: "ud_world_items:improved_engineering_bricks"
+					count: 25L
+				}
+				{
+					id: "7F74CED8C5A4ECCA"
+					type: "item"
+					item: "ud_world_items:improved_engineering_base_block"
+					count: 56L
+				}
+				{
+					id: "5BBCC1303309C803"
+					type: "item"
+					item: "ud_world_items:improved_engineering_battery"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "6962D4A43F6846E9"
+					type: "item"
+					item: "ud_world_items:raw_gravito_crystal"
+					count: 4
+				}
+				{
+					id: "5B320763617B090E"
+					type: "item"
+					item: "farmersdelight:stuffed_pumpkin_block"
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			subtitle: "Объясни свою маленькость"
+			description: [
+				"&7Микромир - не ложь, а прямая реальность. &7Технология Микромиров была и остаётся одной из важнейших загадок науки нашего времени. Никто так и не изучил её с высокой точностью данных. Некоторые Авантюристы сгинули на этапе испытаний. Тогда же все исследовательские проекты лишились поддержки инвесторов. Осталось лишь малое количество записей со сведениями об этом. Восстановить всю картину будет невероятно сложно, но при должной удаче у меня выйдет потрясающая машина с собственным измерением, где я буду хранить..."
+				""
+				"&5Сжатые камеры являются вместилищем микромиров, которыми Вы управляете по своему усмотрению. Храните внутри Механизмы, Заводы по производству или личные вещи - без разницы. У Вас всегда будет доступ к измерению при наличии под рукой Сжатой камеры и ПУС."
+			]
+			dependencies: ["1515AFCFF653E6B7"]
+			hide: true
+			id: "0F8F5B4EA3B976AF"
+			tasks: [{
+				id: "09AF83F7262C53DC"
+				type: "item"
+				item: "compactmachines:machine_tiny"
+			}]
+			rewards: [
+				{
+					id: "2ABC6049A1362C14"
+					type: "item"
+					item: "create:water_wheel"
+					count: 2
+				}
+				{
+					id: "1A635A697A04BBAB"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 4036276453185466438L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			subtitle: "Шествие лилипутов"
+			description: ["&5Нажмите ПКМ с ПУС в руке по Сжатой Камере, чтобы переместиться в собственный микромир."]
+			dependencies: ["1515AFCFF653E6B7"]
+			hide: true
+			id: "254B6D75935EC385"
+			tasks: [{
+				id: "6DDEB6E57EBBE3E1"
+				type: "item"
+				item: "compactmachines:personal_shrinking_device"
+			}]
+			rewards: [
+				{
+					id: "6E14040BCBCE1832"
+					type: "item"
+					item: {
+						id: "create:extendo_grip"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "50C62AD2C899689B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 972870964878479141L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.0d
+			subtitle: "Иногда наука больше искусство, чем наука"
+			description: ["Используется для переработки почвы или песка через Сетку. На выходе можно получить самые разные виды растительности."]
+			dependencies: ["551440DA8830F740"]
+			id: "42C85244C8000241"
+			tasks: [{
+				id: "1284CF1BEC198EAA"
+				type: "item"
+				item: "createsifter:sifter"
+			}]
+			rewards: [{
+				id: "5A2CD03D3C6B175C"
+				type: "item"
+				item: {
+					id: "createsifter:string_mesh"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Когда кирка недоступна"
+			icon: "create:mechanical_drill"
+			x: 5.0d
+			y: -1.0d
+			subtitle: "Не кури, не киряй"
+			description: ["&7Часто бывают ситуации, когда ты буквально не понимаешь - как добыть тот или иной ресурс без нужного инструмента на данном этапе игры. В таких ситуациях на помощь приходит переносная дрель, которую можно поставить к руде и посредством использования рукояти привести её в действие. "]
+			dependencies: ["63555EDD0D765ACE"]
+			id: "522F45CD52732F12"
+			tasks: [
+				{
+					id: "17E50F01AC6461A1"
+					type: "item"
+					item: "create:hand_crank"
+				}
+				{
+					id: "6A0844E369F0D6A1"
+					type: "item"
+					item: "create:mechanical_drill"
+				}
+			]
+			rewards: [{
+				id: "1B5646A13478DD6E"
+				type: "loot"
+				exclude_from_claim_all: true
+				table_id: 972870964878479141L
+			}]
+		}
+	]
+	quest_links: [ ]
+}

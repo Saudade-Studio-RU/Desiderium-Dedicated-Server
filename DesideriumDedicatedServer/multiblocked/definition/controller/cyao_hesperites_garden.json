@@ -1,0 +1,263 @@
+{
+  "version": 3,
+  "location": "cyao:hesperites_garden",
+  "ui": "ui/sapling_ui.mbdui",
+  "traits": {
+    "item": [
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_0",
+        "x": 65,
+        "y": 83,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:twisting_vines\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:rose_bush\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:brown_mushroom\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:glow_berries\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:white_tulip\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:glow_lichen\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:wheat_seeds\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:kelp\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:sugar_cane\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:lily_of_the_valley\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:orange_tulip\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:cornflower\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:small_dripleaf\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:spore_blossom\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:seagrass\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:sweet_berries\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:flowering_azalea\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:peony\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:allium\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:large_fern\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:azalea\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:pink_tulip\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:carrot\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:grass\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:vine\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:big_dripleaf\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:oxeye_daisy\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:beetroot_seeds\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:red_tulip\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:dandelion\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:cactus\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:sunflower\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:wither_rose\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:sea_pickle\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:weeping_vines\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:red_mushroom\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:melon_seeds\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:pumpkin_seeds\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:blue_orchid\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:azure_bluet\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:lily_pad\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:dead_bush\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:bamboo\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:fern\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:potato\\\"}\"",
+          "\"{Count:1b,id:\\\"minecraft:poppy\\\"}\"",
+          "\"{Count:1b,id:\\\"occultism:datura_seeds\\\"}\"",
+          "\"{Count:1b,id:\\\"farmersdelight:onion\\\"}\"",
+          "\"{Count:1b,id:\\\"farmersdelight:tomato_seeds\\\",tag:{}}\"",
+          "\"{Count:1b,id:\\\"farmersdelight:cabbage_seeds\\\"}\"",
+          "\"{Count:1b,id:\\\"corn_delight:corn_seeds\\\"}\""
+        ]
+      },
+      {
+        "cIO": 0,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "input_1",
+        "x": 44,
+        "y": 83,
+        "autoIO": false,
+        "valid": [
+          "\"{Count:1b,id:\\\"minecraft:bone_meal\\\"}\""
+        ]
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_0",
+        "x": 55,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_1",
+        "x": 36,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_2",
+        "x": 74,
+        "y": 56,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_3",
+        "x": 36,
+        "y": 37,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_4",
+        "x": 56,
+        "y": 37,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_5",
+        "x": 75,
+        "y": 37,
+        "autoIO": false
+      },
+      {
+        "cIO": 1,
+        "gIO": 1,
+        "mIO": 1,
+        "slotName": "out_6",
+        "x": 36,
+        "y": 17,
+        "autoIO": false
+      }
+    ],
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "progress",
+      "x": 111,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    },
+    "fluid": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "fuel",
+        "x": 5,
+        "y": 5,
+        "autoIO": false,
+        "tC": 10000,
+        "w": 18,
+        "h": 18,
+        "fillDir": "ALWAYS_FULL"
+      }
+    ]
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "modelLocation": "multiblocked:custom/hesperides_garden",
+        "type": "imodel",
+        "postRenderer": false
+      },
+      "shape": [
+        [
+          0.05000000074505806,
+          0.0,
+          0.05000000074505806,
+          0.949999988079071,
+          1.600000023841858,
+          0.949999988079071
+        ]
+      ]
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "renderer": {
+        "modelLocation": "multiblocked:custom/hesperides_garden_ani",
+        "type": "imodel",
+        "postRenderer": false
+      },
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "teplica_flower",
+  "basePattern": {
+    "structureDir": [
+      "LEFT",
+      "UP",
+      "BACK"
+    ],
+    "pattern": [
+      [
+        "@"
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "controller": {
+        "location": "cyao:hesperites_garden",
+        "type": "component"
+      },
+      "air": {
+        "type": "air"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "-": [
+        "air"
+      ]
+    }
+  }
+}

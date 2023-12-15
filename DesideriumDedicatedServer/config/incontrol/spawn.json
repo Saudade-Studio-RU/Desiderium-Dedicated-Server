@@ -1,0 +1,13 @@
+[
+  {
+    "mob": "seeds:bad_grass",
+    "onjoin": true,
+    "result": "deny"
+  },
+  
+{
+    "mob": "ars_nouveau:drygmy",
+    "onjoin": true,
+    "result": "deny"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "name": "gravi_generator_recipes",
+  "progressTexture": "multiblocked:textures/gui/progress_bar_arrow.png",
+  "fuelTexture": "multiblocked:textures/gui/progress_bar_fuel.png",
+  "recipes": [
+    {
+      "uid": "ee0a2660-85aa-4b48-ae40-fb665e6c76cc",
+      "duration": 1,
+      "inputs": {
+        "item": [
+          {
+            "content": {
+              "type": "multiblocked:sized",
+              "count": 1,
+              "ingredient": {
+                "item": "ud_world_items:gravito_crystal"
+              }
+            },
+            "chance": 1.0
+          }
+        ]
+      },
+      "outputs": {
+        "forge_energy": [
+          {
+            "content": 50000,
+            "chance": 1.0
+          }
+        ]
+      }
+    }
+  ]
+}

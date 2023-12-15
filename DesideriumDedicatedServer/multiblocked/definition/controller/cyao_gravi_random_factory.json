@@ -1,0 +1,339 @@
+{
+  "version": 3,
+  "location": "cyao:gravi_random_factory",
+  "ui": "ui/advanced/gravi_random_factory_ui.mbdui",
+  "traits": {
+    "item": [
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "out_0",
+        "x": 73,
+        "y": 72,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "out_1",
+        "x": 92,
+        "y": 72,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "out_2",
+        "x": 54,
+        "y": 72,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "out_3",
+        "x": 55,
+        "y": 92,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "out_4",
+        "x": 74,
+        "y": 92,
+        "autoIO": false
+      },
+      {
+        "cIO": 2,
+        "gIO": 2,
+        "mIO": 2,
+        "slotName": "out_5",
+        "x": 92,
+        "y": 90,
+        "autoIO": false
+      }
+    ],
+    "forge_energy": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "energy",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT",
+      "capacity": 500000,
+      "maxReceive": 500000,
+      "maxExtract": 500000
+    },
+    "recipe_progress": {
+      "cIO": 2,
+      "gIO": 2,
+      "mbdIO": 2,
+      "slotName": "process",
+      "x": 5,
+      "y": 5,
+      "width": 60,
+      "height": 18,
+      "texture": "multiblocked:textures/gui/energy_bar.png",
+      "fillDirection": "LEFT_TO_RIGHT"
+    }
+  },
+  "properties": {
+    "rotationState": "ALL",
+    "showInJei": true,
+    "isOpaque": true,
+    "hasDynamicShape": false,
+    "hasCollision": true,
+    "destroyTime": 1.5,
+    "explosionResistance": 6.0,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
+    "friction": 0.6,
+    "harvestLevel": 0,
+    "stackSize": 64,
+    "tabGroup": "multiblocked.all"
+  },
+  "status": {
+    "unformed": {
+      "renderer": {
+        "state": {
+          "id": "ud_world_items:advanced_g_c_controller",
+          "meta": 0
+        },
+        "type": "blockstate",
+        "postRenderer": true
+      }
+    },
+    "idle": {
+      "parent": "unformed"
+    },
+    "working": {
+      "parent": "idle"
+    },
+    "suspend": {
+      "parent": "working"
+    }
+  },
+  "recipeMap": "gravi_random_factory_recipe",
+  "basePattern": {
+    "structureDir": [
+      "RIGHT",
+      "UP",
+      "FRONT"
+    ],
+    "pattern": [
+      [
+        " AAAAA ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "   A   ",
+        "   A   "
+      ],
+      [
+        "ABAAABA",
+        "  ACA  ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "   A   ",
+        "  A A  ",
+        "       "
+      ],
+      [
+        "AAAAAAA",
+        " AAAAA ",
+        "   D   ",
+        "   D   ",
+        "   D   ",
+        "   D   ",
+        "  ADA  ",
+        " A D A ",
+        "   D   "
+      ],
+      [
+        "AAAAAAA",
+        " EAAAF ",
+        "  DAD  ",
+        "  DAD  ",
+        "  DAD  ",
+        "  DAD  ",
+        " ADGDA ",
+        "A D D A",
+        "A D D A"
+      ],
+      [
+        "AAAAAAA",
+        " AAAAA ",
+        "   D   ",
+        "   D   ",
+        "   D   ",
+        "   D   ",
+        "  ADA  ",
+        " A D A ",
+        "   D   "
+      ],
+      [
+        "ABAAABA",
+        "  A@A  ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "   A   ",
+        "  A A  ",
+        "       "
+      ],
+      [
+        " AAAAA ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "       ",
+        "   A   ",
+        "   A   "
+      ]
+    ],
+    "aisleRepetitions": [
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "predicates": {
+      "A": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_polished_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "controller": {
+        "location": "cyao:gravi_random_factory",
+        "type": "component"
+      },
+      "B": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_lamp"
+          }
+        ],
+        "type": "blocks"
+      },
+      "C": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_battery"
+          }
+        ],
+        "type": "blocks"
+      },
+      "D": {
+        "blocks": [
+          {
+            "id": "ud_world_items:advanced_g_c_pillar"
+          }
+        ],
+        "type": "blocks"
+      },
+      "E": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_output"
+          }
+        ],
+        "type": "blocks",
+        "io": "OUT"
+      },
+      "F": {
+        "blocks": [
+          {
+            "id": "cyao:advanced_gate_input"
+          }
+        ],
+        "type": "blocks",
+        "io": "IN"
+      },
+      "G": {
+        "blocks": [
+          {
+            "id": "ud_world_items:gravito_crystal_block"
+          }
+        ],
+        "type": "blocks"
+      },
+      "any": {
+        "type": "any"
+      }
+    },
+    "symbolMap": {
+      "@": [
+        "controller"
+      ],
+      " ": [
+        "any"
+      ],
+      "A": [
+        "A"
+      ],
+      "B": [
+        "B"
+      ],
+      "C": [
+        "C"
+      ],
+      "D": [
+        "D"
+      ],
+      "E": [
+        "E"
+      ],
+      "F": [
+        "F"
+      ],
+      "G": [
+        "G"
+      ]
+    }
+  }
+}

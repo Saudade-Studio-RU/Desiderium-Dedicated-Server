@@ -1,0 +1,368 @@
+{
+	id: "2D713A712D26070C"
+	group: "0CD8708E80919F0C"
+	order_index: 1
+	filename: "2D713A712D26070C"
+	title: "Испытания"
+	icon: "ud_world_items:advancement_icon"
+	subtitle: ["&9После конца"]
+	default_quest_shape: "diamond"
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Испытания"
+			icon: "ud_world_items:advancement_icon"
+			x: 0.0d
+			y: 0.0d
+			shape: "rsquare"
+			subtitle: "Удача на Вашей стороне!"
+			description: ["Поздравляем! Вы прошли основную кампанию, и теперь Вам доступны творческие рецепты и другой новый контент! Продолжайте исследовать мир Desiderium, чтобы получить больше интересного игрового опыта!"]
+			dependencies: ["3CE1D7F757D89E7E"]
+			hide: true
+			size: 2.0d
+			id: "0C118804052A65E5"
+			tasks: [{
+				id: "72DD940ACAF89C3C"
+				type: "checkmark"
+				title: "Понял!"
+			}]
+			rewards: [{
+				id: "47BCA2A3216099EC"
+				type: "item"
+				item: {
+					id: "minecraft:dead_bush"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"КуСтИк\"}"
+						}
+					}
+				}
+			}]
+		}
+		{
+			title: "Творческий переносной терминал"
+			icon: {
+				id: "refinedstorage:creative_portable_grid"
+				Count: 1b
+				tag: { }
+			}
+			x: 7.5d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Finally, рюкзак"
+			description: ["Думаю, будет очень приятно иметь у себя рюкзак, который стоит как самолёт."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "130E21E4FFA3F5EE"
+			tasks: [{
+				id: "43F3EDA5A80FABF2"
+				type: "item"
+				item: {
+					id: "refinedstorage:creative_portable_grid"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Твроческий беспроводной терминал"
+			icon: "refinedstorage:creative_wireless_grid"
+			x: 4.5d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "И ради этого всё затевалось?"
+			description: ["Такой терминал не требует энергии для работы. Это всё."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "4781B094E85AEB29"
+			tasks: [{
+				id: "3CDFA3BAD79AF716"
+				type: "item"
+				item: "refinedstorage:creative_wireless_grid"
+			}]
+		}
+		{
+			title: "Творческий мотор"
+			icon: "create:creative_motor"
+			x: 1.5d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "Вечный двигатель"
+			description: ["Все мечтают о вечном двигателе, но только у Вас есть возможность его получить."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "4CC613D07C3A6C61"
+			tasks: [{
+				id: "001DC8160C65FC98"
+				type: "item"
+				item: "create:creative_motor"
+			}]
+		}
+		{
+			title: "Творческий жидкостный бак"
+			x: -3.0d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "Бесконечное ведро"
+			description: [
+				"Главная особенность бака заключается в том, что для залива в него жидкости Вам не нужно тратить её!"
+				"Простыми словами, Вы наливаете в неё воду, а она и наливается в бак, и остается у Вас! "
+			]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "06C8F5009AC42436"
+			tasks: [{
+				id: "57F3F9FAA4A8658D"
+				type: "item"
+				item: "create:creative_fluid_tank"
+			}]
+		}
+		{
+			title: "Творческий ящик"
+			icon: "create:creative_crate"
+			x: 0.0d
+			y: -6.0d
+			shape: "diamond"
+			subtitle: "Для творческих предметов"
+			description: ["После его создания можете забыть про нехватку ресурсов, ведь, положив в ящик любой предмет, Вы сможете доставать бесконечное количество таких же предметов!"]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "78BE00437CB87BF3"
+			tasks: [{
+				id: "61B8EEA9EB484E26"
+				type: "item"
+				item: "create:creative_crate"
+			}]
+		}
+		{
+			title: "Творческий торт"
+			icon: "create:creative_blaze_cake"
+			x: 3.0d
+			y: -5.0d
+			shape: "diamond"
+			subtitle: "Тортик - это ложь"
+			description: ["Такой торт никогда не кончится, это буквально ключ к бесконечной энергии."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "03ED700C2079688A"
+			tasks: [{
+				id: "35FC9C9AB39DED90"
+				type: "item"
+				item: "create:creative_blaze_cake"
+			}]
+		}
+		{
+			title: "Творческий бак"
+			icon: "create_sa:creative_filling_tank"
+			x: -1.5d
+			y: -5.5d
+			shape: "diamond"
+			subtitle: "Первое правило: всегда слушать Бака!"
+			description: ["Такой бак бесплатно пополняет запасы топлива и воды."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "3F5B4F5BCC84A046"
+			tasks: [{
+				id: "0710293E9114A63D"
+				type: "item"
+				item: "create_sa:creative_filling_tank"
+			}]
+		}
+		{
+			title: "Редактор мира"
+			icon: {
+				id: "create:handheld_worldshaper"
+				Count: 1b
+				tag: { }
+			}
+			x: -7.5d
+			y: -3.5d
+			shape: "diamond"
+			subtitle: "Теперь я определяю реальность"
+			description: ["С данным предметом Вам будет под силу изменить любой мир на своё усмотрение."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "4383BEC006E86923"
+			tasks: [{
+				id: "575733C719217D11"
+				type: "item"
+				item: {
+					id: "create:handheld_worldshaper"
+					Count: 1b
+					tag: { }
+				}
+			}]
+		}
+		{
+			title: "Креативное энергохранилище"
+			icon: "integrateddynamics:energy_battery_creative"
+			x: -4.5d
+			y: -4.5d
+			shape: "diamond"
+			subtitle: "Прямой конкурент торта"
+			description: ["Бесконечный запас энергии теперь в Ваших руках!"]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "6E9DDCEAF39D6C5D"
+			tasks: [{
+				id: "48B8481D290FFC42"
+				type: "item"
+				item: "integrateddynamics:energy_battery_creative"
+			}]
+		}
+		{
+			title: "Творческая ячейка"
+			icon: {
+				id: "refinedstorage:creative_storage_disk"
+				Count: 1b
+				tag: {
+					Id: [I;
+						-651718007
+						978338336
+						-1161833729
+						-449841015
+					]
+				}
+			}
+			x: 6.0d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Бесконечное хранилище, наконец-то"
+			description: ["Ячейка с возможностью хранения бесконечного числа предметов. Она должна неплохо так улучшить возможности переносного терминала."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "31D46F65EF080777"
+			tasks: [{
+				id: "3DD04AA8E701B10B"
+				type: "item"
+				item: {
+					id: "refinedstorage:creative_storage_disk"
+					Count: 1b
+					tag: {
+						Id: [I;
+							-651718007
+							978338336
+							-1161833729
+							-449841015
+						]
+					}
+				}
+			}]
+		}
+		{
+			title: "Творческий контроллер"
+			icon: "refinedstorage:creative_controller"
+			x: -6.0d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Теперь сеть будет полностью автономна"
+			description: ["Данный контроллер всегда будет полон энергии. Удобная вещь."]
+			dependencies: ["65CFE29153CCE0F6"]
+			size: 1.5d
+			id: "09C5CE6F217782AA"
+			tasks: [{
+				id: "16192C3B592A2393"
+				type: "item"
+				item: "refinedstorage:creative_controller"
+			}]
+		}
+		{
+			title: "Креативный Конструктор"
+			icon: {
+				id: "ftbquests:custom_icon"
+				Count: 1b
+				tag: {
+					Icon: "ftblibrary:textures/icons/editor.png"
+				}
+			}
+			x: 0.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "Опять работать..."
+			description: ["Для создания Креативных блоков и предметов Вам понадобится специальная Мультиблочная структура. "]
+			dependencies: ["0C118804052A65E5"]
+			hide: true
+			size: 2.0d
+			id: "65CFE29153CCE0F6"
+			tasks: [
+				{
+					id: "3F37E1C43BB61969"
+					type: "questsadditions:structure"
+					title: "Нажмите, а затем постройте!"
+					name: "creative_constructor"
+					hasCustomPicture: false
+					layer: true
+					ignoreState: false
+					rightclick: false
+				}
+				{
+					id: "089573BA7DEF767E"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_input_block"
+				}
+				{
+					id: "21BD616D590FA771"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_output_block"
+				}
+				{
+					id: "2834202450C475AE"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_pillar"
+					count: 16L
+				}
+				{
+					id: "3FA3C2A9FEA39FF4"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_polished_block"
+					count: 16L
+				}
+				{
+					id: "27739D3C3FDAA72A"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_base_block"
+					count: 2L
+				}
+				{
+					id: "7FABC6CF25021B4C"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_lamp"
+				}
+				{
+					id: "5D7185239CB454EB"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_battery"
+					count: 2L
+				}
+				{
+					id: "1FA2463EB7326153"
+					type: "item"
+					item: "ud_world_items:gravito_crystal_block"
+					count: 16L
+				}
+				{
+					id: "0A532DF1771854C7"
+					type: "item"
+					item: "ud_world_items:advanced_g_c_controller"
+				}
+			]
+			rewards: [{
+				id: "7627CE00A525B3D4"
+				type: "item"
+				item: {
+					id: "ud_world_items:garbage_tube"
+					Count: 1b
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Дальше наград не будет, но Вы держитесь\"}"
+						}
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}
