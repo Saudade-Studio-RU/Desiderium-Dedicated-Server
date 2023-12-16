@@ -28,6 +28,39 @@
 				type: "checkmark"
 				title: "Понял!"
 			}]
+			rewards: [
+				{
+					id: "0DC9EFB46A8C2072"
+					type: "item"
+					item: {
+						id: "wasteland:shredder_3000"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "799609901C687E58"
+					type: "item"
+					item: "ud_world_items:meat_tube"
+					count: 2
+				}
+				{
+					id: "32FF19400F84FC25"
+					type: "item"
+					item: {
+						id: "cyao_lore:note_book_1"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 9
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
 		}
 		{
 			title: "&eСюжет"
