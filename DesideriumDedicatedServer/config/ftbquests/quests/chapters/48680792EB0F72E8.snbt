@@ -447,6 +447,7 @@
 			}]
 		}
 		{
+			icon: "create:mechanical_mixer"
 			x: 6.0d
 			y: 2.0d
 			subtitle: "Две щепотки суетных мыслей"
@@ -456,11 +457,18 @@
 				"3003695F3A27EAC0"
 			]
 			id: "4C96EAD2C1973F2C"
-			tasks: [{
-				id: "1746C2C84282106D"
-				type: "item"
-				item: "create:mechanical_mixer"
-			}]
+			tasks: [
+				{
+					id: "1746C2C84282106D"
+					type: "item"
+					item: "create:mechanical_mixer"
+				}
+				{
+					id: "55F6297A8FEFE28E"
+					type: "item"
+					item: "create:basin"
+				}
+			]
 			rewards: [
 				{
 					id: "1759B0C53D0A7239"

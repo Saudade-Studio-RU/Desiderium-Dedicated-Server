@@ -1591,18 +1591,11 @@
 			]
 			dependencies: ["23FCE0CB8A6E78C9"]
 			id: "2D02C86E486A3024"
-			tasks: [
-				{
-					id: "39F57F204312F3C9"
-					type: "item"
-					item: "occultism:otherstone"
-				}
-				{
-					id: "3616D7B234F131E2"
-					type: "item"
-					item: "occultism:otherworld_log"
-				}
-			]
+			tasks: [{
+				id: "39F57F204312F3C9"
+				type: "item"
+				item: "occultism:otherstone"
+			}]
 			rewards: [{
 				id: "189EFC89CBF85073"
 				type: "item"

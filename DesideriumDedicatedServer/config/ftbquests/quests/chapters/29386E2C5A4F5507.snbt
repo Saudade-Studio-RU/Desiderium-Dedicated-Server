@@ -28,39 +28,6 @@
 				type: "checkmark"
 				title: "Понял!"
 			}]
-			rewards: [
-				{
-					id: "0DC9EFB46A8C2072"
-					type: "item"
-					item: {
-						id: "wasteland:shredder_3000"
-						Count: 1b
-						tag: {
-							Damage: 0
-						}
-					}
-				}
-				{
-					id: "799609901C687E58"
-					type: "item"
-					item: "ud_world_items:meat_tube"
-					count: 2
-				}
-				{
-					id: "32FF19400F84FC25"
-					type: "item"
-					item: {
-						id: "cyao_lore:note_book_1"
-						Count: 1b
-						ForgeCaps: {
-							Parent: {
-								Size: 9
-								Items: [ ]
-							}
-						}
-					}
-				}
-			]
 		}
 		{
 			title: "&eСюжет"
@@ -240,20 +207,16 @@
 						}
 					}
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"Сборка создана студией Saudade! Наши социальные сети:\"}"
+					command: "/tellraw @a {\"text\":\"Сборка создана студией Saudade! Наши социальные сети:\"}"
 					player_command: false
 				}
 				{
 					id: "6DC1EF2EB4307944"
 					type: "command"
 					title: "VK"
-					icon: {
-						id: "seeds:sparkling_water_bottle"
-						Count: 1b
-						tag: { }
-					}
+					icon: "seeds:sparkling_water_bottle"
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"→ Группа ВКонтакте\",\"color\":\"&5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://vk.com/saudade_mine\"}}"
+					command: "/tellraw @a {\"text\":\"→ Группа ВКонтакте\",\"color\":\"&5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://vk.com/saudade_mine\"}}"
 					player_command: false
 				}
 				{
@@ -268,7 +231,7 @@
 						}
 					}
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"→ Сервер Discord\",\"color\":\"&5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/HSCMrqCNpD\"}}"
+					command: "/tellraw @a {\"text\":\"→ Сервер Discord\",\"color\":\"&5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://discord.gg/HSCMrqCNpD\"}}"
 					player_command: false
 				}
 				{
@@ -283,7 +246,7 @@
 						}
 					}
 					auto: "invisible"
-					command: "/tellraw @p {\"text\":\"→ Сайт сборки\",\"color\":\"&5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://desiderium.ru/\"}}"
+					command: "/tellraw @a {\"text\":\"→ Сайт сборки\",\"color\":\"&5\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://desiderium.ru/\"}}"
 					player_command: false
 				}
 			]
