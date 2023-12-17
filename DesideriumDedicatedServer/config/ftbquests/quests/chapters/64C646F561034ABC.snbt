@@ -59,7 +59,7 @@
 					title: "Не забудь поспать!"
 					icon: "ars_nouveau:glyph_harm"
 					auto: "invisible"
-					command: "/tellraw @a {\"text\":\"Я так устал... Может быть лечь поспать, прежде чем продолжить путь?\"}"
+					command: "/tellraw @p {\"text\":\"Я так устал... Может быть лечь поспать, прежде чем продолжить путь?\"}"
 					player_command: false
 				}
 			]
