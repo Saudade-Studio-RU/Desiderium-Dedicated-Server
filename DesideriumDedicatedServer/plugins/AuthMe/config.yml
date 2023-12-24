@@ -157,7 +157,7 @@ settings:
             # authentication. The quit location of the player will be overwritten.
             # This is different from "teleportUnAuthedToSpawn" that teleport player
             # to the spawnpoint on join.
-            enabled: false
+            enabled: true
             # WorldNames where we need to force the spawn location
             # Case-sensitive!
             worlds: 

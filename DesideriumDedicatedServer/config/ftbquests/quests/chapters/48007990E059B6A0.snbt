@@ -293,6 +293,55 @@
 				table_id: 3022466149224120138L
 			}]
 		}
+		{
+			title: "Костыль исследований"
+			icon: "ud_world_items:information_icon"
+			disable_toast: true
+			x: 3.5d
+			y: -1.0d
+			subtitle: "Они повсюду..."
+			description: [
+				"Чтобы исследования работали коректнее - создайте команду"
+				"(иконка в левом верхнем угру инвентаря)"
+				"\"Исследования сделаны через скрытые квесты\""
+			]
+			dependencies: ["5C6FA4BB2C4FE938"]
+			id: "1CC45696CF7505BF"
+			tasks: [{
+				id: "792867FD4D579E3A"
+				type: "checkmark"
+				title: "Понял"
+			}]
+		}
+		{
+			title: "7 Бед - один ответ"
+			icon: "ud_world_items:information_icon"
+			disable_toast: true
+			x: -0.5d
+			y: 4.5d
+			subtitle: "Костыль с буром"
+			description: ["Чтобы скрипт на перемещение в ПМ работал нормально, каждый игрок в команде (кроме тех у кого бур уже есть), может забрать его, и в обязательном порядке каждый должен сломать древнюю породу самостоятельно!"]
+			dependencies: ["640003085381C428"]
+			hide: true
+			id: "4F5FDE0C20F6FE6E"
+			tasks: [{
+				id: "5D4D6E939EF7DF88"
+				type: "checkmark"
+				title: "ЛАДНО...."
+			}]
+			rewards: [{
+				id: "444D4254F899EC84"
+				type: "item"
+				item: {
+					id: "drills:irondrill"
+					Count: 1b
+					tag: {
+						Damage: 230
+					}
+				}
+				only_one: true
+			}]
+		}
 	]
 	quest_links: [ ]
 }

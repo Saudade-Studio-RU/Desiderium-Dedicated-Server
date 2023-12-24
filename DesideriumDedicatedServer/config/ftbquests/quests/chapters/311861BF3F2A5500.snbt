@@ -1,0 +1,313 @@
+{
+	id: "311861BF3F2A5500"
+	group: "1C672EB0B349BB61"
+	order_index: 0
+	filename: "311861BF3F2A5500"
+	title: "Исследования"
+	always_invisible: true
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 0.0d
+			y: 0.0d
+			id: "760854ADC70466AE"
+			tasks: [{
+				id: "1F7BB16FF372D45A"
+				type: "advancement"
+				advancement: "cyaoadditions:research/01_sandstone_controller"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3150EA73F028D30E"
+				type: "gamestage"
+				team_reward: true
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_1"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 0.0d
+			id: "0B14200A32F3DDC9"
+			tasks: [{
+				id: "6375E0408CA83EF7"
+				type: "advancement"
+				advancement: "cyaoadditions:research/02_iron_drill"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "23850010E7FB691E"
+				type: "gamestage"
+				team_reward: true
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_2"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.0d
+			id: "30340B8AB9E3963A"
+			tasks: [{
+				id: "4115F25EBA51E5DC"
+				type: "advancement"
+				icon: "cyaoadditions:research_sheet"
+				advancement: "cyaoadditions:research/03_grappling_hook"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "59B93B85F3A9C048"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_3"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			id: "704C4E0A6913E21F"
+			tasks: [{
+				id: "4D0A3A4F615BE1A5"
+				type: "advancement"
+				advancement: "cyaoadditions:research/04_andesite_controller"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "56782373A009A4E3"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_4"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			id: "2C55610932516B1F"
+			tasks: [{
+				id: "65F53D42F3DAED8C"
+				type: "advancement"
+				advancement: "cyaoadditions:research/05_waterwheel"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "73D93979A8E56C07"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_5"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 1.5d
+			id: "389C238CD3AC1C42"
+			tasks: [{
+				id: "49CB24CBBB534472"
+				type: "advancement"
+				advancement: "cyaoadditions:research/06_glider"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "3248144C4026C7FE"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_6"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			id: "5F16F32C3C3B2ACF"
+			tasks: [{
+				id: "5573E6B61D964811"
+				type: "advancement"
+				advancement: "cyaoadditions:research/07_drying_van"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "51E2CF73CA84ACEE"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_7"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 1.5d
+			id: "57A3594276E33D13"
+			tasks: [{
+				id: "7682D538D7417BB2"
+				type: "advancement"
+				advancement: "cyaoadditions:research/08_air_chassis"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "7FB94EF3BFF2AF58"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_8"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 3.0d
+			id: "000D14EDB8FE97EF"
+			tasks: [{
+				id: "38ACB2D18F92BC03"
+				type: "advancement"
+				advancement: "cyaoadditions:research/09_waystone"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "04D3D241D323ABDA"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_9"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 3.0d
+			id: "44DDC0D35EED4799"
+			tasks: [{
+				id: "4F52BFF6DD43F653"
+				type: "advancement"
+				advancement: "cyaoadditions:research/10_engineer_controller"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0958124DC3B350DF"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_10"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			id: "2DF7375A934B41B5"
+			tasks: [{
+				id: "0CB423D0D77BED0F"
+				type: "advancement"
+				advancement: "cyaoadditions:research/11_empty_tube"
+				criterion: ""
+			}]
+			rewards: [
+				{
+					id: "3B6A6C1E837A5A69"
+					type: "gamestage"
+					auto: "invisible"
+					ignore_reward_blocking: true
+					stage: "research_11"
+				}
+				{
+					id: "3546595E4CE53A70"
+					type: "command"
+					auto: "invisible"
+					command: "/tellraw @p {\"text\":\"\\u0421\\u0430\\u043c\\u043e\\u0435 \\u0431\\u0435\\u0441\\u043f\\u043e\\u043b\\u0435\\u0437\\u043d\\u043e\\u0435 \\u0438\\u0441\\u0441\\u043b\\u0435\\u0434\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435!\",\"bold\":true,\"color\":\"red\"}"
+					player_command: false
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			id: "72993226735F435D"
+			tasks: [{
+				id: "0410E88E5E2BEE7E"
+				type: "advancement"
+				advancement: "cyaoadditions:research/12_summoning_altar"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "01A253138E7F3F04"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_12"
+			}]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			id: "6093995082093E2A"
+			tasks: [{
+				id: "646516C049F6BC89"
+				type: "advancement"
+				advancement: "cyaoadditions:research/13_phonograph"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "0238D784CC0F6F14"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_13"
+			}]
+		}
+		{
+			x: 1.5d
+			y: 4.5d
+			id: "36977FB2F00BA34A"
+			tasks: [{
+				id: "241AB29AF373553A"
+				type: "advancement"
+				advancement: "cyaoadditions:research/14_explorer_compass"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "6C3EBB66D97CB843"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_14"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			id: "530033AEDF747339"
+			tasks: [{
+				id: "637879C37D00DF08"
+				type: "advancement"
+				advancement: "cyaoadditions:research/15_absorption_chamber"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "36EB91FFA7332822"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_15"
+			}]
+		}
+		{
+			x: 4.5d
+			y: 4.5d
+			id: "66D398668C85F29A"
+			tasks: [{
+				id: "212E3ED87C739E76"
+				type: "advancement"
+				advancement: "cyaoadditions:research/16_archmage_armor"
+				criterion: ""
+			}]
+			rewards: [{
+				id: "5FC0130297202F47"
+				type: "gamestage"
+				auto: "invisible"
+				ignore_reward_blocking: true
+				stage: "research_16"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -28,7 +28,7 @@ magma:
   command:
     mods:
       print-ids: true
-  auto-update: true
+  auto-update: false
 forge:
   max-packet-size: 8388608
   commandsIgnoreBukkitPerms: true
