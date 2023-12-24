@@ -61,5 +61,19 @@ elrestarto:
     - $delay$/stop
     permission-required: true
     permission-node: elrestarto
+elbrickworld:
+    command: /brickworld
+    type: RUN_CONSOLE
+    runcmd:
+    - '$Script$%if%%dimplc_key%==overworld'
+    - /tellraw @p ["",{"text":"[Info]","color":"aqua"},{"text":" \u0425\u043c... \u043e\u043d\u043e \u043e\u043f\u044f\u0442\u044c \u0441\u043b\u043e\u043c\u0430\u043b\u043e\u0441\u044c, \u0441\u0435\u0439\u0447\u0430\u0441 \u043c\u044b \u044d\u0442\u043e \u0438\u0441\u043f\u0440\u0430\u0432\u0438\u043c!"}]
+    - $delay$/execute in wasteland:wasteland run tp @p ~ ~ ~
+    - /effect give kriptor_71 minecraft:resistance 20 5 true
+    - $delay$
+    - $Script$%else%
+    - /tellraw @p ["",{"text":"[WARN]","color":"yellow"},{"text":" \u041d\u0435 \u0432\u0438\u0436\u0443 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b, \u043a\u043e\u043c\u0430\u043d\u0434\u0430 \u043e\u0442\u043a\u043b\u043e\u043d\u0435\u043d\u0430! "}]
+    permission-required: false
+
+
 
 # A mix of the feature above

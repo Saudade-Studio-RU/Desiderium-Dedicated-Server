@@ -1,12 +1,12 @@
 spawn:
-  world: 'wasteland:wasteland'
-  x: '-117'
-  y: '-8'
-  z: '18'
-  yaw: ''
-  pitch: ''
+  world: wasteland:wasteland
+  x: -135.53525150211735
+  y: -8.0
+  z: -34.69636870899783
+  yaw: -165.11646
+  pitch: 39.54587
 firstspawn:
-  world: 'wasteland:wasteland'
+  world: wasteland:wasteland
   x: '-117'
   y: '-8'
   z: '18'

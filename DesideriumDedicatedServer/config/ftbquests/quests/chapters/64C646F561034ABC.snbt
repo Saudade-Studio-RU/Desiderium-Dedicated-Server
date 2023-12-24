@@ -1928,6 +1928,22 @@
 				}
 			]
 		}
+		{
+			title: "Болит? Не трогай!"
+			icon: "ud_world_items:information_icon"
+			x: -3.5d
+			y: 3.0d
+			subtitle: "Тут даже костыль не поможет"
+			description: ["Крюк кошка может пропадать в приватах !"]
+			dependencies: ["5BC7F5216EAE9DE9"]
+			hide: true
+			id: "07FCF28E9E13DAF2"
+			tasks: [{
+				id: "7C573C35F2C42DB2"
+				type: "checkmark"
+				title: "Ладно не буду"
+			}]
+		}
 	]
 	quest_links: [ ]
 }
