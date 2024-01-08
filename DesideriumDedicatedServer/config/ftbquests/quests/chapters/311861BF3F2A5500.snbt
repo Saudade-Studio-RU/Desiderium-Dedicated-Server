@@ -11,6 +11,7 @@
 		{
 			x: 0.0d
 			y: 0.0d
+			invisible: true
 			id: "760854ADC70466AE"
 			tasks: [{
 				id: "1F7BB16FF372D45A"

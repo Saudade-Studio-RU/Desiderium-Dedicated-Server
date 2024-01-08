@@ -294,30 +294,6 @@
 			}]
 		}
 		{
-			title: "Костыль исследований"
-			icon: {
-				id: "ud_world_items:information_icon"
-				Count: 1b
-				tag: { }
-			}
-			disable_toast: true
-			x: 3.5d
-			y: -1.0d
-			subtitle: "Они повсюду..."
-			description: [
-				"Чтобы исследования работали коректнее - создайте команду"
-				"(иконка в левом верхнем угру инвентаря)"
-			]
-			dependencies: ["5C6FA4BB2C4FE938"]
-			hide: true
-			id: "1CC45696CF7505BF"
-			tasks: [{
-				id: "792867FD4D579E3A"
-				type: "checkmark"
-				title: "Понял"
-			}]
-		}
-		{
 			title: "7 Бед - один ответ"
 			icon: {
 				id: "ud_world_items:information_icon"
