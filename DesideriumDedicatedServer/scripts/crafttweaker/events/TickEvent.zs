@@ -144,12 +144,12 @@ public class PMHelper{
     
     public make(level as Level) as void{
         Register.ST.add(player);
-        this.player.addEffect(new MobEffectInstance(<mobeffect:cyao_coreworld:desolation>, 400));
+        this.player.addEffect(new MobEffectInstance(<mobeffect:cyao_coreworld:desolation>, 40));
         this.player.sendMessage("§cВы вошли в зону аномальной гравитации!");
     }
 
     public addEff() as void{
-        this.player.addEffect(new MobEffectInstance(<mobeffect:cyao_coreworld:desolation>, 400));
+        this.player.addEffect(new MobEffectInstance(<mobeffect:cyao_coreworld:desolation>, 40));
     }
 }
 
